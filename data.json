@@ -17,6 +17,7 @@
     "chunkcacher": "https://github.com/Minecraft-Java-Edition-Speedrunning/chunkcacher",
     "chunkumulator": "https://github.com/DuncanRuns/Chunkumulator",
     "costar": "https://github.com/tildejustin/costar",
+    "dynamicfps": "https://github.com/Minecraft-Java-Edition-Speedrunning/dynamic-fps",
     "dynamicmenufps": "https://github.com/Minecraft-Java-Edition-Speedrunning/dynamic-fps",
     "extra-options": "https://github.com/tildejustin/extra-options",
     "fabricproxy-lite": "https://github.com/OKTW-Network/FabricProxy-Lite",
@@ -28,6 +29,7 @@
     "legacy-crash-fix": "https://github.com/tildejustin/legacy-crash-fix",
     "legacy-planifolia": "https://github.com/tildejustin/legacy-planifolia",
     "lithium": "https://github.com/KingContaria/lithium-mcsr",
+    "motiono": "https://github.com/Minecraft-Java-Edition-Speedrunning/motiono",
     "no-paus": "https://github.com/tildejustin/no-paus",
     "optifabric": "https://github.com/tildejustin/optifabric",
     "optifabric-origins": "https://github.com/Sjouwer/OptiFabric-Origins",
@@ -136,6 +138,10 @@
     [
       "optifabric-origins",
       "starlight"
+    ],
+    [
+      "motiono",
+      "extra-options"
     ]
   ],
   "extra-traits": {
@@ -164,6 +170,196 @@
   "additional-intermediary": {
     "z-buffer-fog": [
       "net.fabricmc:intermediary"
+    ]
+  },
+  "banned-mods": {
+    "antiresourcereload": [
+      {
+        "jar": "antiresourcereload-1.14.4-1.0.0.jar",
+        "illegalTimestamp": 1711065600
+      },
+      {
+        "jar": "antiresourcereload-1.15.2-1.0.0.jar",
+        "illegalTimestamp": 1711065600
+      }
+    ],
+    "chunkcacher": [
+      {
+        "jar": "chunkcacher-1.4.0+1.16.1.jar",
+        "illegalTimestamp": 1724630400
+      }
+    ],
+    "costar": [
+      {
+        "jar": "costar-1.0.0+1.9-1.12.jar",
+        "illegalTimestamp": 1719273600
+      },
+      {
+        "jar": "costar-1.0.0+1.12.jar",
+        "illegalTimestamp": 1719273600
+      }
+    ],
+    "dynamicfps": [
+      {
+        "jar": "dynamic-fps-2.0.4-but-different.jar",
+        "illegalTimestamp": 1717826400
+      }
+    ],
+    "extra_options": [
+      {
+        "jar": "extra-options-1.0.0-1.14.jar",
+        "illegalTimestamp": 1711065600
+      },
+      {
+        "jar": "extra-options-1.0.0-1.15.jar",
+        "illegalTimestamp": 1711065600
+      },
+      {
+        "jar": "extra-options-1.0.0-1.16.jar",
+        "illegalTimestamp": 1711065600
+      }
+    ],
+    "extra-options": [
+      {
+        "jar": "extra-options-1.0.1+1.14.x.jar",
+        "illegalTimestamp": 1720915200
+      },
+      {
+        "jar": "extra-options-1.0.1+1.15.x.jar",
+        "illegalTimestamp": 1720915200
+      },
+      {
+        "jar": "extra-options-1.0.1+1.16.1.jar",
+        "illegalTimestamp": 1720915200
+      }
+    ],
+    "legacy-motiono": [
+      {
+        "jar": "legacy-motioNO-1.0.0+1.3-1.7.jar",
+        "illegalTimestamp": 1720915200
+      },
+      {
+        "jar": "legacy-motioNO-1.0.0+1.8-1.13.jar",
+        "illegalTimestamp": 1720915200
+      },
+      {
+        "jar": "legacy-motioNO-1.0.0+1.12.jar",
+        "illegalTimestamp": 1720915200
+      }
+    ],
+    "motiono": [
+      {
+        "jar": "motioNO-1.0.0+1.15.jar",
+        "illegalTimestamp": 1720915200
+      },
+      {
+        "jar": "motioNO-1.0.1+1.16.jar",
+        "illegalTimestamp": 1720915200
+      },
+      {
+        "jar": "motioNO-1.0.2+1.14-1.16.1.jar",
+        "illegalTimestamp": 1720915200
+      }
+    ],
+    "sodium": [
+      {
+        "jar": "sodium-1.15.2-v1.jar",
+        "illegalTimestamp": 1711065600
+      },
+      {
+        "jar": "sodium-1.2.1+1.15.2.jar",
+        "illegalTimestamp": 1717286400
+      },
+      {
+        "jar": "sodium-1.16.5-v1.jar",
+        "illegalTimestamp": 1719273600
+      },
+      {
+        "jar": "sodium-1.16.1-v2.jar",
+        "illegalTimestamp": 1725854400
+      },
+      {
+        "jar": "sodium-2.0.2+1.16.1.jar",
+        "illegalTimestamp": 1725854400
+      },
+      {
+        "jar": "sodium-2.1.0+1.16.1.jar",
+        "illegalTimestamp": 1725854400
+      },
+      {
+        "jar": "sodium-2.1.1+1.16.1.jar",
+        "illegalTimestamp": 1725854400
+      },
+      {
+        "jar": "sodium-2.2.0+1.16.1.jar",
+        "illegalTimestamp": 1725854400
+      },
+      {
+        "jar": "sodium-2.2.1+1.16.1.jar",
+        "illegalTimestamp": 1725854400
+      }
+    ],
+    "sodiummac": [
+      {
+        "jar": "sodiummac-3.1.1+1.16.1.jar",
+        "illegalTimestamp": 1717286400
+      },
+      {
+        "jar": "sodiummac-1.16.1-v3.jar",
+        "illegalTimestamp": 1719273600
+      },
+      {
+        "jar": "sodiummac-3.0.1+1.16.1.jar",
+        "illegalTimestamp": 1725854400
+      },
+      {
+        "jar": "sodiummac-3.1.0+1.16.1.jar",
+        "illegalTimestamp": 1725854400
+      },
+      {
+        "jar": "sodiummac-3.1.2+1.16.1.jar",
+        "illegalTimestamp": 1725854400
+      },
+      {
+        "jar": "sodiummac-3.2.0+1.16.1.jar",
+        "illegalTimestamp": 1725854400
+      },
+      {
+        "jar": "sodiummac-3.2.1+1.16.1.jar",
+        "illegalTimestamp": 1726459200
+      }
+    ],
+    "starlight": [
+      {
+        "jar": "starlight-1.2.0+1.16.x-backport-1.1.3.jar",
+        "illegalTimestamp": 1750294800
+      }
+    ],
+    "worldpreview": [
+      {
+        "jar": "worldpreview-1.16.1-4.0.0.jar",
+        "illegalTimestamp": 1725854400
+      },
+      {
+        "jar": "worldpreview-4.0.1+1.16.1.jar",
+        "illegalTimestamp": 1725854400
+      },
+      {
+        "jar": "worldpreview-4.0.2+1.16.1.jar",
+        "illegalTimestamp": 1725854400
+      },
+      {
+        "jar": "worldpreview-5.0.0+1.16.1.jar",
+        "illegalTimestamp": 1725854400
+      },
+      {
+        "jar": "worldpreview-5.0.1+1.16.1.jar",
+        "illegalTimestamp": 1725854400
+      },
+      {
+        "jar": "worldpreview-5.0.2+1.16.1.jar",
+        "illegalTimestamp": 1725854400
+      }
     ]
   }
 }

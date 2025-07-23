@@ -23,9 +23,21 @@ data class Meta(val schemaVersion: Int, val mods: List<Mod>) {
         @SerialName("target_version") val targetVersion: MutableSet<String>,
         val version: String,
         val url: String,
-        val hash: String,
+        val modHash: String,
+        val fileHash: String,
+        var legalTimestamp: Int,
+        @EncodeDefault(EncodeDefault.Mode.NEVER) val illegalTimestamp: Int = -1,
         @EncodeDefault(EncodeDefault.Mode.NEVER) val recommended: Boolean = true,
         @EncodeDefault(EncodeDefault.Mode.NEVER) val obsolete: Boolean = false,
-        val intermediary: List<Intermediary>
+        @EncodeDefault(EncodeDefault.Mode.NEVER) val bundledMods: List<BundledMod> = listOf()
+    )
+
+    @Serializable
+    data class BundledMod(
+        val modid: String,
+        val name: String,
+        val description: String,
+        val version: String,
+        val modHash: String
     )
 }

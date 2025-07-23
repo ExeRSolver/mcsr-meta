@@ -5,13 +5,28 @@ import io.github.z4kn4fein.semver.*
 import kotlinx.serialization.*
 import kotlinx.serialization.json.Json
 import org.eclipse.jgit.api.Git
-import org.eclipse.jgit.lib.TextProgressMonitor
+import org.eclipse.jgit.diff.DiffEntry
+import org.eclipse.jgit.diff.DiffFormatter
+import org.eclipse.jgit.lib.*
+import org.eclipse.jgit.revwalk.RevWalk
+import org.eclipse.jgit.treewalk.CanonicalTreeParser
+import org.eclipse.jgit.treewalk.TreeWalk
+import org.eclipse.jgit.treewalk.filter.*
+import java.io.ByteArrayInputStream
+import java.io.ByteArrayOutputStream
+import java.io.File
 import java.net.URI
 import java.nio.file.*
 import java.security.MessageDigest
 import java.util.*
+import java.util.jar.JarInputStream
+import java.util.zip.ZipEntry
+import java.util.zip.ZipInputStream
+import kotlin.collections.ArrayList
+import kotlin.collections.HashMap
 import kotlin.io.path.*
-import kotlin.time.*
+import kotlin.time.DurationUnit
+import kotlin.time.TimeSource
 
 // val legalModsPath: Path = Path.of("C:\\Users\\justi\\IdeaProjects\\legal-mods\\legal-mods")
 val legalModsPath: Path = Path.of("legal-mods/legal-mods")
@@ -26,12 +41,16 @@ lateinit var obsoleteMods: HashMap<String, List<String>>
 lateinit var codeSources: HashMap<String, String>
 lateinit var v2Override: List<String>
 lateinit var additionalIntermediary: HashMap<String, List<Intermediary>>
+lateinit var bannedModVersions: HashMap<String, Set<BannedModVersionJson>>
+
+@OptIn(ExperimentalSerializationApi::class)
+private val json = Json { ignoreUnknownKeys = true; prettyPrint = true; prettyPrintIndent = "  " }
 
 // modid -> list of conditions
 lateinit var conditions: HashMap<String, MutableList<String>>
 
 // good for testing out quick changes
-const val noReload = false
+const val noReload = true
 val comparer: (String, String) -> Int = { o1, o2 ->
     var one: Version? = null
     var two: Version? = null
@@ -64,50 +83,249 @@ fun main() {
     }
     conditions = readConditions()
     readAdditionalData()
-    val gitId = Git.open(legalModsPath.parent.toFile()).log().setMaxCount(1).call().first().name
-    val aprilFoolsGitId = Git.open(aprilFoolsModsPath.toFile()).log().setMaxCount(1).call().first().name
     println("time taken: ${mark.elapsedNow().toString(DurationUnit.SECONDS, 1)}")
     mark = TimeSource.Monotonic.markNow()
-    val mods = ArrayList<Meta.Mod>()
-    Files.list(legalModsPath).forEach { modid ->
-        val modVersions = ArrayList<Meta.ModVersion>()
-        Files.list(modid).forEach {
-            modVersions.add(generateModVersion(modid.name, Files.list(it).findFirst().get(), it.name, gitId))
-        }
-        mods.add(generateMod(modid, modVersions.stream().sorted { s1, s2 ->
-            if (s2.targetVersion.first().contains("+")) return@sorted 1
-            else if (s1.targetVersion.first().contains("+")) return@sorted -1
-            return@sorted Version.parse(s2.targetVersion.first().split("-")[0], false).compareTo(Version.parse(s1.targetVersion.first().split("-")[0], false))
-        }.toList().toMutableList()))
-    }
-    Files.list(aprilFoolsModsPath).sorted().forEach { folder ->
-        if (folder.isHidden() || folder.isRegularFile()) return@forEach
-        Files.list(folder).forEach { modFile ->
-            val fmj = readFabricModJson(modFile)
-            mods.find { it.modid == fmj.id }?.versions?.add(generateModVersion(fmj.id, modFile, folder.name, aprilFoolsGitId, true)) ?: throw NoSuchFileException(fmj.id)
-        }
-    }
-    json.decodeFromString<HashMap<String, List<String>>>(aprilFoolsModsPath.resolve("external.json").readText()).forEach { (version, extras) ->
-        val id = version.split("/", ";")[0]
-        mods.find { it.modid == id }?.versions?.find { afVersionMatches(it, version) }?.targetVersion?.addAll(extras) ?: throw NoSuchElementException(version)
-    }
+    val mods = getMods(legalModsPath.parent.toFile())
 
-    Path.of("mods.json").writeText(json.encodeToString(Meta(6, mods.sortedBy { it.modid })) + "\n")
+    Path.of("all_mods.json").writeText(json.encodeToString(Meta(1, mods.values.sortedBy { it.modid })) + "\n")
     println("time taken: ${mark.elapsedNow().toString(DurationUnit.SECONDS, 1)}")
 }
 
-fun afVersionMatches(modVersion: Meta.ModVersion, version: String): Boolean {
-    // Formats:
-    // Exact target: "fast_reset/1.19.4-1.21.5/fast-reset-1.4.3+1.19.4-1.20.6.jar"
-    // Loose target: "fast_reset;1.19.4"
-    if (version.contains(";")) return modVersion.targetVersion.contains(version.split(";")[1])
-    return modVersion.url.endsWith(evaluateLinks(version))
+fun getMods(repoDir: File): HashMap<String, Meta.Mod> {
+    val mods = HashMap<String, Meta.Mod>()
+    val git = Git.open(repoDir)
+    val repo = git.repository
+    val revWalk = RevWalk(repo)
+
+    val commits = git.log().call().sortedBy { -it.commitTime }
+
+    for (commit in commits) {
+        val parent = commit.parents.firstOrNull()
+        val commitLink = "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/${commit.name}/"
+        val commitTime = commit.commitTime
+
+        if (parent != null) {
+            val reader = repo.newObjectReader()
+            val oldTreeIter = CanonicalTreeParser().apply { reset(reader, parent.tree) }
+            val newTreeIter = CanonicalTreeParser().apply { reset(reader, commit.tree) }
+
+            val diffFormatter = DiffFormatter(ByteArrayOutputStream()).apply {
+                setRepository(repo)
+            }
+
+            val diffs = diffFormatter.scan(oldTreeIter, newTreeIter)
+            for (diff in diffs) {
+                if (diff.changeType == DiffEntry.ChangeType.ADD &&
+                    (diff.newPath.endsWith(".json") || diff.newPath.endsWith(".jar"))) {
+
+                    val content = readBlobAtPath(repo, commit.tree.id, diff.newPath)
+                    content?.let {
+                        processFile(commitLink + diff.newPath, it, commitTime, mods)
+                    }
+                }
+            }
+
+            diffFormatter.close()
+        } else {
+            val treeWalk = TreeWalk(repo).apply {
+                addTree(commit.tree)
+                isRecursive = true
+            }
+            while (treeWalk.next()) {
+                val path = treeWalk.pathString
+                if (path.endsWith(".json") || path.endsWith(".jar")) {
+                    val loader = repo.open(treeWalk.getObjectId(0))
+                    val content = loader.bytes
+                    processFile(commitLink + path, content, commitTime, mods)
+                }
+            }
+            treeWalk.close()
+        }
+    }
+
+    revWalk.close()
+    git.close()
+    return mods
 }
 
-fun evaluateLinks(partialPath: String): String {
-    if (!partialPath.endsWith(".json")) return partialPath
-    val parts = partialPath.split("/")
-    return json.decodeFromString<ExternalModJson>(legalModsPath.resolve(parts[0]).resolve(parts[1]).resolve(parts[2]).readText()).link
+fun readBlobAtPath(repo: Repository, treeId: ObjectId, path: String): ByteArray? {
+    val treeWalk = TreeWalk(repo).apply {
+        addTree(treeId)
+        isRecursive = true
+        filter = PathFilter.create(path)
+    }
+    return if (treeWalk.next()) {
+        val objectId = treeWalk.getObjectId(0)
+        val loader = repo.open(objectId)
+        loader.bytes
+    } else null
+}
+
+fun getJarBytesFromUrl(url: String): ByteArray? {
+    return try {
+        val connection = URI(url).toURL().openConnection()
+        connection.getInputStream().use { it.readBytes() }
+    } catch (e: Exception) {
+        println("Error downloading JAR from $url: ${e.message}")
+        null
+    }
+}
+
+fun generateModVersion(path: String, jarBytes: ByteArray, jarUrl: String, commitTime: Int, mods: HashMap<String, Meta.Mod>) {
+    JarInputStream(jarBytes.inputStream()).use { jarInputStream ->
+        var entry: ZipEntry? = jarInputStream.nextEntry
+        while (entry != null) {
+            if (entry.name == "fabric.mod.json") {
+                val jsonBytes = jarInputStream.readBytes()
+                val modJson = json.decodeFromString<FabricModJson>(String(jsonBytes))
+                val modFolderName = Paths.get(path).parent.parent.fileName.toString()
+                val mod = mods.getOrPut(modJson.id) { createMod(modJson, modFolderName) }
+
+                val fileHash = getFileHash(jarBytes)
+                val modVersion = mod.versions.find { it.fileHash == fileHash }
+                if (modVersion != null) {
+                    modVersion.legalTimestamp = modVersion.legalTimestamp.coerceAtMost(commitTime)
+                    return
+                }
+
+                val range = createSemverRangeFromFolderName(Paths.get(path).parent.fileName.toString())
+                if (v2Override.contains(modJson.id)) {
+                    range.add("1.12")
+                }
+                val unrecommendedIntersection = unrecommendedMods[modJson.id]?.flatMap { createSemverRangeFromFolderName(it) }?.intersect(range)
+                val obsoleteIntersection = obsoleteMods[modJson.id]?.flatMap { createSemverRangeFromFolderName(it) }?.intersect(range)
+
+                mod.versions.add(Meta.ModVersion(
+                    range,
+                    modJson.version,
+                    jarUrl,
+                    getModHash(jarBytes),
+                    fileHash,
+                    commitTime,
+                    getIllegalTimestamp(modJson.id, Paths.get(path).fileName.toString()),
+                    unrecommendedIntersection?.isEmpty() ?: true,
+                    obsoleteIntersection?.isNotEmpty() ?: false,
+                    getBundledMods(jarBytes, modJson.jars)
+                ))
+                return
+            }
+            entry = jarInputStream.nextEntry
+        }
+    }
+    return
+}
+
+fun getIllegalTimestamp(modId: String, jarName: String): Int {
+    val bannedVersions = bannedModVersions[modId] ?: return -1
+    val version = bannedVersions.find { it.jar == jarName }
+    return version?.illegalTimestamp ?: -1
+}
+
+fun getBundledMods(jarBytes: ByteArray, bundledJars: List<FabricModJson.File>): List<Meta.BundledMod> {
+    if (bundledJars.isEmpty()) {
+        return listOf()
+    }
+
+    val bundledMods = ArrayList<Meta.BundledMod>()
+    JarInputStream(jarBytes.inputStream()).use { jarInputStream ->
+        var entry: ZipEntry? = jarInputStream.nextEntry
+        while (entry != null) {
+            if ((bundledJars.map { it.file } ).contains(entry.name)) {
+                val bundledJarBytes = jarInputStream.readBytes()
+                JarInputStream(bundledJarBytes.inputStream()).use { bundledJarInputStream ->
+                    var bundledEntry: ZipEntry? = bundledJarInputStream.nextEntry
+                    while (bundledEntry != null) {
+                        if (bundledEntry.name == "fabric.mod.json") {
+                            val jsonBytes = bundledJarInputStream.readBytes()
+                            val modJson = json.decodeFromString<FabricModJson>(String(jsonBytes))
+
+                            bundledMods.add(Meta.BundledMod(
+                                modJson.id,
+                                modJson.name,
+                                modJson.description,
+                                modJson.version,
+                                getModHash(bundledJarBytes)
+                            ))
+                        }
+                        bundledEntry = bundledJarInputStream.nextEntry
+                    }
+                }
+            }
+            entry = jarInputStream.nextEntry
+        }
+    }
+    return bundledMods
+}
+
+fun getModHash(jarBytes: ByteArray): String {
+    val entries = mutableListOf<Pair<String, ByteArray?>>()
+
+    ZipInputStream(ByteArrayInputStream(jarBytes)).use { zip ->
+        var entry: ZipEntry? = zip.nextEntry
+        while (entry != null) {
+            val name = "/${entry.name.removeSuffix("/")}"
+            val content = if (entry.isDirectory) null else zip.readBytes()
+            entries.add(name to content)
+            entry = zip.nextEntry
+        }
+    }
+
+    val digest = MessageDigest.getInstance("SHA-512")
+    digest.update("/".toByteArray(Charsets.UTF_8))
+    entries.sortedBy { it.first }.forEach { (name, content) ->
+        digest.update(name.toByteArray(Charsets.UTF_8))
+        content?.let { digest.update(it) }
+    }
+
+    return digest.digest().joinToString("") { "%02x".format(it) }
+}
+
+fun getFileHash(jarBytes: ByteArray): String {
+    val digest = MessageDigest.getInstance("SHA-512")
+    val hashBytes = digest.digest(jarBytes)
+    return hashBytes.joinToString("") { "%02x".format(it) }
+}
+
+fun createMod(modJson: FabricModJson, modFolderName: String): Meta.Mod {
+    modJson.description = replacementDescriptions.getOrDefault(modFolderName, modJson.description)
+    modJson.name = nameReplacements.getOrDefault(modFolderName, modJson.name)
+    if (codeSources[modFolderName] == null) {
+        throw RuntimeException("missing source repo for $modFolderName")
+    }
+    return Meta.Mod(
+        modJson.id,
+        modJson.name,
+        modJson.description,
+        codeSources[modFolderName]!!,
+        ArrayList(),
+        conditions.getOrDefault(modFolderName, emptyList()),
+        modIncompatibilities.filter { it.contains(modFolderName) }.flatten().filter { it != modFolderName },
+        unrecommendedMods[modFolderName]?.isNotEmpty() ?: true,
+        obsoleteMods[modFolderName]?.isEmpty() ?: false,
+    )
+}
+
+fun processFile(path: String, content: ByteArray, commitTime: Int, mods: HashMap<String, Meta.Mod>) {
+    if (path.endsWith(".json")) {
+        if (path.endsWith("conditional-mods.json"))
+            return
+
+        try {
+            val metadata = json.decodeFromString<ExternalModJson>(content.toString(Charsets.UTF_8))
+            metadata.link.let { link ->
+                val jarBytes = getJarBytesFromUrl(link)
+                if (jarBytes != null) {
+                    generateModVersion(path.removePrefix("https://"), jarBytes, link, commitTime, mods)
+                } else {
+                    println("Failed to read JAR from link: $link")
+                }
+            }
+        } catch (e: Exception) {
+            println("Failed to parse JSON in $path: ${e.message}")
+        }
+    } else {
+        generateModVersion(path.removePrefix("https://"), content, path, commitTime, mods)
+    }
 }
 
 @Serializable
@@ -121,7 +339,8 @@ data class AdditionalData(
     val incompatibilities: List<List<String>>,
     @SerialName("extra-traits") val extraTraits: HashMap<String, Set<String>>,
     @SerialName("v2-override") val v2Override: List<String>,
-    @SerialName("additional-intermediary") val additionalIntermediary: HashMap<String, List<Intermediary>>
+    @SerialName("additional-intermediary") val additionalIntermediary: HashMap<String, List<Intermediary>>,
+    @SerialName("banned-mods") val bannedModVersions: HashMap<String, Set<BannedModVersionJson>>
 )
 
 fun readAdditionalData() {
@@ -145,153 +364,8 @@ fun readAdditionalData() {
     codeSources = additionalMetadata.sources
     v2Override = additionalMetadata.v2Override
     additionalIntermediary = additionalMetadata.additionalIntermediary
+    bannedModVersions = additionalMetadata.bannedModVersions
     additionalMetadata.extraTraits.forEach { (k, v) -> conditions.getOrPut(k) { ArrayList() }.addAll(v) }
-}
-
-fun generateMod(modFolder: Path, versions: MutableList<Meta.ModVersion>): Meta.Mod {
-    val chosenFolder = Files.list(modFolder).sorted { s1, s2 ->
-        if (s2.name.contains("+")) return@sorted 1
-        else if (s1.name.contains("+")) return@sorted -1
-        return@sorted Version.parse(s2.name.split("-")[0], false).compareTo(Version.parse(s1.name.split("-")[0], false))
-    }.findFirst().get()
-    val newestModInfo = readFabricModJson(getExternalJarIfNecessary(chosenFolder))
-    // override description if an override exists
-    newestModInfo.description = replacementDescriptions.getOrDefault(modFolder.name, newestModInfo.description)
-    newestModInfo.name = nameReplacements.getOrDefault(modFolder.name, newestModInfo.name)
-    if (codeSources[modFolder.name] == null) {
-        throw RuntimeException("missing source repo for ${modFolder.name}")
-    }
-    return Meta.Mod(
-        modFolder.name,
-        newestModInfo.name,
-        newestModInfo.description,
-        codeSources[modFolder.name]!!,
-        versions,
-        conditions.getOrDefault(modFolder.name, emptyList()),
-        modIncompatibilities.filter { it.contains(modFolder.name) }.flatten().filter { it != modFolder.name },
-        unrecommendedMods[modFolder.name]?.isNotEmpty() ?: true,
-        obsoleteMods[modFolder.name]?.isEmpty() ?: false,
-    )
-}
-
-fun generateModVersion(modid: String, modFile: Path, rangeName: String, gitId: String, af: Boolean = false): Meta.ModVersion {
-    @Suppress("NAME_SHADOWING") var modFile = modFile
-    val modUrl: String
-    if (modFile.extension == "json") {
-        val (path, url) = handleExternalMod(modFile)
-        modFile = path
-        modUrl = url
-    } else if (!af) {
-        // remove first legal-mods git folder
-        modUrl =
-            "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/${gitId}/${modFile.subpath(modFile.count() - 4, modFile.count()).toString().replace("\\", "/")}"
-    } else {
-        modUrl = "https://github.com/tildejustin/mc_af-legal-mods/raw/${gitId}/${modFile.subpath(modFile.count() - 2, modFile.count()).toString().replace("\\", "/")}"
-    }
-    val range = createSemverRangeFromFolderName(rangeName)
-    if (v2Override.contains(modid)) {
-        range.add("1.12")
-    }
-    val info = readFabricModJson(modFile)
-    val unrecommendedIntersection = unrecommendedMods[modid]?.flatMap { createSemverRangeFromFolderName(it) }?.intersect(range)
-    val obsoleteIntersection = obsoleteMods[modid]?.flatMap { createSemverRangeFromFolderName(it) }?.intersect(range)
-    return Meta.ModVersion(
-        range,
-        info.version,
-        modUrl,
-        hashPath(modFile),
-        unrecommendedIntersection?.isEmpty() ?: true,
-        obsoleteIntersection?.isNotEmpty() ?: false,
-        getIntermediary(modid, modFile, range).sorted()
-    )
-}
-
-fun getIntermediary(modid: String, modFile: Path, range: Set<String>): Set<Intermediary> {
-    // for better detection I should take code from this https://github.com/thecatcore/WFVAIO
-    val intermediaryTypes = mutableSetOf<Intermediary>()
-    FileSystems.newFileSystem(modFile).use { jar ->
-        jar.getPath("META-INF/MANIFEST.MF").readLines().forEach { line ->
-            val parts = line.trim().split(":")
-            when (parts[0]) {
-                "Calamus-Generation" -> intermediaryTypes.add(
-                    when (parts[1].trim().toInt()) {
-                        1 -> Intermediary.ORNITHE
-                        2 -> Intermediary.ORNITHE_GEN2
-                        else -> throw RuntimeException()
-                    }
-                )
-
-                "Legacy-Fabric-Intermediary-Version" -> intermediaryTypes.add(
-                    when (parts[1].trim().toInt()) {
-                        1 -> Intermediary.LEGACY_FABRIC
-                        2 -> Intermediary.LEGACY_FABRIC_V2
-                        else -> throw RuntimeException()
-                    }
-                )
-            }
-        }
-    }
-    if (modid in v2Override) {
-        intermediaryTypes.add(Intermediary.LEGACY_FABRIC_V2)
-    }
-    if (modid in additionalIntermediary) {
-        intermediaryTypes.addAll(additionalIntermediary[modid] as List<Intermediary>)
-    }
-    if (intermediaryTypes.isNotEmpty()) return intermediaryTypes
-    // fallback for fabric / old legacy fabric
-    val topVersion = range.last()
-    try {
-        val version = Version.parse(topVersion, false)
-        intermediaryTypes.add(if (version.minor in 3..13) Intermediary.LEGACY_FABRIC else Intermediary.FABRIC)
-    } catch (_: VersionFormatException) {
-        intermediaryTypes.add(
-            when (topVersion) {
-                "1.RV-pre1" -> Intermediary.LEGACY_FABRIC_V2
-                "15w14a" -> Intermediary.LEGACY_FABRIC
-                else -> Intermediary.FABRIC
-            }
-        )
-    }
-    return intermediaryTypes
-}
-
-fun getExternalJarIfNecessary(folder: Path): Path {
-    val modFile = Files.list(folder).findFirst().get()
-    if (modFile.extension == "json") {
-        return tempFileName(folder, modFile)
-    }
-    return modFile
-}
-
-private fun tempFileName(folder: Path, modFile: Path): Path =
-    tempDir.resolve(legalModsPath.relativize(folder)).resolve(modFile.nameWithoutExtension + ".jar")
-
-data class RealizedExternalMod(val path: Path, val url: String)
-
-fun handleExternalMod(jsonPath: Path): RealizedExternalMod {
-    val externalMod = json.decodeFromString<ExternalModJson>(jsonPath.readText())
-    val downloadedJar = tempFileName(jsonPath.parent, jsonPath)
-    if (!noReload) {
-        Files.deleteIfExists(downloadedJar)
-        Files.createDirectories(downloadedJar.parent)
-        Files.createFile(downloadedJar)
-        val jarBytes = URI.create(externalMod.link).toURL().readBytes()
-        // check the downloaded file
-        check(hashBytes(jarBytes) == externalMod.hash)
-        downloadedJar.writeBytes(jarBytes)
-    }
-    return RealizedExternalMod(downloadedJar, externalMod.link)
-}
-
-@OptIn(ExperimentalSerializationApi::class)
-private val json = Json { ignoreUnknownKeys = true; prettyPrint = true; prettyPrintIndent = "  " }
-
-fun readFabricModJson(mod: Path): FabricModJson {
-    FileSystems.newFileSystem(mod, null as ClassLoader?).use { fs ->
-        val jsonFilePath = fs.getPath("fabric.mod.json")
-        val jsonData = Files.readAllBytes(jsonFilePath)
-        return json.decodeFromString<FabricModJson>(String(jsonData))
-    }
 }
 
 fun readConditions(): HashMap<String, MutableList<String>> {
@@ -331,18 +405,6 @@ fun createSemverRangeFromFolderName(folder: String): MutableSet<String> {
 fun deleteAndRecloneLegalMods() {
     Path.of("legal-mods").toFile().deleteRecursively()
     Path.of("mc_af-legal-mods").toFile().deleteRecursively()
-    Git.cloneRepository().setURI("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods").setDepth(1).setProgressMonitor(TextProgressMonitor()).call()
-    Git.cloneRepository().setURI("https://github.com/tildejustin/mc_af-legal-mods").setDepth(1).setProgressMonitor(TextProgressMonitor()).call()
-}
-
-fun ByteArray.toHex() = joinToString("") { byte -> "%02x".format(byte) }
-
-val messageDigest: MessageDigest = MessageDigest.getInstance("sha512")
-
-fun hashPath(path: Path): String {
-    return messageDigest.digest(path.readBytes()).toHex()
-}
-
-fun hashBytes(bytes: ByteArray): String {
-    return messageDigest.digest(bytes).toHex()
+    Git.cloneRepository().setURI("https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods").setProgressMonitor(TextProgressMonitor()).call()
+    Git.cloneRepository().setURI("https://github.com/tildejustin/mc_af-legal-mods").setProgressMonitor(TextProgressMonitor()).call()
 }

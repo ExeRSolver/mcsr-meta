@@ -50,7 +50,7 @@ private val json = Json { ignoreUnknownKeys = true; prettyPrint = true; prettyPr
 lateinit var conditions: HashMap<String, MutableList<String>>
 
 // good for testing out quick changes
-const val noReload = true
+const val noReload = false
 val comparer: (String, String) -> Int = { o1, o2 ->
     var one: Version? = null
     var two: Version? = null

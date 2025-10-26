@@ -29,6 +29,7 @@
     "legacy-crash-fix": "https://github.com/tildejustin/legacy-crash-fix",
     "legacy-planifolia": "https://github.com/tildejustin/legacy-planifolia",
     "lithium": "https://github.com/KingContaria/lithium-mcsr",
+    "mcsrfairplay": "https://github.com/ExeRSolver/mcsr-fairplay-public",
     "motiono": "https://github.com/Minecraft-Java-Edition-Speedrunning/motiono",
     "no-paus": "https://github.com/tildejustin/no-paus",
     "optifabric": "https://github.com/tildejustin/optifabric",
@@ -187,6 +188,14 @@
       {
         "jar": "chunkcacher-1.4.0+1.16.1.jar",
         "illegalTimestamp": 1724630400
+      },
+      {
+        "jar": "chunkcacher-1.4.1+1.16.1.jar",
+        "illegalTimestamp": 1764046800
+      },
+      {
+        "jar": "chunkcacher-1.4.2+1.16.1.jar",
+        "illegalTimestamp": 1764046800
       }
     ],
     "costar": [

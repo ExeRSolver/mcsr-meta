@@ -5216,6 +5216,25 @@
           "target_version": [
             "1.16.1"
           ],
+          "version": "1.1.2+1.16.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/5b6eaa9ee6783c6639f41fe122d1aaf0e7dc8b2c/legal-mods/mcsrfairplay/1.16.1/mcsrfairplay-1.1.2+1.16.1.jar",
+          "modHash": "a2a46e1bcd04b3e8b479c270f2a22fbe58d324adc1e15128ff9907df50ba4c297070fcb89812ae49c115b18a1a2672d31273052b3bd2bf82aeb3f938b5a9cc13",
+          "fileHash": "dbcefc64ede6e6b192fd232efac717e1a546fc9da2405d80b95c5603cc98937c4037abebcc0b50cd0cbd19d6d486ed45cecf7823618b9d3a49fd0386d5cee79f",
+          "legalTimestamp": 1761707908,
+          "bundledMods": [
+            {
+              "modid": "mcsrfairplay-public",
+              "name": "MCSR Fairplay Public",
+              "description": "The public component of the MCSR Fairplay mod. Provides verification and anti-cheat functionality for MCSR.",
+              "version": "1.1.0+1.16.0-1.16.1",
+              "modHash": "b9057965cd48d0583481dba91c4337bed9fd1df23447f94aae8ea652ebd752e1a75e5cf6691955aca2a6c7ce48f194cfa679b03288b6d17a27c8a6940f68d0a2"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.16.1"
+          ],
           "version": "1.1.0+1.16.1",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/488f9bfd755d84af963cb549e1a3f0b52865826e/legal-mods/mcsrfairplay/1.16.1/mcsrfairplay-1.1.0+1.16.1.jar",
           "modHash": "84b8345954039a8a7f238b01a4692ab4bb07140e38342b0bfb70345b5cfca09266371a22bc0be8c9da26aa512187e21473c1bc18c906349fe9176af1c4e6ac2e",

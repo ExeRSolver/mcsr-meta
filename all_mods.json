@@ -1791,7 +1791,7 @@
             "1.21.8"
           ],
           "version": "1.4",
-          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/b38aa27dbd154de3eeca2a40946473f822facbbe/legal-mods/biome_threadlocal_fix/1.16.2+/BiomeThreadLocalFix-1.4.jar",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/e326cddb33a125bc0402ce7a0edbb6b4dc4e439c/legal-mods/biome_threadlocal_fix/1.16.2-1.21.11/BiomeThreadLocalFix-1.4.jar",
           "modHash": "b877df601ebda1f418115b3dd3c26b99003e2f6c9c7f3520a6d6ca74bbece65908bad290023998732471054b38789b6cd11b24acb12d40e6af54dd3819366a54",
           "fileHash": "c52ad6529deeee87cb0d85dff0384055a251d7b35067de6f6a14ce33ca8730a5496fa491d7e9978d5139a3c8cb0d2e9b6f88404c182b352e337c204edc3c121a",
           "legalTimestamp": 1700874351
@@ -1848,7 +1848,7 @@
             "1.21.8"
           ],
           "version": "1.1.1+1.14-1.21.x",
-          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/d43df90982f755b50b0e45154b29b28e7fb1405a/legal-mods/boundlesswindow/1.14+/boundlesswindow-1.1.1+1.14-1.21.x.jar",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/e326cddb33a125bc0402ce7a0edbb6b4dc4e439c/legal-mods/boundlesswindow/1.14-1.21.11/boundlesswindow-1.1.1+1.14-1.21.x.jar",
           "modHash": "62a303168f0326a4257c6c8f29793a9569fc4589b95b8da48e60e8f256cc0042a0a5a72cdf34327bd7f83137d049103a656b3058f76e40576d6f47ffc4d2687d",
           "fileHash": "023cbe3ab268d69b0064f4cbcceecf771d6f248d3b6c692356611a79ff59f8b7aebba99e3cc18644f1ed6b319d489d6205c725e084d17bc7c56bea4d44722165",
           "legalTimestamp": 1757024743
@@ -3892,6 +3892,22 @@
       "sources": "https://github.com/DuncanRuns/Force-Port-Mod",
       "versions": [
         {
+          "target_version": [],
+          "version": "1.3.0+MC26.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/d3a6a6dd15d0692307f672601fdf4aececfc6181/legal-mods/forceport/26.1+/forceport-1.3.0+MC26.1.jar",
+          "modHash": "a0932319db31c3a6b84e47aef5e005095fac9a53f1b0bcd0bb21967988b58031b505bdd4d23359eadef18aa7d7445438387c9a51b09721e9ecf9d1cc23d9ccf7",
+          "fileHash": "50a393cdf4e32ca5bd8aab1b9619da609e88e4dd67e53eda42d991968ac82f2909834f13335ff14ef536bb163035bd1db9ecb9c1e8690a04d98d913b35960720",
+          "legalTimestamp": 1774890213
+        },
+        {
+          "target_version": [],
+          "version": "1.3.0+MC1.21.9",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/e326cddb33a125bc0402ce7a0edbb6b4dc4e439c/legal-mods/forceport/1.21.9-1.21.11/forceport-1.3.0+MC1.21.9.jar",
+          "modHash": "660735451a3d800477a9eca795e67dd0ec39fe2372ae2768156c869bea52f50ed4274cfeff3c58821be016cbe72228b1f6324e7591ff989185e190dc5ef4a317",
+          "fileHash": "1530a9fe6089d00243e604b4682c7366819e7b2b445d9b5df965fe1d4afec3467eddb6c8fbe9429eea930cad1c1ee8f31f7d8bf2972c2b4f818df6bb03cc6a5b",
+          "legalTimestamp": 1759587067
+        },
+        {
           "target_version": [
             "1.14",
             "1.14.1",
@@ -3939,14 +3955,6 @@
           "modHash": "ad2cee889a7a32a4502f47b7b8e6ca15b109b81aa3b92448f4ab6a780797e49b23cd21f75f8c07d3793da2fa1e37767e5eb6696a5573ada01afd8b3bb6c0a0e4",
           "fileHash": "8678efc808f1bba880776abe696ad4a562a9becf7d45f42ea1b3d30219e751cc5d91209378df0b0ac58b036072eab5ddadb7dbef70b87382a5619ab9e0b51b13",
           "legalTimestamp": 1753645864
-        },
-        {
-          "target_version": [],
-          "version": "1.3.0+MC1.21.9",
-          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/1418c3ee75dae403e247b02f50319688c526cb17/legal-mods/forceport/1.21.9+/forceport-1.3.0+MC1.21.9.jar",
-          "modHash": "660735451a3d800477a9eca795e67dd0ec39fe2372ae2768156c869bea52f50ed4274cfeff3c58821be016cbe72228b1f6324e7591ff989185e190dc5ef4a317",
-          "fileHash": "1530a9fe6089d00243e604b4682c7366819e7b2b445d9b5df965fe1d4afec3467eddb6c8fbe9429eea930cad1c1ee8f31f7d8bf2972c2b4f818df6bb03cc6a5b",
-          "legalTimestamp": 1759587067
         },
         {
           "target_version": [
@@ -5293,6 +5301,46 @@
       "versions": [
         {
           "target_version": [
+            "1.21.1"
+          ],
+          "version": "0.15.3+mc1.21.1",
+          "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/XQJtuOTA/lithium-fabric-0.15.3%2Bmc1.21.1.jar",
+          "modHash": "87f725418c65ba31bb0c9caba882691d8adf39788d880716d6abd949809c896224daa9798e474e04ff679e7ba3c515cb57e0d866bbd7d5e3d5b8da948b532819",
+          "fileHash": "8c576d519121b0c2521101d2209eccd85d560b097fcb847aa54c51cd0d3f3947676f01c8d99913f514487c8e0972a1cf5f3da0c9ef0ec9bacdf2baeb4eb7d1a7",
+          "legalTimestamp": 1774890195
+        },
+        {
+          "target_version": [
+            "1.21.11"
+          ],
+          "version": "0.21.4+mc1.21.11",
+          "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/Ow7wA0kG/lithium-fabric-0.21.4%2Bmc1.21.11.jar",
+          "modHash": "fb3dc490e362336f33193aaf42174fc2dd502b32ee2cdee5d87c3eae983e2205ce7e435db8216270ab8cc49838287bbb6a8a3f6a4dd0005eadf50c63084ab9c2",
+          "fileHash": "f14a5c3d2fad786347ca25083f902139694f618b7c103947f2fd067a7c5ee88a63e1ef8926f7d693ea79ed7d00f57317bae77ef9c2d630bf5ed01ac97a752b94",
+          "legalTimestamp": 1774890195
+        },
+        {
+          "target_version": [
+            "1.21"
+          ],
+          "version": "0.15.2+mc1.21.1",
+          "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/Yu6L8EnD/lithium-fabric-0.15.2%2Bmc1.21.1.jar",
+          "modHash": "c4d5a3b1addd29197766397c3ccf6c9b4800df791f4b32941839aa2f9d4c7dc2c3ceedb903133f4755b6e5144a065dabbd41a45598657ee8808be057bf610881",
+          "fileHash": "0422a6694c997aa91ce01fa038bd5d46d7d8d64f0a5abae7420e5a2a10fdcd1e6cf9033f1d95b402a9ba0f07c8c7cf5cfcd3e50ae7c4fe2ac82f39a58583012e",
+          "legalTimestamp": 1774890195
+        },
+        {
+          "target_version": [
+            "26.1"
+          ],
+          "version": "0.22.1+mc26.1",
+          "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/W0ZXKJy9/lithium-fabric-0.22.1%2Bmc26.1.jar",
+          "modHash": "c3faf128c6f67e8de0e3633c4151b9cc18c6c482c4529ce24c3cd98e1822a09baeb1112253ea87657fe68f0ab667807688458a034fcaaeef7d09d05d146394e1",
+          "fileHash": "8af26b9892bbd098ba41627844f8d7e2a592a2273cd8d7638ba7946b5b9f246590dec2c9294f0bbe0d0dd826e7190d313846181a990d2bba9afa6ec03eedd250",
+          "legalTimestamp": 1774890195
+        },
+        {
+          "target_version": [
             "1.20.1"
           ],
           "version": "0.11.4",
@@ -5791,6 +5839,25 @@
       "description": "Provides verification and anti-cheat functionality for MCSR.",
       "sources": "https://github.com/ExeRSolver/mcsr-fairplay-public",
       "versions": [
+        {
+          "target_version": [
+            "1.16.1"
+          ],
+          "version": "1.2.0+1.16.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/6cf959371c2410a53a25ddf4f849073c33a26b38/legal-mods/mcsrfairplay/1.16.1/mcsrfairplay-1.2.0+1.16.1.jar",
+          "modHash": "d9f08d5b5c19ef23f35a2df712cb4714f29785c7bd2eab448e1591a6134fd27d0d8739317cba41f7bc661b9a7dbd2b24f85229a7e88d58b29133336c29754d50",
+          "fileHash": "87bd75010c883e2e965f66056fe3285f69a35c90ad3d4286cf39f04cbc1fc21fea6648b187cc700681b9e6a215992c5010acdeba22518705329fabae37f899e4",
+          "legalTimestamp": 1774890174,
+          "bundledMods": [
+            {
+              "modid": "mcsrfairplay-public",
+              "name": "MCSR Fairplay Public",
+              "description": "The public component of the MCSR Fairplay mod. Provides verification and anti-cheat functionality for MCSR.",
+              "version": "1.1.1+1.16.0-1.16.1",
+              "modHash": "ffc914dbf3372c28da36e988c086c96801bb0016588a7c984095421c98e2f8e9a8bffdaefff40df1bc6baf03ac0c1527b6a1e3f4bf6a6c391698b10335a5eb1b"
+            }
+          ]
+        },
         {
           "target_version": [
             "1.16.1"
@@ -7128,6 +7195,154 @@
       "description": "Vanilla VideoOptionsScreen for Sodium and gamma 5 for 1.19+",
       "sources": "https://github.com/tildejustin/planifolia",
       "versions": [
+        {
+          "target_version": [
+            "1.19",
+            "1.19.1",
+            "1.19.2",
+            "1.19.3",
+            "1.19.4",
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4",
+            "1.20.5",
+            "1.20.6"
+          ],
+          "version": "1.2.3+1.19-1.20.6",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/e326cddb33a125bc0402ce7a0edbb6b4dc4e439c/legal-mods/planifolia/1.19-1.20.6/planifolia-1.2.3+1.19-1.20.6.jar",
+          "modHash": "d6d8df38b0c122dd7bc72a37012b059ddc8006ec9cce4a70fe619af0373c80b70d0cb2a5b60274edcb13ffde86ba9479523793fd7aea710dce16c183aa6c030d",
+          "fileHash": "842760b171614886103d0d4f3b05f54944c48b273ba9a6eab5684d56f00aa81a8b4bc3f138e0ed5a8a0000e42a541d890e824225b78a43b09985ffe8fb9a19a0",
+          "legalTimestamp": 1774890195,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21",
+            "1.21.1"
+          ],
+          "version": "1.2.3+1.21-1.21.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/e326cddb33a125bc0402ce7a0edbb6b4dc4e439c/legal-mods/planifolia/1.21-1.21.1/planifolia-1.2.3+1.21-1.21.1.jar",
+          "modHash": "cbda8318d1216232468d523510343786d5d4872dc0889c322e761186195ca39b675a573edcfd759e0f2428db1de92088cb3e1314b0f3d4110b8eadb3888512ca",
+          "fileHash": "0729baccdad18bedfaccd75de2d1a00d74b9163c5949b2942cd584799a1d071b4a3c7be391cfcf9d493e3429ef4795f449a2ef10d51e9d989358694983eec4ea",
+          "legalTimestamp": 1774890195,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.11"
+          ],
+          "version": "1.2.3+1.21.11",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/e326cddb33a125bc0402ce7a0edbb6b4dc4e439c/legal-mods/planifolia/1.21.11/planifolia-1.2.3+1.21.11.jar",
+          "modHash": "2a65228818150025a94440243671a6a90a2c66383aea7096cd56cb2eab3f21ecd96ba95655de1f90f2dc9ed3cc28f057b3b9263897a9759a3468198541e05c3a",
+          "fileHash": "d53f78246380fe02f32064607ae6357e7506233a6a3b583833a2e92f4d53a020f7df54c239a8db852ad61e288f1a2c7d6d8be8472f0cce78d881d87328519fd8",
+          "legalTimestamp": 1774890195,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.2",
+            "1.21.3",
+            "1.21.4",
+            "1.21.5"
+          ],
+          "version": "1.2.3+1.21.2-1.21.5",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/e326cddb33a125bc0402ce7a0edbb6b4dc4e439c/legal-mods/planifolia/1.21.2-1.21.5/planifolia-1.2.3+1.21.2-1.21.5.jar",
+          "modHash": "f24ffb5e3a80042ade57c439d7d6e6b76bcf8336043319f10958863c75f085b84b425e279135b69bb23abb624d351d8a47e14b1a11fa745b34fbf8546575f5ee",
+          "fileHash": "077565a897d5664c27829c3607aaf529d8483f6686117ec67cbff1b870b772cbb4273ce9ddf8ea38a0200f2fd9542130089c3501072e5a866300d3084efc523b",
+          "legalTimestamp": 1774890195,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.6",
+            "1.21.7",
+            "1.21.8"
+          ],
+          "version": "1.2.3+1.21.6-1.21.8",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/e326cddb33a125bc0402ce7a0edbb6b4dc4e439c/legal-mods/planifolia/1.21.6-1.21.8/planifolia-1.2.3+1.21.6-1.21.8.jar",
+          "modHash": "6110fb6228d6dca93310ec2ac81220edf5d76fa8afd759751e85344f7d0c0b4adb1138a24b4e1f760877d711fa9aeb2330957b51f48321a880cd40d2af811acd",
+          "fileHash": "53e1c721adb5416ab31f7fd83febccc846b6742dc73c66f32a182a57e96fde85236402f6ab32cbe74cdd6287fd426c35e835b6a2dbb3a8b3a1a4ca78da166452",
+          "legalTimestamp": 1774890195,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [],
+          "version": "1.2.3+1.21.9-1.21.10",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/e326cddb33a125bc0402ce7a0edbb6b4dc4e439c/legal-mods/planifolia/1.21.9-1.21.10/planifolia-1.2.3+1.21.9-1.21.10.jar",
+          "modHash": "14f4f91edd45fd55574004b7be5b6b79e6216c94a40b41bf4a1dd276e15ae0d56dec99eebd3d434a16c40c80c8a1d12643a7cdf78974b90f2baa73cf9a015b8f",
+          "fileHash": "981c4f02497a2adbbf0fb6fbc951fbe56baeda6a4f7a9843fd833c34411d80fe1ba62682b610b3bf847e3b0375ad8a4520b4dfb3cae94e20a8ed60ad07152a6d",
+          "legalTimestamp": 1774890195,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "26.1"
+          ],
+          "version": "1.2.3+26.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/e326cddb33a125bc0402ce7a0edbb6b4dc4e439c/legal-mods/planifolia/26.1/planifolia-1.2.3+26.1.jar",
+          "modHash": "0af06fe2080a6a77a64067aa7f2af8f63fe8c93c6aef574ec400fe32f2b8aa04a96ef7bb99e07ae0e1864b37f6ec260ab5d51a899128c7b7470a0508bfeb70f1",
+          "fileHash": "dc9f50cad27fd6b362dca632ae90edc7adecd85efd13f671f6a8a02df8aae19544256e467425639325c6ebe034ed30a1044443e44fc9cb057847f79947f29247",
+          "legalTimestamp": 1774890195,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
         {
           "target_version": [
             "1.21.11"
@@ -9409,6 +9624,149 @@
       "description": "Sodium is a powerful rendering engine for Minecraft which greatly improves frame rates and micro-stutter, while fixing many graphical issues",
       "sources": "https://github.com/Minecraft-Java-Edition-Speedrunning/sodium",
       "versions": [
+        {
+          "target_version": [
+            "1.21.11"
+          ],
+          "version": "0.8.7+mc1.21.11",
+          "url": "https://cdn.modrinth.com/data/AANobbMI/versions/UddlN6L4/sodium-fabric-0.8.7%2Bmc1.21.11.jar",
+          "modHash": "94abc0b0809f688045ffd10ee13fb307fd3656868fb7472678e033371208ee0d8e15fcd06d4ea2cce06dc78bf2f338d6c7d508d9d167c4ddcabcfcfe8ba61539",
+          "fileHash": "d7f035d6112eaac92cf0f11e4426db631fca5a7115dd355c2126efee4255b648a0102552bbf7b22a7eae9203d08f8740435842bfddcd94e2434f51b57ee9c641",
+          "legalTimestamp": 1774890195,
+          "bundledMods": [
+            {
+              "modid": "fabric-api-base",
+              "name": "Fabric API Base",
+              "description": "Contains the essentials for Fabric API modules.",
+              "version": "1.0.5+4ebb5c083e",
+              "modHash": "6b2fdcfd84d45643ba42962425cd9d5cede0b07a0917b3ec2b07dc02e4461f0287d7239e43f0e8ee499c7a7d3af9c9e004c312a76842c953088ea23c8a28b499"
+            },
+            {
+              "modid": "fabric-block-view-api-v2",
+              "name": "Fabric BlockView API (v2)",
+              "description": "Hooks for block views",
+              "version": "1.0.39+4ebb5c083e",
+              "modHash": "f32459d2a04880afe324c16ba289ad4725efa7ae82f5606d51bdf7495d01b3336e6b0c973f7c998496c4c5f45697d522dc38814c9497abb06aa7336739e33b58"
+            },
+            {
+              "modid": "fabric-lifecycle-events-v1",
+              "name": "Fabric Lifecycle Events (v1)",
+              "description": "Events for the game's lifecycle.",
+              "version": "2.6.15+4ebb5c083e",
+              "modHash": "f3960c774d1b7ef35343ad0ece1b78a1bff5109a2961795a5dfff6ec0e1876771b9a42452ce92958c19800c0c46d7bde7e794a01c4085cf4c6241ad8ce3ce52e"
+            },
+            {
+              "modid": "fabric-renderer-api-v1",
+              "name": "Fabric Renderer API (v1)",
+              "description": "Defines rendering extensions for dynamic/fancy block and item models.",
+              "version": "8.0.0+f4ffd2e53e",
+              "modHash": "1730e0c48858746edc3c297a71bea947c81a6d815f0bd39b383a9ed5bf76b02464e9cb5ce7285bda528393f7cf91db15ed90f9a3e6f87a42391c79f66351db51"
+            },
+            {
+              "modid": "fabric-rendering-fluids-v1",
+              "name": "Fabric Rendering Fluids (v1)",
+              "description": "Hooks for registering fluid renders.",
+              "version": "3.1.43+4ebb5c083e",
+              "modHash": "5960f09ffd46d561e88dc18d9b8fab841e32d38a43c915a3e066ccb2daced21ece46a0ab22cd08960ba913dc024f7ddc40e8ae1a69c85ff733f38bdb2b931795"
+            },
+            {
+              "modid": "fabric-rendering-v1",
+              "name": "Fabric Rendering (v1)",
+              "description": "Hooks and registries for rendering-related things.",
+              "version": "16.2.7+f4ffd2e53e",
+              "modHash": "4b858d4d786b123f71cdfe997faeee40beee0a8c79b3b10575b3ee3101d785d62d9eb758c374671dda456c51cec07e21eab268c7fceaa9411d2692245330d261"
+            },
+            {
+              "modid": "fabric-resource-loader-v0",
+              "name": "Fabric Resource Loader (v0)",
+              "description": "Asset and data resource loading.",
+              "version": "3.3.4+4fc5413f3e",
+              "modHash": "29b71ef3fa2291f0082a8ec65548ae28a0fc6be58fd70f4100200337b1828c139d407f9661f6ea241919f3587a31f47db75e70722f514328d063af8be7482f31"
+            },
+            {
+              "modid": "fabric-resource-loader-v1",
+              "name": "Fabric Resource Loader (v1)",
+              "description": "Asset and data resource loading.",
+              "version": "1.0.10+78c8b4663e",
+              "modHash": "634428a1493f70e4523c2d64d1dd4e50a7d925ef1bd5a5d089974ae0171e850c789131d0ba05e9d2f7821ec3a2568858a4a818c97b98f68c0af8d9dc7463ffb1"
+            },
+            {
+              "modid": "fabric-transitive-access-wideners-v1",
+              "name": "Fabric Transitive Access Wideners (v1)",
+              "description": "Contains transitive access wideners that provide access to otherwise inaccessible Minecraft code.",
+              "version": "7.0.8+0107c3da3e",
+              "modHash": "9bd5dc2e1d7d03d197a27b706a763ec1b9996b264bb5c17c9f886e6a46a8041d36b7dba6120ed59f8353ec0173f3d05cadd063c92a0130539cc4484b85167567"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "26.1"
+          ],
+          "version": "0.8.7+mc26.1",
+          "url": "https://cdn.modrinth.com/data/AANobbMI/versions/Amr4VcZo/sodium-fabric-0.8.7%2Bmc26.1.jar",
+          "modHash": "2e71c08e0dd1aed54c44641b373b637e8e25e539fe409c0a8f94f4359bb8ce81ec56f0860b6e7d6c30b81a957737e814d79f12c74155da109a26a1b485cd236e",
+          "fileHash": "28aea2021f9526412c5d5299736dabc6d6d1cae004398f6de8d7c5c00506f4e15c9020b4515de55be27f7d92ccb93188273c1027ab56fe889ac4941d30458945",
+          "legalTimestamp": 1774890195,
+          "bundledMods": [
+            {
+              "modid": "fabric-api-base",
+              "name": "Fabric API Base",
+              "description": "Contains the essentials for Fabric API modules.",
+              "version": "2.0.3+ece0632359",
+              "modHash": "a3093cfb751794cf1e147c0566bf07c98ef59f3e7fdbf01d840c6e507a4ac8f0a9ebd8703d8a06aa7aa6880401762bbc2e9b2dc34a3eda8de8a211cd34de3168"
+            },
+            {
+              "modid": "fabric-block-getter-api-v2",
+              "name": "Fabric BlockGetter API (v2)",
+              "description": "Hooks for block getters",
+              "version": "2.0.6+ec56b60159",
+              "modHash": "46322713b8cde78472f26fa4a4c480eca9bf521386cdb63f1a662275ba502796f360f5f09859e88cd586e81af8e32343b614d1e4b658e185074bfc8e872497d3"
+            },
+            {
+              "modid": "fabric-lifecycle-events-v1",
+              "name": "Fabric Lifecycle Events (v1)",
+              "description": "Events for the game's lifecycle.",
+              "version": "4.0.6+a9b9c17659",
+              "modHash": "e8671ff2a05ecd283a838cc2b929bd2d5cb835c7d8fecc9fcf81aae6167172add5141e1bbe1002399ac82c72aeb2407907b02088676979e6b45166c80dd37ec2"
+            },
+            {
+              "modid": "fabric-rendering-fluids-v1",
+              "name": "Fabric Rendering Fluids (v1)",
+              "description": "Hooks for registering fluid renders.",
+              "version": "6.0.1+d871b99e59",
+              "modHash": "8fccc2eb618413d94585ba06237d4be53bc4ebdba5d7b009b1ba6b432e0062f5e8802829022a653673b8356dfa8338c50a736c1f7f6bbcff6be201dd2b3609f5"
+            },
+            {
+              "modid": "fabric-rendering-v1",
+              "name": "Fabric Rendering (v1)",
+              "description": "Hooks and registries for rendering-related things.",
+              "version": "23.0.3+2fb0624759",
+              "modHash": "06274a64d6b14ecaa7626c280ead5ba9e59b49a341fa86577b484a042e82949a897ec9cb7d862c0be85e29575a8d35beea5ffc0f7bdf8b931db95bd17ffdbf90"
+            },
+            {
+              "modid": "fabric-resource-loader-v0",
+              "name": "Fabric Resource Loader (v0)",
+              "description": "Asset and data resource loading.",
+              "version": "3.3.16+4fc5413f59",
+              "modHash": "89adf7edb8f7dbdc95bfb64cdf3c028056a702d207253e88ccf2b2d0f186d962b5bbc09201c17dfa4f6e7c2c88889a38ae836b9e87bf37613e34244b8377107b"
+            },
+            {
+              "modid": "fabric-resource-loader-v1",
+              "name": "Fabric Resource Loader (v1)",
+              "description": "Asset and data resource loading.",
+              "version": "2.0.9+d871b99e59",
+              "modHash": "8f952cb85d066c00059f12fb29b0c11b068e8c73245a3520b10b80d8ae03ccf3edbcbd695024a531d3d09608882f89b8a5775a3750d327a9014c9acd476ca280"
+            },
+            {
+              "modid": "fabric-transitive-access-wideners-v1",
+              "name": "Fabric Transitive Access Wideners (v1)",
+              "description": "Contains transitive access wideners that provide access to otherwise inaccessible Minecraft code.",
+              "version": "8.0.11+d871b99e59",
+              "modHash": "097aa757182cddaa5a69be65a91f5cadb697209376f80a9dfa2fb6d160192a105b9ce660f39cf100e28c1bdd0e994c4f5851119a7bbddc428be6d8137375a718"
+            }
+          ]
+        },
         {
           "target_version": [
             "1.21.11"
@@ -12950,6 +13308,39 @@
       "description": "Displays the timer with RTA, IGT in Minecraft",
       "sources": "https://github.com/RedLime/SpeedRunIGT",
       "versions": [
+        {
+          "target_version": [
+            "26.1"
+          ],
+          "version": "14.2+26.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/e70e26326c8d765a3c912c139463b8a698950ac9/legal-mods/speedrunigt/26.1/SpeedRunIGT-14.2+26.1.jar",
+          "modHash": "47a6c0baafbe2c9221b423ff86aade1ec40f79879a95d7f2f85b367688c9c2622c876eef40f04eef09948cad8ab89d9cae42f4d44429d9d944b08d16d1b89868",
+          "fileHash": "a8c8a861174a21db11862ce0cb75984584cfa5df29ed743e79649c0969ddcf8687b3cb1db11a78a15a07aae63f430d5af6999b5c0e51f5c661f1c54076c59328",
+          "legalTimestamp": 1774888706,
+          "bundledMods": [
+            {
+              "modid": "fabric-api-base",
+              "name": "Fabric API Base",
+              "description": "Contains the essentials for Fabric API modules.",
+              "version": "2.0.3+ece0632347",
+              "modHash": "344854bbc2ee06850c0a41faa810be2e959952f68576295082ea20175f891af85a25adb243456f98b8de7f9b1952519bc89e65292051edd38ff5341ed3a84f30"
+            },
+            {
+              "modid": "fabric-key-mapping-api-v1",
+              "name": "Fabric Key Mapping API (v1)",
+              "description": "Key Mapping registry API.",
+              "version": "2.0.4+e2bdee7847",
+              "modHash": "9c236738fe6745c72c03d83ed38212d94a5e53e40d906066e07ba6bdaf283571d035e6335967e559250dd2c429b578bac9a230f627ed6dc99b3d489808b8dd37"
+            },
+            {
+              "modid": "fabric-networking-api-v1",
+              "name": "Fabric Networking API (v1)",
+              "description": "Low-level, vanilla protocol oriented networking hooks.",
+              "version": "6.3.0+50a808ce47",
+              "modHash": "8ed1c842bfbb6754f902b4de6e343f163fb05fa9fa82ad66219633a0afdcdbb6aae75509fe8af0fa573a0d82b722a893aabcc34dc4d3761d8e61c8b4547d2e95"
+            }
+          ]
+        },
         {
           "target_version": [
             "1.21.11"

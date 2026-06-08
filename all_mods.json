@@ -1847,6 +1847,63 @@
             "1.21.7",
             "1.21.8"
           ],
+          "version": "1.2.0+1.14-1.21.11",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f2a1ae39e8469b5647d2bbb8a58b864ea3b2efd2/legal-mods/boundlesswindow/1.14-1.21.11/boundlesswindow-1.2.0+1.14-1.21.11.jar",
+          "modHash": "1447b0013d4449bb0e9df6814cdad7e56b3678fc363a1ca14fe9ee14c098fdb28e06f5dcbafc37ce6db8307d2e64cfe585ff6b5dd2a024ea587d3d8ca02ecda6",
+          "fileHash": "8453303da0cf72029e9e14e6a164fdbc8efac6250d409c251b64bb0ca41d3193841f0f5fd70c0d6ed163debd283e162d2c51c563041c4ff53dfcd062ff88e719",
+          "legalTimestamp": 1779492217
+        },
+        {
+          "target_version": [],
+          "version": "1.2.0+26.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f2a1ae39e8469b5647d2bbb8a58b864ea3b2efd2/legal-mods/boundlesswindow/26.1+/boundlesswindow-1.2.0+26.1.jar",
+          "modHash": "49de8f42701ca29ce9e890430783188238c65157a9e6fa691dd121c40061c505c06248dfde599af4f67719792203cb415881068e013cf89899cc5acd21157576",
+          "fileHash": "2bed5d4ba140c3eef1d9bc8109f4c75f3a970e8f3b060628baa6285c233d4b292fc07bccf7323b26ac0f6c2ada1545c4c74f115719e436e75b12076df9d66faa",
+          "legalTimestamp": 1779492217
+        },
+        {
+          "target_version": [
+            "1.14",
+            "1.14.1",
+            "1.14.2",
+            "1.14.3",
+            "1.14.4",
+            "1.15",
+            "1.15.1",
+            "1.15.2",
+            "1.16",
+            "1.16.1",
+            "1.16.2",
+            "1.16.3",
+            "1.16.4",
+            "1.16.5",
+            "1.17",
+            "1.17.1",
+            "1.18",
+            "1.18.1",
+            "1.18.2",
+            "1.19",
+            "1.19.1",
+            "1.19.2",
+            "1.19.3",
+            "1.19.4",
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4",
+            "1.20.5",
+            "1.20.6",
+            "1.21",
+            "1.21.1",
+            "1.21.2",
+            "1.21.3",
+            "1.21.4",
+            "1.21.5",
+            "1.21.6",
+            "1.21.7",
+            "1.21.8"
+          ],
           "version": "1.1.1+1.14-1.21.x",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/e326cddb33a125bc0402ce7a0edbb6b4dc4e439c/legal-mods/boundlesswindow/1.14-1.21.11/boundlesswindow-1.1.1+1.14-1.21.x.jar",
           "modHash": "62a303168f0326a4257c6c8f29793a9569fc4589b95b8da48e60e8f256cc0042a0a5a72cdf34327bd7f83137d049103a656b3058f76e40576d6f47ffc4d2687d",
@@ -4244,6 +4301,878 @@
       "versions": [
         {
           "target_version": [
+            "1.14.1"
+          ],
+          "version": "0.12.5+MC1.14.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.14.1/hermes-0.12.5+MC1.14.1.jar",
+          "modHash": "2dc3f5bde1da9f77dc36af2989e0177419c22143cf08c2aca0f296104762dc56c41912f8c4cbccf7f59151e260d635de096ef57bc559b22a83b0e5f2becf0e02",
+          "fileHash": "66b8c07b07e00ec0ebbb6932424a6a813375e68815719d9726161d1093d3bf2c66398db90ef26ff2a3d53d39945efe1d6bf11e4112ef29214eda2e7a42954312",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.14.2"
+          ],
+          "version": "0.12.5+MC1.14.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.14.2/hermes-0.12.5+MC1.14.2.jar",
+          "modHash": "aef0d0a8ec9ea9f342730751f739272e202e6df47889b965d11e948308487f093343e9ee90dc8d601aed62921c17838fa926991e9940ed162e853d3ec13e8af2",
+          "fileHash": "066aac2c2b9639fa6e9012407a5a93eddcba79ec0beb1bb28a5ae6f56135bccad082db9f2755159599ede81d806e5e6a115b1e0bc32c1d659173f02c016651a4",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.14.3"
+          ],
+          "version": "0.12.5+MC1.14.3",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.14.3/hermes-0.12.5+MC1.14.3.jar",
+          "modHash": "6cff1076ad9b268926e5782916b3f8ae8296c1aa02d2f159d8b1528f8e0180576901ceb9ef4200c121227723d6cb7077f0717bc19d98248b1921cf3865444b38",
+          "fileHash": "36d593df6edd98a2bc11db2231ef0c0bfb13213c923f9a29af5c637359d22b20fa59e5390f4a5155ebe45c281dc64a92fa887162c6d37391358b549f610dc191",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.14.4"
+          ],
+          "version": "0.12.5+MC1.14.4",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.14.4/hermes-0.12.5+MC1.14.4.jar",
+          "modHash": "b47860d73ae6f32121cc3c9593f86e327209c0132610b9634a7a56ea06ec90f53f2d8d4ef61a8afb4688072de8de2dac264e39c44fd76e8d1216f54c5cdec1a0",
+          "fileHash": "25f7d0495b151994a713f710431431097af16b873164e3f63a9fb95529eb0ae39daf0646bdaafdad426f51ab88bf2036b9186f76008308ab0b4b66ca4dcfb606",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.14"
+          ],
+          "version": "0.12.5+MC1.14",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.14/hermes-0.12.5+MC1.14.jar",
+          "modHash": "b4af79b8f81b4b3492389cb753c6e7657afa1019ade2c5623bf6e5a914cd52b17af2df20370defa2a76e56edf28670b1d388df81d893f8adae119b57a3b2d035",
+          "fileHash": "6ec3f28493c2281ab5795e167fe7ddb9622f1092f440bbc8e260c2c00833aac5459558d8583edb954b7f814d75a495b963baa667b1a426b26a6561964f9a52bd",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.15.1"
+          ],
+          "version": "0.12.5+MC1.15.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.15.1/hermes-0.12.5+MC1.15.1.jar",
+          "modHash": "2d74c71aad4b4d95538c042c4a28d7335198082859207bb2840b57e50543354766f0f8104c62b2bec1192e1e45e029f8bc44df6d9cce082137419283300b20b2",
+          "fileHash": "26ae461beb8bc82451db52a0587f19cf907e8e109a2f1eb88ff4f623c97b27b540adb98a39bd3acfd32741bf3554ab9ba99e92c7a8c442509e9a7a4078e950a9",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.15.2"
+          ],
+          "version": "0.12.5+MC1.15.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.15.2/hermes-0.12.5+MC1.15.2.jar",
+          "modHash": "c13b5a46f4574383e3f4c598e4ffc7782f15bac288ad07f999f278b50efae246ae6fb5b94987170ceada7eb85c54f9717b36ffea2c5d30e4f42046461e2ffcdd",
+          "fileHash": "997aaea2d7e2a404c70c0be68efd236537f08c81f3b5789b38cc3877c39599db927dc5b19c2bcffa4398934dca915e3782dc22c4acc9a059b821444b13f4f3ef",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.15"
+          ],
+          "version": "0.12.5+MC1.15",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.15/hermes-0.12.5+MC1.15.jar",
+          "modHash": "a8912e84772f0394de8315830f1ac020e7af3e28c7826d907bb043a6de9371d2685c94cb10652cba1795ad3af1970693cd0c936a342febe275cb079ad7cba4ca",
+          "fileHash": "a51e68e661f541eeab05fea797571813856e729406983c26c4859d69bd258bd1629c11a890075abf2356d7c3323e2e614fb60f50df09dec045823e3a9d0ab75e",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.16.1"
+          ],
+          "version": "0.12.5+MC1.16.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.16.1/hermes-0.12.5+MC1.16.1.jar",
+          "modHash": "5d7e5bd8973e091a39e383b8c83c4d238deb5e4cc42dc4af33514d0d2bd20d4f69f1a72aa6f0e36f622b76a36508731b4a85a83a94ea72977dc5bd8d025689ec",
+          "fileHash": "74620c2c58ed8ce895345e6fd642d69cc454870f787dbae907adf83c38227fd753ccb235b3cf5c53e2855628c208ea6c21b09f55058236c052eb235f81f72444",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.16.2"
+          ],
+          "version": "0.12.5+MC1.16.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.16.2/hermes-0.12.5+MC1.16.2.jar",
+          "modHash": "4192e2809eadd4e625a63d0d6cb2a966c21b6326c6061d8bbfd24c12711dc6be3c975a8b563c0d2a33e4217ffb78a3f77a73a91444bea55a09d786d119a1cbaa",
+          "fileHash": "20a16b01ae7a548c5ca40ff485ad8e4d2fa83a2b4554d0dbc1b92093397b5feacf793e15c3bdb3e7fe7296fae15d3595efaea5afa12a99a9b935df244765afb6",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.16.3"
+          ],
+          "version": "0.12.5+MC1.16.3",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.16.3/hermes-0.12.5+MC1.16.3.jar",
+          "modHash": "aaaa8c158e899faeea22c948f5146d3d39da695157f45a769a68c46078e139b8727511463ba0affe308b72b06a43d0998adcb8c82a80cf1c25536f0a55e83f05",
+          "fileHash": "0e4b224f69f0c084717704ebf3653e0a7f7c62c03c5ef20488cf5b437972cf643dc54b357f1a1160e867ead0dd8c597768848eaf72f3058eca6373fbad64508a",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.16.4"
+          ],
+          "version": "0.12.5+MC1.16.4",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.16.4/hermes-0.12.5+MC1.16.4.jar",
+          "modHash": "8d4a9a8a59eb229eb9d28fc0ad8ecff285666e6e1b2a9a3bc0b8b83be13169b11b2b179afc57d1209aedf4e1374d231c49c3d5a0af5dc2621458f7430cc48f81",
+          "fileHash": "44279595d40b75a5e3a80242ffdc42ceb498167dcedd0738acb29ec26eb029cf0ccfb138c6c022608ec03122a1491cc98a1fbc9cea1a9a68c1ca6691cc3416fe",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.16.5"
+          ],
+          "version": "0.12.5+MC1.16.5",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.16.5/hermes-0.12.5+MC1.16.5.jar",
+          "modHash": "fcf067ba05e0a5adb04bb687e4b5fbbf38070642273eef0f7443b69c7110d0a89f62d5c7732faf81cffd45ee3e43e19e88333d8edef9a55c98c4cef353bc09fe",
+          "fileHash": "32a50bfed11b8a27216301eb37357425e9439a090d0195b3161358c73c31a6e1ceb74dd777c71c21f684c720588224c47602af68425a836217d2819191adc719",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.16"
+          ],
+          "version": "0.12.5+MC1.16",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.16/hermes-0.12.5+MC1.16.jar",
+          "modHash": "8cc82ae4b45f003ba5412e0f0615c07e4eeb99d9098cd5af72b3dfc959c0610de48447f6b0db5c55a4e7946198b1973b0fff18facc6e95f97bffaaaacdb53702",
+          "fileHash": "4926d07ed8bb5451a6fc4f40c95549227fa2d4a21264bc152a4c176ffb3a15bc2e6c5c1085e6c88b436923e6dbc2aac00539728087f65e302437a029e7449c9f",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.17.1"
+          ],
+          "version": "0.12.5+MC1.17.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.17.1/hermes-0.12.5+MC1.17.1.jar",
+          "modHash": "318395dc0bf3c048f3fe9cbab240a3d9ae16199f2bf70ca3e9d6658d39e575c32a05496fc2650b3fa0e78f0eab0a294993cb4a21d73411acda8d2df774738bab",
+          "fileHash": "f2542cb8a1875209b3ab64176eecd0062823271e16a14d4cd8b09e640ffeb29b130a0085048090138d5a9d80b67f3ef391319a3a7ba71129d09911a153328365",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.17"
+          ],
+          "version": "0.12.5+MC1.17",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.17/hermes-0.12.5+MC1.17.jar",
+          "modHash": "bca27a3b81eb8fcb91305f6c230d7841958d941afeec6b62bdd24749e440c47b1dda652255a608fb47b0dbb1c721f29e7a0681bbdc58f6c268a8336c6b480016",
+          "fileHash": "0089dfc2552eb9853529310333a238107b416fbe7f1fe862908dcb264dc494d88762a6f553c5bb822cb68d3109e33de229309e4d2ac827c021fc028a3b3d0312",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.18.1"
+          ],
+          "version": "0.12.5+MC1.18.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.18.1/hermes-0.12.5+MC1.18.1.jar",
+          "modHash": "6d2187fcc4c7c4ca3a04a8c8479082f2c9f93d6861b2396bb90e46f3fc91cc05e5cfc88d552f8c270095006f5dfaf5001b297afa6f11242ddfe25143788023a3",
+          "fileHash": "4a356c350a6ca99203e81a3256b2d8d8ccfcfb63500d4c0a6bd061cdce3db29a22a7dc8eb4ff86f4dd4e3ef6e74eb8d1ba59135058442a0f14320393c2f807c5",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.18.2"
+          ],
+          "version": "0.12.5+MC1.18.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.18.2/hermes-0.12.5+MC1.18.2.jar",
+          "modHash": "9475ee11ddd81460cee78b3aee598bf07974a62b5b63778fc6ae9d407572c1dece5007b6195468854b750a22cdd141fd2c6e957f425649dc83fdc8fa0828e739",
+          "fileHash": "f093ef989618122f84428d255e6fe02bb241751eb3e4a99aeeca78e86850fb35d1e6e9ac4c973c4a3b24fc3d671fd5af96c7dd0c6521ec77120258949df5aace",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.18"
+          ],
+          "version": "0.12.5+MC1.18",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.18/hermes-0.12.5+MC1.18.jar",
+          "modHash": "3a4a620e2acc7fa931b10a12a2fef22b863da8244db9b902164b593b44714513122a50a2b72bee494fcf07ced0db7a526326aea40f3a89c9266d1f5d2bd89df7",
+          "fileHash": "8e35150c324abbcd15b9c6e195f819dc5338e293b998cbbe865337ccbfb205eeb01c966fae76ba92f2614be2d8ef2612812c7c1e8b90d44c5222031cde6091eb",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.19.1"
+          ],
+          "version": "0.12.5+MC1.19.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.19.1/hermes-0.12.5+MC1.19.1.jar",
+          "modHash": "872ca4510b3b8902877ff8b035d8492826fbda09c6aa8745ace611fcec60fb795382f86dac38ad6426e79a9fd2f28cfbeb2906bdf5d481bf912fa34c8d88ceda",
+          "fileHash": "b1e5e8f69f0eb9ffe7cd8a6bb5932100cad43925d2f559d36e6bcaea59282191ba7c7a2a43bf81aeeddad2303a11052f3857b1c6b48fce239fc13545f0a2b46f",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.19.2"
+          ],
+          "version": "0.12.5+MC1.19.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.19.2/hermes-0.12.5+MC1.19.2.jar",
+          "modHash": "ff9eb232db6f0ae076a7fe26dcb65b2c68e347aa6dc93ee23081c439504a87a06a35f98433ab23a80d85fd3eeeb3dff65c043d6089a8a2b52dc9d44ce50ae743",
+          "fileHash": "b3433a007b31d61e9dcc735366f1c05c75e8024453f35c9b3bf2af8d68804fb73b0489efdfab21f564bc6d13aff73b2e06eb9801ec1b8b88c787b09877e9bf2e",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.19.3"
+          ],
+          "version": "0.12.5+MC1.19.3",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.19.3/hermes-0.12.5+MC1.19.3.jar",
+          "modHash": "bc2e1e783567c0e6f07852e5c331dca2a27b570164ebfdf7752c17661b750c5ec749673f32bc8ad067c86612a8e82a9f7145d6c5c4f31740d4960a9977c13619",
+          "fileHash": "ab14c0ea395077fde3496c37860c27fe5caa216aa30ebf5854d33f4da70c08eac2f73a9737b650bfe46db13aa95ec9bb100e1a34b78b41ce276be927340aa706",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.19.4"
+          ],
+          "version": "0.12.5+MC1.19.4",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.19.4/hermes-0.12.5+MC1.19.4.jar",
+          "modHash": "a8d1a6d03b56535a71d99774f9e1d70a36339894f189945c1a6007bd23ecd848368d088302fdc999952a2ef42fa17399edb945f17aa0eb434f15c3434edcbab2",
+          "fileHash": "88da1e265da3c7778f348731fec8f6699ee4bcbc1b2f8338eae45327c5f96fbe00fa6e98e84af672c494b3400e9a502d10411848bac5b8d934dadb0167c815d4",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.19"
+          ],
+          "version": "0.12.5+MC1.19",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.19/hermes-0.12.5+MC1.19.jar",
+          "modHash": "af791e3f72e84e88986c71afff6f2d36887d273b93217203ac05749e9f313ac812a90796c30c9d9489cc183a915b09f11d34991507ca88d1ed9577e515f6bea7",
+          "fileHash": "b0c2c6628a016229d4302879837f61bdd9b98019aae039f991c9f9d22ee5b22cef1ac9abb1b088f8b77610582abdbe94ff2c75a8dcb6b3416f30ea3ec388f242",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.20.1"
+          ],
+          "version": "0.12.5+MC1.20.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.20.1/hermes-0.12.5+MC1.20.1.jar",
+          "modHash": "a479b20002b35683e89d6aaeaac0816632e35ac2eeea077d9de65ff01e55cc8685d77bdde80e667fb55775f6d820c84a5d675d2411ba92623bcba14fc77259ad",
+          "fileHash": "76b273a17bf958d089a1b1283a4b640c61f8143a331503cd3023d49f26c9e95fa06215e155fa5c9202370131b2685911b968c5073a85c1ded7e6e1d5d0c48f85",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.20.2"
+          ],
+          "version": "0.12.5+MC1.20.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.20.2/hermes-0.12.5+MC1.20.2.jar",
+          "modHash": "0fa1a8116ff3ee8410ab9c4509edad4e2a76536b98e2f2762fa84cdae3d83f3eee18eeb52808d7a7283c4a6fcce4d45701abd292ece8e98b8e6f0c2992bfb3c1",
+          "fileHash": "85d150a7a33cd5230c08685449ef0daee87ce6b0016391ddf7cb6bb72dc6fac39e6f693b482a6e66345f93662f3e3f15ce60ef7b2143285f7a2c19790f977c72",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.20.3"
+          ],
+          "version": "0.12.5+MC1.20.3",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.20.3/hermes-0.12.5+MC1.20.3.jar",
+          "modHash": "2cc28a1a3162cdfb657f88cf9b60371d12da3a61406ad7abc05ee7a91b6f5cc94bfd789abbc65ed42167a8569f79b8f8b2100c218dc20e012fada9d86cd0ccbb",
+          "fileHash": "a2eab9fb7afe28c5c3cb3afec1859fb1f798da79a6054bf6775dc950958bd429b0e343b4692ebd6c7eecb59764f1e3c55b6acd961efc72a3ed4cd4ea595a3394",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.20.4"
+          ],
+          "version": "0.12.5+MC1.20.4",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.20.4/hermes-0.12.5+MC1.20.4.jar",
+          "modHash": "266e3a8a6ae63af7876cc334843bc61f5e9be53d530bdfb8e1ec7f599c76f91f3dcf34b64ec84f08afdb2f219597df96cd4946b1c893a429689c883055e4abb3",
+          "fileHash": "e6b21730b490942293212346887e9535da31d000b3ce505f38e0275c7c758dc218b13c82dc4a667bc0603c5bd27473581c2718aa6e190c1f8b744415870e274b",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.20.5"
+          ],
+          "version": "0.12.5+MC1.20.5",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.20.5/hermes-0.12.5+MC1.20.5.jar",
+          "modHash": "548772fad74e7e2b988a1dfa26d14da8c5ef962f6ee958be38fd4f939047304b035ac7580407946bd831a391dbbdef4098cbec040f38f4ad93991f3e5b62469e",
+          "fileHash": "7a93ab96b013a886c04915e714028a12721e94361f4d0f641a0680ed5988c14789117905c6eb51ec6d92e5da014739523cfafe05135619a0a66964492119ec06",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.20.6"
+          ],
+          "version": "0.12.5+MC1.20.6",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.20.6/hermes-0.12.5+MC1.20.6.jar",
+          "modHash": "56b7b444c7d06183bc9a95ddcbc1b5ad5aecf589ef825b1d978da602d0b578794ebe28a1745ebca1cc1abce7f1af675b547893be5a6851a4f780f72e463f771a",
+          "fileHash": "c7e264262e473aeacf67ec458dfc5972f84fa7d1c7bdb70ac3a91d3be3f45644b0d29c7abf049cf6a085a888e2bb83bb08212757df263df5cf2e9082d08738f8",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.20"
+          ],
+          "version": "0.12.5+MC1.20",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.20/hermes-0.12.5+MC1.20.jar",
+          "modHash": "8030d415e50da0bd77627b45a6a0f2586f8009f5721c6f5d765839083237716009e37232d5d0a90ce7bfd043f4d2df6a5f9d4b1ea723cf8e1ac7179a09523283",
+          "fileHash": "40c31c210b114ff3af9d7706a351c3651e17e2a3dc9722d67c86e51ef7ae728a9c909f50d10a6f516105df082229dca44aeaddb095570bc07e1da19bb54e4c51",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.1"
+          ],
+          "version": "0.12.5+MC1.21.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.21.1/hermes-0.12.5+MC1.21.1.jar",
+          "modHash": "d46ecede2500e2e3e2303e481074c97a2c7f3cf24a0d4b1737912e7bd2d0b9ac3c97bd7f52bb7be186ee5eaf8ca87a5aba9da1b19d0efd81d8af5aa597a7054f",
+          "fileHash": "c59eface3f565ab2df4f50339ccb7aa17a4c8931fc5ce82d4ecebbc3427e589e2e6a9441a116882468de78a535b9e12e0117b4455f3485c12bf3c4ccd6d4c2e0",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.10"
+          ],
+          "version": "0.12.5+MC1.21.10",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.21.10/hermes-0.12.5+MC1.21.10.jar",
+          "modHash": "72505bd92944457bf5f3ace473593079e03d4e1955e9f0f6d8667b8aff2a2e35fddbee21d82b86aa468ec2bb8bf25bd5fd3a2843e21b8206b467138aaa8731b8",
+          "fileHash": "4357db15c4b334fe7edb7700951a4ebf531493b27abe8c0d9757cca5fa34bd24482fff3d3dee21786619ae27735780dbaf8438355eac03ae8958be35acfa1296",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.11"
+          ],
+          "version": "0.12.5+MC1.21.11",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.21.11/hermes-0.12.5+MC1.21.11.jar",
+          "modHash": "7f6d32d1c385bf80104885356d5e11834757d3c0b54203a92ac0829c4f43aaff9c7d0822e7d8ed37ec8fb464072176a99b1071bafec33c2b376ae37ddf5e4eca",
+          "fileHash": "001ac207df5b7ff1abe4a85cab23947bbcf463400b557a55a57cd642f8d3bcef50146873a2c48c3a02b7005e1f62bab9591430ef05c98c02d8417f4abd5aad08",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.2"
+          ],
+          "version": "0.12.5+MC1.21.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.21.2/hermes-0.12.5+MC1.21.2.jar",
+          "modHash": "523bdc8c73b05cf4a79305931e68b7b25a8f9b1ae998e2ba5357659c684df255fc2e234f613e5dae7cc45739043b6ab17ce964ccc0387fd9bbf2025ebda3c8b8",
+          "fileHash": "1aca7685b7d11ae30ca6824d6227825c246f7821894dd6ec253ef0796696c7e3c827ae8444ab7387a575f9dabb7ddaa5643d5b404237bfa6d70f11d357e3b5c0",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.3"
+          ],
+          "version": "0.12.5+MC1.21.3",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.21.3/hermes-0.12.5+MC1.21.3.jar",
+          "modHash": "ee7cfa7e004746326a267d4d00565fd536a627e28de9ce7913eb062b60a0245aaab9dfb61b70e2307ec55935c3a14c9d5344bc242781f98fe76ce49d7e867647",
+          "fileHash": "e8ae09f1c607b68b1052b617a7d86f33ad5a9aeb3837d43835dc5685bb820ab0a9e9011015d0958465ab9b1f9cccd0eed79ace720b44709b152e2c2d03f7e7ab",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.4"
+          ],
+          "version": "0.12.5+MC1.21.4",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.21.4/hermes-0.12.5+MC1.21.4.jar",
+          "modHash": "9b36e81a56a4416ae3e4820c6d4306516e36ea9cdc2fc31734a9903b74496a47d129b7d599043b9571451bd5d79a7ed364ee8ce9b222f8235f53856d12fbf383",
+          "fileHash": "33ac0eec2eb4f3fa4bef22df2986776e070c061b73369593109e1938f9579c2695eb09ed09a23e5944cf31ca08a7eeddb2f9b864ea8f2383872cfa16d4ee364d",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.5"
+          ],
+          "version": "0.12.5+MC1.21.5",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.21.5/hermes-0.12.5+MC1.21.5.jar",
+          "modHash": "a082ea925c74ab5dc37fe3e5bfdea369acd9baf17bd7d2f10bfca96c2f8edea6bc5075e5fc3ebe48798ce2a57de43564d299698fc570b27844394f13bccc02ae",
+          "fileHash": "8fda3ccbe215c66a37de43647e174a5680b3c1902d1219205bbb3b8ec36920101ee6489c4957ec501ae51ca0b1a9fe87799399ded2b3d5c85c3b7013187ced84",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.6"
+          ],
+          "version": "0.12.5+MC1.21.6",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.21.6/hermes-0.12.5+MC1.21.6.jar",
+          "modHash": "69ffce9b99f688d4e679d1cd7ea25991a368db9afad05cd1f7392644122710ea7873c5fc92e2a0da4dc43f388607e97fb506109422886ad8796f1ea10ac65efd",
+          "fileHash": "b29c120261f9e94813be2ae52b5211c70becd570623bdc9eb0bea6992513ec15ffac9e66c16cfa64bcff184ee6c0b0a6a1c6cc3107ecab03931349e4371f8e50",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.7"
+          ],
+          "version": "0.12.5+MC1.21.7",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.21.7/hermes-0.12.5+MC1.21.7.jar",
+          "modHash": "5b12f52fd30c85b07f8e6b08601ab34157de2bed3d06e34c03b37a370666d51ad46ff5e5d2bb62ffd29c44b68517764c2a4d12deb8c2aa5da81914a3b3e3785f",
+          "fileHash": "7cd8636a28ae6eebb09432807e9577f445dad955a17d209cd9deefbce2653c0038228f70cf55bf3a5b9c4f85cde9d7fc41b99aae7b7b55a59ee2fe4a28ec72a8",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.8"
+          ],
+          "version": "0.12.5+MC1.21.8",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.21.8/hermes-0.12.5+MC1.21.8.jar",
+          "modHash": "479eb8189abb811e5395ca176d43d3f5074d02b4f0fd97febdea9be08696eff319b71b3109ac3c6877a9f54d9251ec8cdc8d08e357b146692b21402610c727f9",
+          "fileHash": "e961fafe5033ea18a0628aff85f6e29227d26dd15a6700bc55550713779cfc1b4f868c65fbfb2055aa803016d79ad80daf2f86f784d6131792b7926d83a90561",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.9"
+          ],
+          "version": "0.12.5+MC1.21.9",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.21.9/hermes-0.12.5+MC1.21.9.jar",
+          "modHash": "c20ebf9473b96eeee0eeab60f100d31e7ef91c7ec073f6ed9a23a6483144e79741deccda10711eb7f817f284b79b329dae069bdb436570cb9557b401f08fed7d",
+          "fileHash": "a56b8c253f5501fcffbea66599c972890c607fe9d5a3938b70f3e1b2503f74fa66910dc82b38faffe5a74b2b1f0db72cc0150cad5605af9aa86a6d313cfd7f3c",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21"
+          ],
+          "version": "0.12.5+MC1.21",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/1.21/hermes-0.12.5+MC1.21.jar",
+          "modHash": "05ca2539f625b807f25494a77fd27fbb97fc9b5c5424b2cacac22aed2b2c0ab1f17a003d44128bc715b32c213f2c2163199f70f91fc17ed8c6adb5fca8c95c7c",
+          "fileHash": "aa1dd088f8ffed0d7ad04845bb0415aee949e1e8b9d75014f986ac1eec57f3399d9c0694e1c489e96605cff17ed8ff1c93ced11e82375be8d48d10ab9efeef10",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "26.1.1"
+          ],
+          "version": "0.12.5+MC26.1.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/26.1.1/hermes-0.12.5+MC26.1.1.jar",
+          "modHash": "2e4a4e10f4be490b9cae16861fa77b1305bfbf38dc25bf2d227253131db1400b1d9a4f2d7668c932f743fd19a5d796dc3adced36090a6d2b51d88902c48d270c",
+          "fileHash": "2e27b27b2fb033ddc48d94c33e4d16b6fa2a80a769a6adc555454166c85a1053259bd6b7380fb423f1e0ccaad9d2a991cb2f363676ca01418816ebe243c121da",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [],
+          "version": "0.12.5+MC26.1.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/26.1.2-26.1.99/hermes-0.12.5+MC26.1.2.jar",
+          "modHash": "cba73137bb442af6573fb1011d4151d701fa21fa6510da02bf1d83492c6ebfa5798f71dff0ea856bfcc344ce2fc04e017481579326d363efa57d1a9d6aeb09cf",
+          "fileHash": "9ee2fd1a88e8f04333110682f089ead6bef13d13ba228a38c5447088fbf2250d284a49d78e2bff6f26c52533af874e89728f21be89a5c97fad6f04e467ad2d21",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "26.1"
+          ],
+          "version": "0.12.5+MC26.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/70d977a2065c8f5e06bcc894d71dfe8e19e1df2b/legal-mods/hermes/26.1/hermes-0.12.5+MC26.1.jar",
+          "modHash": "13ad32ced05d18ac41a8d4c787ec4cceaa0cf5928bb2742535b65bc88c17d4eb9f923d674589c9378a7696355e666451550b6b7cd5ff82a898cad9e2ec9e8163",
+          "fileHash": "36345f74c435135ccd02b6831c8266d94675f20f499d74d5773a2e570655cb78d3ed0962dc99ce0a506e48fe4fab828fc60317c16ef037be09ef2ebc33d1a8de",
+          "legalTimestamp": 1779492203,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+            }
+          ]
+        },
+        {
+          "target_version": [
             "1.15.2"
           ],
           "version": "0.12.4+MC1.15.2",
@@ -4556,6 +5485,23 @@
       "description": "A Fabric mod that optimizes the Minecraft networking stack and entity tracker.",
       "sources": "https://github.com/astei/krypton",
       "versions": [
+        {
+          "target_version": [],
+          "version": "0.3.0",
+          "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/kYAGItyj/krypton-0.3.0.jar",
+          "modHash": "03c111597da73a3ddfde39c4266bce0f4ecb72ef5a0a1a76c69754bb44868260ba57f1dffc5d2561fe05bbeac817137c9b0ad30b7210484a5ef22d0f51aff0a7",
+          "fileHash": "14233210283a76f3cf435a3b8ddbcbd65a858d2b1a10b88ff643c0a01486dfd2bf1843bd3456cd4fb86cbb3b06f2dea0c4e663b1976a48e96de16d3b5a707ec9",
+          "legalTimestamp": 1779492231,
+          "bundledMods": [
+            {
+              "modid": "com_velocitypowered_velocity-native",
+              "name": "velocity-native",
+              "description": "",
+              "version": "3.4.0-SNAPSHOT",
+              "modHash": "5dd1b1bfb0861d91841a039762b34db1ec72398f954a917c9e3aa0c899bd93eab35c467cf56a5940ecaf52c5b723d08f7301c298481661a18939c8028d61190b"
+            }
+          ]
+        },
         {
           "target_version": [],
           "version": "0.2.10",
@@ -5299,6 +6245,14 @@
       "description": "Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.",
       "sources": "https://github.com/KingContaria/lithium-mcsr",
       "versions": [
+        {
+          "target_version": [],
+          "version": "0.24.2+mc26.1.2",
+          "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/R7MxYvuW/lithium-fabric-0.24.2%2Bmc26.1.2.jar",
+          "modHash": "e6d0ab659dd3ddb66afe9c788f5256ce16597af68dee7093fee684add70cd0cb15841bf2b636a9884882fe43144b6830dc0f774f74dcfa36f2b84674aa3a285b",
+          "fileHash": "9231ad05667d4eef0348c700bf5160929e0b723d9e145fd97c7fcef9387ac2e6d524fb15d99f47f8f838f1d235324fd750cdcb6603b63aab6085d79fbeaab31b",
+          "legalTimestamp": 1779492231
+        },
         {
           "target_version": [
             "26.1.1"
@@ -9651,6 +10605,156 @@
       "description": "Sodium is a powerful rendering engine for Minecraft which greatly improves frame rates and micro-stutter, while fixing many graphical issues",
       "sources": "https://github.com/Minecraft-Java-Edition-Speedrunning/sodium",
       "versions": [
+        {
+          "target_version": [
+            "1.21.11"
+          ],
+          "version": "0.8.12+mc1.21.11",
+          "url": "https://cdn.modrinth.com/data/AANobbMI/versions/NFkjnzWE/sodium-fabric-0.8.12%2Bmc1.21.11.jar",
+          "modHash": "5de9c82baa78de7d940320a6d31be988c949e0bfcf888a424bc1a45b0a80e5c5058d5e64da6672f881fa0ab4858c4e23b45cc1f882653686bfd897110e5700fa",
+          "fileHash": "17fdb8240670d069e9bb4d00cd3d17afe28ea3f7ea7daf27fd32844f302516e7a889686429db81f2c7b73ad4afce703cac8963a8c3943cfebf45d2c570bd8256",
+          "legalTimestamp": 1779492231,
+          "bundledMods": [
+            {
+              "modid": "fabric-api-base",
+              "name": "Fabric API Base",
+              "description": "Contains the essentials for Fabric API modules.",
+              "version": "1.0.5+4ebb5c083e",
+              "modHash": "6b2fdcfd84d45643ba42962425cd9d5cede0b07a0917b3ec2b07dc02e4461f0287d7239e43f0e8ee499c7a7d3af9c9e004c312a76842c953088ea23c8a28b499"
+            },
+            {
+              "modid": "fabric-block-view-api-v2",
+              "name": "Fabric BlockView API (v2)",
+              "description": "Hooks for block views",
+              "version": "1.0.39+4ebb5c083e",
+              "modHash": "f32459d2a04880afe324c16ba289ad4725efa7ae82f5606d51bdf7495d01b3336e6b0c973f7c998496c4c5f45697d522dc38814c9497abb06aa7336739e33b58"
+            },
+            {
+              "modid": "fabric-lifecycle-events-v1",
+              "name": "Fabric Lifecycle Events (v1)",
+              "description": "Events for the game's lifecycle.",
+              "version": "2.6.15+4ebb5c083e",
+              "modHash": "f3960c774d1b7ef35343ad0ece1b78a1bff5109a2961795a5dfff6ec0e1876771b9a42452ce92958c19800c0c46d7bde7e794a01c4085cf4c6241ad8ce3ce52e"
+            },
+            {
+              "modid": "fabric-renderer-api-v1",
+              "name": "Fabric Renderer API (v1)",
+              "description": "Defines rendering extensions for dynamic/fancy block and item models.",
+              "version": "8.0.0+f4ffd2e53e",
+              "modHash": "1730e0c48858746edc3c297a71bea947c81a6d815f0bd39b383a9ed5bf76b02464e9cb5ce7285bda528393f7cf91db15ed90f9a3e6f87a42391c79f66351db51"
+            },
+            {
+              "modid": "fabric-rendering-fluids-v1",
+              "name": "Fabric Rendering Fluids (v1)",
+              "description": "Hooks for registering fluid renders.",
+              "version": "3.1.43+4ebb5c083e",
+              "modHash": "5960f09ffd46d561e88dc18d9b8fab841e32d38a43c915a3e066ccb2daced21ece46a0ab22cd08960ba913dc024f7ddc40e8ae1a69c85ff733f38bdb2b931795"
+            },
+            {
+              "modid": "fabric-rendering-v1",
+              "name": "Fabric Rendering (v1)",
+              "description": "Hooks and registries for rendering-related things.",
+              "version": "16.2.7+f4ffd2e53e",
+              "modHash": "4b858d4d786b123f71cdfe997faeee40beee0a8c79b3b10575b3ee3101d785d62d9eb758c374671dda456c51cec07e21eab268c7fceaa9411d2692245330d261"
+            },
+            {
+              "modid": "fabric-resource-loader-v0",
+              "name": "Fabric Resource Loader (v0)",
+              "description": "Asset and data resource loading.",
+              "version": "3.3.4+4fc5413f3e",
+              "modHash": "29b71ef3fa2291f0082a8ec65548ae28a0fc6be58fd70f4100200337b1828c139d407f9661f6ea241919f3587a31f47db75e70722f514328d063af8be7482f31"
+            },
+            {
+              "modid": "fabric-resource-loader-v1",
+              "name": "Fabric Resource Loader (v1)",
+              "description": "Asset and data resource loading.",
+              "version": "1.0.10+78c8b4663e",
+              "modHash": "634428a1493f70e4523c2d64d1dd4e50a7d925ef1bd5a5d089974ae0171e850c789131d0ba05e9d2f7821ec3a2568858a4a818c97b98f68c0af8d9dc7463ffb1"
+            },
+            {
+              "modid": "fabric-transitive-access-wideners-v1",
+              "name": "Fabric Transitive Access Wideners (v1)",
+              "description": "Contains transitive access wideners that provide access to otherwise inaccessible Minecraft code.",
+              "version": "7.0.8+0107c3da3e",
+              "modHash": "9bd5dc2e1d7d03d197a27b706a763ec1b9996b264bb5c17c9f886e6a46a8041d36b7dba6120ed59f8353ec0173f3d05cadd063c92a0130539cc4484b85167567"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "26.1.2"
+          ],
+          "version": "0.8.12+mc26.1.2",
+          "url": "https://cdn.modrinth.com/data/AANobbMI/versions/eRJU33Hp/sodium-fabric-0.8.12%2Bmc26.1.2.jar",
+          "modHash": "7816dc42721f265d161fe9f4cd3b35400db68d5bc075fd83a8554c4767076b758b4578c064e5da7356e45bdddd28b5cd09bb0d2c9ca58dae099720d2189a0d81",
+          "fileHash": "402bb945d1f893a72c152c137e08f8a0c045d725a4d6ca2af7bcfe929c4d80338da509094cfe3a8cd162346b78c5069dc3cf1d57bf94a1bce557f6425da7e76f",
+          "legalTimestamp": 1779492231,
+          "bundledMods": [
+            {
+              "modid": "fabric-api-base",
+              "name": "Fabric API Base",
+              "description": "Contains the essentials for Fabric API modules.",
+              "version": "2.0.3+ece063234c",
+              "modHash": "ac1c8c130061b13a7f81ae73399de472ce5604d4e10411f3a85765b6c17eb01a69af83fc4246db14d83be0df6d8e4cfdbdb33fb901427ea12a9590d0f1ed6565"
+            },
+            {
+              "modid": "fabric-block-getter-api-v2",
+              "name": "Fabric BlockGetter API (v2)",
+              "description": "Hooks for block getters",
+              "version": "2.0.6+ec56b6014c",
+              "modHash": "8cc592cfcfb847f0f7435c7f2259a1d8f7effd8311564e5a9d258fb436640a38ec680825e4ff0035f47d04427fb9951c2d9281aab123938da1e3ac9c8682ab6e"
+            },
+            {
+              "modid": "fabric-lifecycle-events-v1",
+              "name": "Fabric Lifecycle Events (v1)",
+              "description": "Events for the game's lifecycle.",
+              "version": "4.1.0+6d50a0854c",
+              "modHash": "398340eca4c21bf5ceefb9f43407d70c1bec0485321f429b18ee036e68b97ba1d9d5e0ed80ca6dd97f2778c8b59d33f5f48c9e74ec0549dcdf1f05b1332e30f5"
+            },
+            {
+              "modid": "fabric-renderer-api-v1",
+              "name": "Fabric Renderer API (v1)",
+              "description": "Defines rendering extensions for dynamic/fancy block and item models.",
+              "version": "13.0.3+c80601bb4c",
+              "modHash": "2a64e6427ceabaa243d2aea9cd138a607072df03813864e8ec094c25de637252842b2c7715ea448e6317aa00a311172d90278d3d93da0a168a313acc268ac530"
+            },
+            {
+              "modid": "fabric-rendering-fluids-v1",
+              "name": "Fabric Rendering Fluids (v1)",
+              "description": "Hooks for registering fluid renders.",
+              "version": "6.0.1+d871b99e4c",
+              "modHash": "4e238cc02b6da70b2c329916c6d612e69670892e2f39c453d59061ed3b152cf3efd75538f588101609276e871d993b39f820cc238f8f298a1868d61f832a7b2f"
+            },
+            {
+              "modid": "fabric-rendering-v1",
+              "name": "Fabric Rendering (v1)",
+              "description": "Hooks and registries for rendering-related things.",
+              "version": "23.1.0+1403e82c4c",
+              "modHash": "364c6c17c5aa7a79e5441920a713cf0d696ccb581d44739abca756f874fc6c7c11b5067b37294cfed3772f2ceaabfb6a67dc660119ce6f58905dc5596388aa17"
+            },
+            {
+              "modid": "fabric-resource-loader-v0",
+              "name": "Fabric Resource Loader (v0)",
+              "description": "Asset and data resource loading.",
+              "version": "3.3.16+4fc5413f4c",
+              "modHash": "19416a7c52810cfc4c770c897629f0b55928c6257a3950a1b3de5c035c549ebac8e9657f1a8fb2b1c52088b3f02739654f0594584586937da8f93ba5df2d4e98"
+            },
+            {
+              "modid": "fabric-resource-loader-v1",
+              "name": "Fabric Resource Loader (v1)",
+              "description": "Asset and data resource loading.",
+              "version": "2.0.9+d871b99e4c",
+              "modHash": "3f7aa9a3718e184d6dc4e1a28b740fd6b3dda37ddc9ec4687ca819d39ac59907c1ecea01e67f07c31e5643f59f36510c4478877e7e7f8f076e46b0c37922c87d"
+            },
+            {
+              "modid": "fabric-transitive-access-wideners-v1",
+              "name": "Fabric Transitive Access Wideners (v1)",
+              "description": "Contains transitive access wideners that provide access to otherwise inaccessible Minecraft code.",
+              "version": "8.1.0+acd9108d4c",
+              "modHash": "6f9668be4828b98532f2942c2a19c13f786cc7497134aee2b7dabc056a6fb3d625d84067f9c24ea4ed348c85f1b7e86f136cde5ab5969a23a8024613445642d2"
+            }
+          ]
+        },
         {
           "target_version": [],
           "version": "0.8.9+mc26.1.1",

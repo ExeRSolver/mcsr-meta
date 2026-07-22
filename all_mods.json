@@ -3221,7 +3221,16 @@
               "name": "Auto Config v1 Updated",
               "description": "Annotation based API for mod configs, with Cloth Config GUI integration",
               "version": "3.3.1",
-              "modHash": "cf23cd14f00fbfec601d3d79d1ef397154c856b83e8610728f0f59a1f564519abcf65d12a37900c2aff5ad3aa7ce9e93e7c6a09137fac3b04bb386384ebfe581"
+              "modHash": "cf23cd14f00fbfec601d3d79d1ef397154c856b83e8610728f0f59a1f564519abcf65d12a37900c2aff5ad3aa7ce9e93e7c6a09137fac3b04bb386384ebfe581",
+              "bundledMods": [
+                {
+                  "modid": "fabric-api-base",
+                  "name": "Fabric API Base",
+                  "description": "Contains the essentials for Fabric API modules.",
+                  "version": "0.1.3+12a8474c34",
+                  "modHash": "02b1d3a6b581528626f7376cd3561555221ad8e8243e9e29be943ea573128b84e02fd68a6ae8f57b49385279b7dc3e4b7325df05ae1fe9d447b390f803d436b3"
+                }
+              ]
             }
           ]
         },
@@ -3247,7 +3256,16 @@
               "name": "Auto Config v1 Updated",
               "description": "Annotation based API for mod configs, with Cloth Config GUI integration",
               "version": "3.3.1",
-              "modHash": "cf23cd14f00fbfec601d3d79d1ef397154c856b83e8610728f0f59a1f564519abcf65d12a37900c2aff5ad3aa7ce9e93e7c6a09137fac3b04bb386384ebfe581"
+              "modHash": "cf23cd14f00fbfec601d3d79d1ef397154c856b83e8610728f0f59a1f564519abcf65d12a37900c2aff5ad3aa7ce9e93e7c6a09137fac3b04bb386384ebfe581",
+              "bundledMods": [
+                {
+                  "modid": "fabric-api-base",
+                  "name": "Fabric API Base",
+                  "description": "Contains the essentials for Fabric API modules.",
+                  "version": "0.1.3+12a8474c34",
+                  "modHash": "02b1d3a6b581528626f7376cd3561555221ad8e8243e9e29be943ea573128b84e02fd68a6ae8f57b49385279b7dc3e4b7325df05ae1fe9d447b390f803d436b3"
+                }
+              ]
             }
           ]
         },
@@ -3273,7 +3291,16 @@
               "name": "Auto Config v1 Updated",
               "description": "Annotation based API for mod configs, with Cloth Config GUI integration",
               "version": "3.3.1",
-              "modHash": "cf23cd14f00fbfec601d3d79d1ef397154c856b83e8610728f0f59a1f564519abcf65d12a37900c2aff5ad3aa7ce9e93e7c6a09137fac3b04bb386384ebfe581"
+              "modHash": "cf23cd14f00fbfec601d3d79d1ef397154c856b83e8610728f0f59a1f564519abcf65d12a37900c2aff5ad3aa7ce9e93e7c6a09137fac3b04bb386384ebfe581",
+              "bundledMods": [
+                {
+                  "modid": "fabric-api-base",
+                  "name": "Fabric API Base",
+                  "description": "Contains the essentials for Fabric API modules.",
+                  "version": "0.1.3+12a8474c34",
+                  "modHash": "02b1d3a6b581528626f7376cd3561555221ad8e8243e9e29be943ea573128b84e02fd68a6ae8f57b49385279b7dc3e4b7325df05ae1fe9d447b390f803d436b3"
+                }
+              ]
             }
           ]
         },
@@ -4314,7 +4341,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4340,7 +4376,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4366,7 +4411,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4392,7 +4446,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4418,7 +4481,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4444,7 +4516,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4470,7 +4551,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4496,7 +4586,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4522,7 +4621,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4548,7 +4656,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4574,7 +4691,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4600,7 +4726,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4626,7 +4761,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4652,7 +4796,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4678,7 +4831,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4704,7 +4866,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4730,7 +4901,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4756,7 +4936,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4782,7 +4971,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4808,7 +5006,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4834,7 +5041,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4860,7 +5076,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4886,7 +5111,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4912,7 +5146,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4938,7 +5181,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4964,7 +5216,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -4990,7 +5251,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5016,7 +5286,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5042,7 +5321,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5068,7 +5356,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5094,7 +5391,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5120,7 +5426,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5146,7 +5461,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5172,7 +5496,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5198,7 +5531,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5224,7 +5566,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5250,7 +5601,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5276,7 +5636,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5302,7 +5671,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5328,7 +5706,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5354,7 +5741,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5380,7 +5776,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5406,7 +5811,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5432,7 +5846,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5458,7 +5881,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5484,7 +5916,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5510,7 +5951,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5536,7 +5986,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5562,7 +6021,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5588,7 +6056,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5614,7 +6091,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             },
             {
               "modid": "wfvaio",
@@ -5640,7 +6126,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5659,7 +6154,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5678,7 +6182,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5695,7 +6208,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5714,7 +6236,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5733,7 +6264,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5752,7 +6292,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5771,7 +6320,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5790,7 +6348,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5809,7 +6376,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5828,7 +6404,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5847,7 +6432,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5866,7 +6460,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5885,7 +6488,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5904,7 +6516,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5923,7 +6544,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5942,7 +6572,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5961,7 +6600,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5980,7 +6628,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -5999,7 +6656,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6018,7 +6684,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6037,7 +6712,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6056,7 +6740,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6075,7 +6768,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6094,7 +6796,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6113,7 +6824,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6132,7 +6852,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6151,7 +6880,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6170,7 +6908,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6189,7 +6936,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6208,7 +6964,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6227,7 +6992,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6246,7 +7020,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6265,7 +7048,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6284,7 +7076,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6303,7 +7104,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6322,7 +7132,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6341,7 +7160,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6360,7 +7188,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6379,7 +7216,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6398,7 +7244,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6417,7 +7272,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6436,7 +7300,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6455,7 +7328,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6474,7 +7356,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6493,7 +7384,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6512,7 +7412,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6531,7 +7440,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6548,7 +7466,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6567,7 +7494,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6586,7 +7522,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6605,7 +7550,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.3.2",
-              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c"
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6624,7 +7578,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.2.2",
-              "modHash": "1bd5b68ae0f7a30b2949074e349d027994446ceb2511410db8d0b1131ffe9f337d77638be6c99046b09ec3df92a2c7cdab5e703abb324472848ba4c21b27dbd8"
+              "modHash": "1bd5b68ae0f7a30b2949074e349d027994446ceb2511410db8d0b1131ffe9f337d77638be6c99046b09ec3df92a2c7cdab5e703abb324472848ba4c21b27dbd8",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         },
@@ -6643,7 +7606,16 @@
               "name": "Hermes Core",
               "description": "Constants and instance info functionality for Hermes",
               "version": "0.2.2",
-              "modHash": "1bd5b68ae0f7a30b2949074e349d027994446ceb2511410db8d0b1131ffe9f337d77638be6c99046b09ec3df92a2c7cdab5e703abb324472848ba4c21b27dbd8"
+              "modHash": "1bd5b68ae0f7a30b2949074e349d027994446ceb2511410db8d0b1131ffe9f337d77638be6c99046b09ec3df92a2c7cdab5e703abb324472848ba4c21b27dbd8",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
             }
           ]
         }

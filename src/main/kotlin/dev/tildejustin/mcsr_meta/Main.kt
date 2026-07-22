@@ -244,7 +244,8 @@ fun getBundledMods(jarBytes: ByteArray, bundledJars: List<FabricModJson.File>): 
                                 modJson.name,
                                 modJson.description,
                                 modJson.version,
-                                getModHash(bundledJarBytes)
+                                getModHash(bundledJarBytes),
+                                getBundledMods(bundledJarBytes, modJson.jars)
                             ))
                         }
                         bundledEntry = bundledJarInputStream.nextEntry

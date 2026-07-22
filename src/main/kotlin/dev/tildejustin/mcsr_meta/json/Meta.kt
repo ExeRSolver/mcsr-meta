@@ -38,6 +38,7 @@ data class Meta(val schemaVersion: Int, val mods: List<Mod>) {
         val name: String,
         val description: String,
         val version: String,
-        val modHash: String
+        val modHash: String,
+        @EncodeDefault(EncodeDefault.Mode.NEVER) val bundledMods: List<BundledMod> = listOf()
     )
 }

@@ -1805,6 +1805,22 @@
       "sources": "https://github.com/Slackow/BoundlessWindow",
       "versions": [
         {
+          "target_version": [],
+          "version": "1.2.0+26.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/ba0fad7d912999f681902860a8185a07a6070859/legal-mods/boundlesswindow/26.1-26.2/boundlesswindow-1.2.0+26.1-26.2.jar",
+          "modHash": "49de8f42701ca29ce9e890430783188238c65157a9e6fa691dd121c40061c505c06248dfde599af4f67719792203cb415881068e013cf89899cc5acd21157576",
+          "fileHash": "2bed5d4ba140c3eef1d9bc8109f4c75f3a970e8f3b060628baa6285c233d4b292fc07bccf7323b26ac0f6c2ada1545c4c74f115719e436e75b12076df9d66faa",
+          "legalTimestamp": 1779492217
+        },
+        {
+          "target_version": [],
+          "version": "1.2.0+26.3",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/ba0fad7d912999f681902860a8185a07a6070859/legal-mods/boundlesswindow/26.3+/boundlesswindow-1.2.0+26.3.jar",
+          "modHash": "a3c2d6fc55a1048ed2d93104649258f4df3226848f1d2792bacc538ad3607e4a92ba7aebeb4abc632d7a299212daa1ed1ef8a031e3204326156c5ebff1d593cb",
+          "fileHash": "0a9dfb2a9b9708696aaaef633590991bbb31b0048f6f559a4b2ca780a871e15d441a2f23ad444735d334bbf5890c9e3531a7e627ba5c338669869ffd38f8cb78",
+          "legalTimestamp": 1791411332
+        },
+        {
           "target_version": [
             "1.14",
             "1.14.1",
@@ -1851,14 +1867,6 @@
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f2a1ae39e8469b5647d2bbb8a58b864ea3b2efd2/legal-mods/boundlesswindow/1.14-1.21.11/boundlesswindow-1.2.0+1.14-1.21.11.jar",
           "modHash": "1447b0013d4449bb0e9df6814cdad7e56b3678fc363a1ca14fe9ee14c098fdb28e06f5dcbafc37ce6db8307d2e64cfe585ff6b5dd2a024ea587d3d8ca02ecda6",
           "fileHash": "8453303da0cf72029e9e14e6a164fdbc8efac6250d409c251b64bb0ca41d3193841f0f5fd70c0d6ed163debd283e162d2c51c563041c4ff53dfcd062ff88e719",
-          "legalTimestamp": 1779492217
-        },
-        {
-          "target_version": [],
-          "version": "1.2.0+26.1",
-          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f2a1ae39e8469b5647d2bbb8a58b864ea3b2efd2/legal-mods/boundlesswindow/26.1+/boundlesswindow-1.2.0+26.1.jar",
-          "modHash": "49de8f42701ca29ce9e890430783188238c65157a9e6fa691dd121c40061c505c06248dfde599af4f67719792203cb415881068e013cf89899cc5acd21157576",
-          "fileHash": "2bed5d4ba140c3eef1d9bc8109f4c75f3a970e8f3b060628baa6285c233d4b292fc07bccf7323b26ac0f6c2ada1545c4c74f115719e436e75b12076df9d66faa",
           "legalTimestamp": 1779492217
         },
         {
@@ -4354,6 +4362,1649 @@
       "description": "Uninterpreted data output for external tools focused on the MCSR community.",
       "sources": "https://github.com/DuncanRuns/Hermes",
       "versions": [
+        {
+          "target_version": [
+            "1.14.1"
+          ],
+          "version": "0.16.0+MC1.14.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.14.1/hermes-0.16.0+MC1.14.1.jar",
+          "modHash": "56ed38bcfdc1feae5d1daa240a1f6dfb0db47e2a5143817043bc64582b7d3af22496eac3470f9eb7bce7a788f7f7b62295e9c96689697b549e6ae323567381c1",
+          "fileHash": "9838d0a25f14607a9fc45e4414b4436fc48d99502114f07c65d5079f31c7f29f287cf213b2bcc6b2b7687ce80ade136e5fc858629afc5c40eea1ccb431cbea29",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.14.2"
+          ],
+          "version": "0.16.0+MC1.14.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.14.2/hermes-0.16.0+MC1.14.2.jar",
+          "modHash": "6e68c8a40c6088dc14beca1ba03fb14a538df614b3c9c038c2887293cfd3786be8eea5dc5a9aeaffa3cc68305c617e2869bc601ef20209c8debf1beeeed4cd02",
+          "fileHash": "771a9a2a32904921b98e7dde5b8e858b2e62817604f9b14d55c4ab1ea4c4bdb26427b11587a4ab32258e72fa86589b80868fd0f4f16ccfb3b8638f07491caf81",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.14.3"
+          ],
+          "version": "0.16.0+MC1.14.3",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.14.3/hermes-0.16.0+MC1.14.3.jar",
+          "modHash": "b1e37619d33ed5af60d2cc0505214f1bca6e768e7400159e06317048581687829e002f9d9e27b297bf30e867e9e7c34bf16e49cf1f0ad42c6df175716a64a412",
+          "fileHash": "6f786b957c014ae7c0b50c906eb8f0d8a110283978258a72e84d86883ba010d864c1aac40abe8d91f3f26ec631cfd58a65ab2f5fc78582d81f46d37383c68573",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.14.4"
+          ],
+          "version": "0.16.0+MC1.14.4",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.14.4/hermes-0.16.0+MC1.14.4.jar",
+          "modHash": "0ba875d917d1a5ad924e497b17c947336e49f545a935075dcc0ba0d5777c5459e6e21047e49e193335f14d6b08ed043ea61dad8aae92f66557f2da144259db63",
+          "fileHash": "14f9e2f717a9c8496c51253b1ac675a91bb85bd0c2beb49db781b660f0d4591b2962a3b762336ffecb29495c29b62075318d3d85f94aa5842b5dbe68cf9841ec",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.14"
+          ],
+          "version": "0.16.0+MC1.14",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.14/hermes-0.16.0+MC1.14.jar",
+          "modHash": "1fd5e7bf71a4e5e50b7af7a9b8fb6a5c8a513d4bc50b34378a56835faa753285d73e98773beeec78f8bbcdff8e56de102674d85eaf3d595f061865559605f702",
+          "fileHash": "fa0f064e32b4a97d1c92ad9e263050496cef6ed3ddab784bc9b1e2c81c1b3cd6b514b442a89d0b3e644e92c0e649c3aa63e25f0b3650512e95786fffe9189928",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.15.1"
+          ],
+          "version": "0.16.0+MC1.15.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.15.1/hermes-0.16.0+MC1.15.1.jar",
+          "modHash": "24ba1708c15e263ea1468b781d1fa8b2966e178104ce1e7b09e0c8a9494574392b2634aed3a502181edc04afad2418a51f1212cb0e5fc0b116d3e7042c52af49",
+          "fileHash": "2d1fdb653cd8459d9151103b6ebcbcb867e24f395dff977a68d9aea9bdf442f2f00c534bfc85cb524446fff39051a7f4acc0ab8102d1bd803ea609a55c05f03e",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.15.2"
+          ],
+          "version": "0.16.0+MC1.15.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.15.2/hermes-0.16.0+MC1.15.2.jar",
+          "modHash": "505992f8a7050468f6a03ae83649d3b6cd74075103cea544e7eabdf3104f1e64aa6d253a94d39ab61c494c9106c45bde43d3ab233cc3ba4841f3d8601f05ba86",
+          "fileHash": "5a03acfa6b5869d3825e131c1599d3f98e13064dec041e5f7e2dc9a632dea4ef21f9cdf0235561a77e05ab31f0aaa893daf3c60b565ffaff1b4ae8313c78e637",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.15"
+          ],
+          "version": "0.16.0+MC1.15",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.15/hermes-0.16.0+MC1.15.jar",
+          "modHash": "adeb6fb7d790174e19bb0a4bc9fa628c6859b6d14ea765c3af1ebdc94c5f1f37585d9b6eb7c4d06338aab91e06fa1ade44ee3d8ca9fe8e458178e85a7a6c8546",
+          "fileHash": "b77f5fee8c66b0f0d0c61f8c61557525a7adcce87f2cd6d80c70ecbc4ca9cd5c79ca303866fed0892a7f32dae59cbbf7b2927669824ef07a34bb52cc34801ddf",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.16.1"
+          ],
+          "version": "0.16.0+MC1.16.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.16.1/hermes-0.16.0+MC1.16.1.jar",
+          "modHash": "ad8582949b67b2ed984ad744f52dadd390987bae14ee97410c3b3a8cc5942d332059b2bf70f8884828cd56ef44556004386a7c06e4371dc9650ac0f2bc7183d2",
+          "fileHash": "4a931c40d72e7a49199a709bddf6cdc8a79ed8e616d33be7678d38b4d76bb67c94bdf5ada322f3809c6dafe41f04cfe1ae6328a8aed0653c0ad54c8f249eee8b",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.16.2"
+          ],
+          "version": "0.16.0+MC1.16.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.16.2/hermes-0.16.0+MC1.16.2.jar",
+          "modHash": "680c59ff1dff19bc3d46da6b19dccb2745e78fcdf793ca94366e175bf181da998ff312413e1ae6393d2fef54bb4b36a3a5b124fac191d2d7fa9664a1f9b95084",
+          "fileHash": "347958ac007892dedf280cf6c7e172a6610f1d87eece7d7dc6a570a32ca0fb78872a9be8b118500670bf37f744d1521e661df4aa4b153c134487aa0c6a756c6b",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.16.3"
+          ],
+          "version": "0.16.0+MC1.16.3",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.16.3/hermes-0.16.0+MC1.16.3.jar",
+          "modHash": "b201d4c9dd386da1f8cdc14091f65d304f339595d0adef60322b6615d9e38039e9bb1e8a1cce9893b3d429ca8ffae2d7ebf48de3d6f0bfd95c1bfb76a5feb3c4",
+          "fileHash": "c2c49abd93d7516f4956b6f0138825fe3a3fc329c2d385111bd5bb4014b69cbf674a1f15b5d0a2cc4a23d183d86102ed3f26b242e7106cded81adb1d42120454",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.16.4"
+          ],
+          "version": "0.16.0+MC1.16.4",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.16.4/hermes-0.16.0+MC1.16.4.jar",
+          "modHash": "24fb3f5f57277abba2fd25c35a544af0f01ce67fe2430d24edd66db0543f1c0c2199c76ed301e423734ebe487ae28076084b1deb70474c93d4d132276e693c13",
+          "fileHash": "c134103f80e582ccf20715508c0622ff6c4a203c620cc109a5528bf4b3a91887e8bd5318784806e9232c687bb655014907fd812f473cef952655c1ecae6887bb",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.16.5"
+          ],
+          "version": "0.16.0+MC1.16.5",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.16.5/hermes-0.16.0+MC1.16.5.jar",
+          "modHash": "69547af7016ce296136767ad1680eb516c616b81b709ecdadd1c9fce9810c4081a884002d351c0e357db6bf37981d610894acef5ebb07697d21898af4e0ed666",
+          "fileHash": "0df098a1fc22254e088fac091f47622e1f40f002d2ff8fa39211dc87fafac7422c030e328c85682eec7ef801e1498a1ec53eec356a5165e5c127724b52acce1a",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.16"
+          ],
+          "version": "0.16.0+MC1.16",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.16/hermes-0.16.0+MC1.16.jar",
+          "modHash": "a03a709e37840a2862a4f33711063d4194276070f4d453aad5a53174f325183ea7ed675dd0b1b0270caf77fc9d58c9f99b18bbaf7d56cf944bf93216e8943c4e",
+          "fileHash": "48c20cf9634dde500d239a7358be1b64e3ebb4451f40e19b34c466c17542872e3f607246e92c2eaf2d234376ecd8649067b2fadc6395bdec6415f526065ae0d7",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.17.1"
+          ],
+          "version": "0.16.0+MC1.17.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.17.1/hermes-0.16.0+MC1.17.1.jar",
+          "modHash": "8a6c62ca5a796522b85f8a2ade7f67b7c1154ddd4ccdeac6d246f8e48c0fdafaee431db70d5a7e6eebc25ef087af3339cb271a5d30e805fedd86845d6861b4ac",
+          "fileHash": "36fc4e496566d2851555dfb5271f057cfa07ea764be21067c1fa60950b1a498999fda9dbb33f77644cc80b366988ca30af48f3810bef59a23aa93977ad4a67da",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.17"
+          ],
+          "version": "0.16.0+MC1.17",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.17/hermes-0.16.0+MC1.17.jar",
+          "modHash": "1f980a75633d017c609b742e0188839a9710f48e04bedd9b2a5acb95c1f09b2942705d0c2c017a274ae060a5983f89deac3b56e0f6c5bf45ac43ffa35d612123",
+          "fileHash": "e87bbe68b809bb5d4800c93d3a1b49fdd98098f457932efb9057292fc16347053d95b97f20b0d2ea7458dc1d71a76c0f479e22e4d1fbee46c57bb8b0f6ce16c2",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.18.1"
+          ],
+          "version": "0.16.0+MC1.18.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.18.1/hermes-0.16.0+MC1.18.1.jar",
+          "modHash": "22d65bd49b9999092bea461f322e447ce46785d601d1c9f47df583cd31e89b65cf176f5ef7758ae9462c7ca7aac4786404e3ea561c95a6f05e781ce9a2804072",
+          "fileHash": "aa60da5699add08a9b8cf9c04048364d7437c7a0120cfabe0385baa93f240a4235749fa4cd177e44398a6707ae011548ceb8a3ecd760fe1480cb7bae673842f3",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.18.2"
+          ],
+          "version": "0.16.0+MC1.18.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.18.2/hermes-0.16.0+MC1.18.2.jar",
+          "modHash": "a0a725ec43f077eaf42a941a47fc1adb9ff71a69f5d4b9b72d29d08b825b09e52938f97e760082943b93ecc9a8b42742b70969b6764e6445fe866259d3c4b230",
+          "fileHash": "a5a5b0f575edf8bd13965d4acecae71e913ed6c91c9afa3eb806ced039e13fe02e96d57db34207d8b3205452266792251ced0dfcd1ae9947674a3b1b4e982693",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.18"
+          ],
+          "version": "0.16.0+MC1.18",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.18/hermes-0.16.0+MC1.18.jar",
+          "modHash": "c27141d7b359ca8d4b6ad8289bd25d7d84c3c7c15f53ec1ddfdd2eca885aef718ef9d1732dca5f1b09d5e35e5746b9ff846ededa2bea9f97369d89835747a4e5",
+          "fileHash": "660fee2de711f70300734efc9ada07d5ff153f23d53945f6296df4289afe7f66123c74c7368d37795052d62f756835a34b5866c7b82c65a2f6798316eedf55a5",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.19.1"
+          ],
+          "version": "0.16.0+MC1.19.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.19.1/hermes-0.16.0+MC1.19.1.jar",
+          "modHash": "29bd0736071890342e3ddd9c23467bdd10ddfb59d754f8d9efbe8bead2a90afb9455dc16a4721526d79509f4988da43f77b64ce489ef7e20f3a7cd3c3787ff3f",
+          "fileHash": "c1a84dd313d06fb61d02bb88fd5f795cd8d0814266318672b0c333f8cf3b6825066543802e1667c4810dfa75aeb58e3e82374f81bd60d971947dd9d5eb8cea2d",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.19.2"
+          ],
+          "version": "0.16.0+MC1.19.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.19.2/hermes-0.16.0+MC1.19.2.jar",
+          "modHash": "647643981ccd2f8c84db33902ab54026790f1468c7303caf0d51e87942b4944a198950763c8cda925632efbbc8ade4027a21b7c13aef878244399971de7af018",
+          "fileHash": "ffcccdd22e950d382d7d6eb000ce83841301b2da58d7f4835e4a0989dbadeea0805c9198cf72bee226216a925f45d5262705c03aeddf549d7009727650e007c8",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.19.3"
+          ],
+          "version": "0.16.0+MC1.19.3",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.19.3/hermes-0.16.0+MC1.19.3.jar",
+          "modHash": "b9f917a8814dd90d053da2f4cfbf6442df86bb3209015101ef5e9886820e99410e9aeb44c62731d316e52ed9a93eebcf7d410ee91ab6cef002a3f285fa461f0d",
+          "fileHash": "58d2b607275c73791361a23ed39a50107cafe6662e02408104c0f449c4a3f9e4411e0c5c2a4e1b57bad4a1f7a5a2ca8a8ae3b5d20d924663308e5fc2500939ee",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.19.4"
+          ],
+          "version": "0.16.0+MC1.19.4",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.19.4/hermes-0.16.0+MC1.19.4.jar",
+          "modHash": "ba8a29862c24182ce05ed1ea78ff5f3578c9062863a9bf90cb213e1adde8c41408b89580f92c87233f430c91af12fe4c3351fe9753e423477080e8029af7016c",
+          "fileHash": "34af8882e6503deeacbc0f4a330d1ee9da5b9d92a28e68354e669ec8b5960c38bdae954f65458fd9b5e16e95f4abfde994059f3f30be2bb6ee2d0732cbcaff8d",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.19"
+          ],
+          "version": "0.16.0+MC1.19",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.19/hermes-0.16.0+MC1.19.jar",
+          "modHash": "b69274463151edd07476216b1c0aec6df53ad2280d9c4f74919c9c4748702185583016eefed21554dbfb3e5c9510b41c10fdbae198d07dbcda097247ac97667c",
+          "fileHash": "e3187b8c9d758ad8eed8fc98379ce21f19d619ba46c95f8fc28221e8f9b9b8745acad490df6e10b4209ad947acf9a73a8701c2cf96274ff493141eed0cf3e18c",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.20.1"
+          ],
+          "version": "0.16.0+MC1.20.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.20.1/hermes-0.16.0+MC1.20.1.jar",
+          "modHash": "88f6614dbd323a41de471189c8b33a53d9ef21825fc8843e028a4a147636393694c4c36507ee449cc093270bfaf450cb4639e3f716c2d8afdab387cc36ec7d6c",
+          "fileHash": "f087247fc3eae7833780d85abcb3fb187b8decd33b9654647a7df89af3b467b136ef6b31ad8e62e61ae7fbdcf3d1471b9c1c4712a136244e14e6c2a5b6a10c21",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.20.2"
+          ],
+          "version": "0.16.0+MC1.20.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.20.2/hermes-0.16.0+MC1.20.2.jar",
+          "modHash": "e217b7a313aebb16dfe701f3baa6dd6d1a5d6759c1748f2e0c2c5e34d5421a53b4d56f49e69f1915ea590b604af0b722720b42705a6e1a1ae5ba7b4e73deb6ac",
+          "fileHash": "1ebaa8c9a223cc489a14c64024cf4939a414671b1055d4eb503461766f010bffc9ab56429180d56eb92cef3778d419cba1232a0a6181951b8ef1ed07d29e9ccb",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.20.3"
+          ],
+          "version": "0.16.0+MC1.20.3",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.20.3/hermes-0.16.0+MC1.20.3.jar",
+          "modHash": "7a9c4fbc1cb2707df5c0df46300dd14de02f323466db1905fc2a1ace190a5dba605913dbc2406f6277ec94b2316a6137107d6c83256b87f4937f49ca5a6515f0",
+          "fileHash": "d6a82b9c279244de2da28a982b058d88fbf8e9173531deeeb08b766ced9a574337f86087c9af980a8df84f8fdd70373cd3a754713c5193c7c26e6fca5362533c",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.20.4"
+          ],
+          "version": "0.16.0+MC1.20.4",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.20.4/hermes-0.16.0+MC1.20.4.jar",
+          "modHash": "0c9506e687335c448114d27ba6995e1f5a87a0bb1f34c8d617a39d2ced672a82763eb7c013dd0fc4750eb3e847dc6b0cb94bdc0a1b93d07157e5f1e6deb346b0",
+          "fileHash": "0db8df17f4722e4f96f1ad243ad6ac43e14ce820cd1e32772b62016b432c3100c4ac40e11287a7919f00945b9f0a557058086b6ab147cfcae94dd5ef0e565ae4",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.20.5"
+          ],
+          "version": "0.16.0+MC1.20.5",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.20.5/hermes-0.16.0+MC1.20.5.jar",
+          "modHash": "70b0a8a8a0780070a697e54e05b0dfaa22bf4a6dd3b213a10a4ff10354fece572e0c66aa52daaabff0b38d97e70f62de097214a0e09b2b23951d4de8a11dfa8c",
+          "fileHash": "435691025908d1ef310fb3aa54d9c34c30e4d0abbde93f83ccec1b97f0729ca48ef0b44f7a124e59cee1dcd56504e4b0ed212f12eb129427c3db7966a2be4f2b",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.20.6"
+          ],
+          "version": "0.16.0+MC1.20.6",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.20.6/hermes-0.16.0+MC1.20.6.jar",
+          "modHash": "6dad5223dde1f7170a1719011c06ed16a0db90d51669397f06581949d8dae63638549c82b05f1a5390e13a962565dd8922fdeaf2550793232221b688feea280b",
+          "fileHash": "e89257d43b2b8387b71b4fa5c64b4085e495fba4664dcb8707b17bfa433684929b9aa1bafdf4430bfb698587fc59bdf8cadbec4fcaa484ac7f8a94bf41a2b73e",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.20"
+          ],
+          "version": "0.16.0+MC1.20",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.20/hermes-0.16.0+MC1.20.jar",
+          "modHash": "7ba230d82cc1fb835029dbfddbfa642a027d6d89e67c5115e76857d204c7c8bf1c430a7557a9e6d04f791c6d40f7b45f3189a256d69d73d57ba5f069e2eb330b",
+          "fileHash": "fb5639d9972e4229252b1909ceef49c2d6a1a7670b977643a38e073b9ebd7ca9cc22ad8f2b0b82850cfc56f674c28cf36dd5440ce5005a3627983fafb34c006c",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.1"
+          ],
+          "version": "0.16.0+MC1.21.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.1/hermes-0.16.0+MC1.21.1.jar",
+          "modHash": "792cdb3926c54ed52e0e0330a422b4cffb562ad1857bbbd378d0c36f0d2faab8d3e6818885cd7759918c083a457f959c9d8f2555220a6c365bf9929ba7adf2ee",
+          "fileHash": "9a0786cd68346346c8b720dabc6ca085d3f9da7ba9f7ce607c838fc06d760a83a63f582b431be79be37ee8124e2add3dd9d8cb2e64317f85759283638a46c8a9",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.10"
+          ],
+          "version": "0.16.0+MC1.21.10",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.10/hermes-0.16.0+MC1.21.10.jar",
+          "modHash": "6aff96e94772686df7d3d146a3971fd623b70cb63ceedd43ab2d47c24ad6207339651776dd60d34570a8928f468773973e329fdc5a14082a79c779f77f11f670",
+          "fileHash": "b5ebcfc3cdf5e5fa3ecec2fa6b516a5e21c56de3f2a7160d04990bd2233d90808726f4ca6a5e0573236095620e854d885c2fd8474dcc2a15e6461727549c3000",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.11"
+          ],
+          "version": "0.16.0+MC1.21.11",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.11/hermes-0.16.0+MC1.21.11.jar",
+          "modHash": "5f3f7b17c4195b19bac792d210f22b0421677435432c2796b7722d462c67b85de16ee823470a1668404b9cf61e3c0c966568043bdea41df64aada85aba6830bc",
+          "fileHash": "02d86ecc2ea490083bf86ab2f00a205723ab3b12740fc89aeea5be92ec20a4530a7f21b59145eecdb896db7adfea43b731ba8bc30ad21bc79e1c38e3743cda70",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.2"
+          ],
+          "version": "0.16.0+MC1.21.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.2/hermes-0.16.0+MC1.21.2.jar",
+          "modHash": "5cde133f8116c787ef67282d2f2f216617f220ecb9481bf531cc0b241c745ef5a4ab1849566651ca596dd635c5fd21e374f48adacc19d8b03594bf6019318c7f",
+          "fileHash": "6fdeea0cc991d6998c121e3e807ad403cf743a1e04cafa32623f0dd3d74f8f30d6ed742e2b147560c74cb10b651515511298da75db15628cf4a9f13daa5fad44",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.3"
+          ],
+          "version": "0.16.0+MC1.21.3",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.3/hermes-0.16.0+MC1.21.3.jar",
+          "modHash": "06c4715114aeab8fb085c757c63a5e895274340d12461cb095e6e68bff491b15c97c74b0e0682776ffc49bf7d5b8ebf9ef40ef2ed74a5d47cd453ebfe9637015",
+          "fileHash": "cc87159ac8de883cf404735d745e462b60f086aee4c1a43f00cd769734c4105e38a9c884ed67f1c501865e91f171c6cadd11bf1121fe02c4cc866dd2dbd66e4b",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.4"
+          ],
+          "version": "0.16.0+MC1.21.4",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.4/hermes-0.16.0+MC1.21.4.jar",
+          "modHash": "4d8e6c9e63a2edab510d1636057fe15e2fcb353cf7ed6ac86207a15e5f18c869a78f41e57beded9636ad8467fa92ae9c4029b55f319fb099f003efc1a3df6e11",
+          "fileHash": "6674bea6e8475d5f48f6d6ae41739ac41dcf6182fb7ad7408741dc7647101430a8e488b8ed17f6993ee8509b51246ec87d8b8b1a9f39bf78153d093c893f97d5",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.5"
+          ],
+          "version": "0.16.0+MC1.21.5",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.5/hermes-0.16.0+MC1.21.5.jar",
+          "modHash": "69ee0aa92dfd94a65b8af00fc1946028a9f0a4c3b0455fd9326facfde646d2a6b300ec2eb7955a370ca5e5cc5ffd40a6e354093219af8c295efb057ca63dfa17",
+          "fileHash": "1d55cfe86d91244677a26ebe890952280bda51a25d0768913886f0ae3673f3b9a666a2e62ac979d69fdd1443a102799e11db08915f8effb2ddbc1fa8c7a9ef60",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.6"
+          ],
+          "version": "0.16.0+MC1.21.6",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.6/hermes-0.16.0+MC1.21.6.jar",
+          "modHash": "d5be6b384140a682dd695ad138b552c82ad793c52e9536d1d1a36f1e51d7a698567b4280d373b1708a0b684b0efbb71b92530308913900064db29f616a862594",
+          "fileHash": "27560d1233c20a09ca5e0f487676a622728447c4b9675ddcdcb1e409d10fd20f8950fed1abfd4017630228a8084995a923efbed2a83ff3456369b915e094b425",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.7"
+          ],
+          "version": "0.16.0+MC1.21.7",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.7/hermes-0.16.0+MC1.21.7.jar",
+          "modHash": "8e3fb7a50a739f1b91e7d46e471def81a5dacb7a1bcf38e5f132c5d4cb1350fa22a187308069cf58abd687b43d64916fd0fb9b151638d62160f014eb42be2e40",
+          "fileHash": "669475c8679ebf0d4c7d325238afb212a62943fd3357a857897367eeffcc88b7df0b57d2a3ca93b6c8a414bdf0be7f7fd45158e0959b07acd0f2bc2647ab53e6",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.8"
+          ],
+          "version": "0.16.0+MC1.21.8",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.8/hermes-0.16.0+MC1.21.8.jar",
+          "modHash": "744ce09948d906713cf71a096b601a250f97177445ec23d4e831d46f85768d2526a9a5d8d488fd0b6df29607f6148a2b05af71de1b93003496817e5689d191d0",
+          "fileHash": "c79bc51c158e166473f8ae7ad1f48680b13d4d8c0b78a1c289f9d7777a42afcd6f319b08879a3360b11408d16818ecd9ed75ceb103122f1296091085df29f39d",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.9"
+          ],
+          "version": "0.16.0+MC1.21.9",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.9/hermes-0.16.0+MC1.21.9.jar",
+          "modHash": "35037fd884aab2c979ae385f5827bb58120a9ead9303671d77e6df236f7cc956c4c48e1eeab204703297393c0464952cc2a2f879cb074684ed46c55ddcd22454",
+          "fileHash": "0ff2a58762fd6bed7af9428244fac163cd833a807a409ddfdcd38d4d3437b83dc55350e9bf9097e3583d9129caa73d013e2f7b7ae422870a4da9bda18985b015",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21"
+          ],
+          "version": "0.16.0+MC1.21",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21/hermes-0.16.0+MC1.21.jar",
+          "modHash": "76d14af215e4399af79628fa25557cabe167d4cb6c98461b797baea4637c170b9cb8159946d42a0bbbea72b3f00b20d6e6b6fc15248cc2c779d66315b24743c4",
+          "fileHash": "74e81f3473c468d3645308fc579e9a156009c9b5ccf24418b3429b8074f1a9458e28ba871d391faf7bf96173576bc935a8e7aafa3b1feca3b6ef8bfd5ed02574",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            },
+            {
+              "modid": "wfvaio",
+              "name": "Which Fabric Variant Am I On?",
+              "description": "A small library that can detect which set of intermediary or which Fabric flavor/variant the game is running on.",
+              "version": "1.3.0",
+              "modHash": "3b166521fdb9ff29a5971d61894d74434460b51847438fef7130d6cc7ca135579b9f0e2ba785a511b81050a367b3904cb5837f7674a14c118e17338ee18001cb"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "26.1.1"
+          ],
+          "version": "0.16.0+MC26.1.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/26.1.1/hermes-0.16.0+MC26.1.1.jar",
+          "modHash": "f9f611772f40f4b8c0477da8e3aed9aeb15aeb122441de235eb39ffeb271ffc26a1c701bf6520da755ad98d933e4d6a75843773485b3f4852a39c403e9478034",
+          "fileHash": "f8b09b19703b35d6cef1a3cf8f2fca052d103e32e62b8b5c3a43433afe0b5804dbf95645eb6df13f7919003887b133f381befc5164eb18ec03d94081881b3a48",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "26.1.2"
+          ],
+          "version": "0.16.0+MC26.1.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/26.1.2/hermes-0.16.0+MC26.1.2.jar",
+          "modHash": "baa68f263d3f19e78a920b708c9dcb9a56ef66933ab4a90374614287c6d68c91e0a75e2961e9016303e88fe5e6678a5645f08197d21a89c0b09c7428bed5c769",
+          "fileHash": "d1be8c855441e6927e499da54cb3b1ea9ba3e885ca141087a7816707fd13092aa04d4cf908c102a97f15560edec6c0b6956eb8e51ea7953c8fb452900e5481ba",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "26.1"
+          ],
+          "version": "0.16.0+MC26.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/26.1/hermes-0.16.0+MC26.1.jar",
+          "modHash": "326d11dc07db925d9b5d5a77e4a0ddfbf307156cf6ab55b84d6293d61c261f612e6eb6ab37d33e02b0c60c4ed2a82ea21ce3147080b8dbe7985fb2529ee21b9c",
+          "fileHash": "00c59000f66dacbf29bc1dd6ee44a0397c78390101511e8fc09b6b97132819b6bfe0ed2ad13594888f46e3abfc0411611d67fb6bc0eec903e43c7a05eb5de674",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "26.2"
+          ],
+          "version": "0.16.0+MC26.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/26.2/hermes-0.16.0+MC26.2.jar",
+          "modHash": "e5b7c1e4bc8d2dbf9d9b65c8188b9ae06ec88689a6e713ac4bc2bd2515e4c3b3c7bd59f447adfa9e7b0323d7281dee5054cf61232395a55696520fbaa15a5177",
+          "fileHash": "e30c0f8fbcddecf3d3ae7e9772733af9784c9f1fc32420f0571f99817cff7e437f1544de3bc6b9c4e6f340a125aa11a875ad7d2415db97f76a81c32e91fed3fb",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "target_version": [],
+          "version": "0.16.0+MC26.3",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/26.3-26.3.99/hermes-0.16.0+MC26.3.jar",
+          "modHash": "ef3a1d2c1bfdc8dc76febe2f1478f00f677e3cef5c3690d56e0f97c85721f853411f31ab58a9f00d77b5742f446bd6477f63fad18c875cbdd91fba9baf8101c7",
+          "fileHash": "49bba73ea5fb510f07af2246bc2298626a36522eed4ebc1383521187ca90513970de6fd28485cb240210ab65262725419a6cf968e96ac63dcfc6a5ef124628c8",
+          "legalTimestamp": 1791411363,
+          "bundledMods": [
+            {
+              "modid": "hermes-core",
+              "name": "Hermes Core",
+              "description": "Constants and instance info functionality for Hermes",
+              "version": "0.3.2",
+              "modHash": "caa19cdec9d2b3e0a43f7c8b4a268d7de8a4c51a561560805ec1ea91c22af1b084458f294a8bb4518d48134ff3c493423ce358d718ee30b4d1d16b3dc7d3111c",
+              "bundledMods": [
+                {
+                  "modid": "com_google_code_gson_gson",
+                  "name": "gson",
+                  "description": "",
+                  "version": "2.10.1",
+                  "modHash": "fc0525bc6f6edb67f0ccd77df6768ed2098fb30b58ba7cd06bf1def1cac171f03fede4a335681226afca76d48b4d0adab2def6a2c3c221a06f16169c95d2081c"
+                }
+              ]
+            }
+          ]
+        },
         {
           "target_version": [
             "1.14.1"
@@ -9530,6 +11181,25 @@
       "versions": [
         {
           "target_version": [
+            "26.3"
+          ],
+          "version": "0.3.2",
+          "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/UugdIYJw/krypton-0.3.2.jar",
+          "modHash": "aec84988d0257c90655923f12427763a5a04c0093852cbebc57df875821c80137c75e1ad77bc553cff0de5b56fe663a166a19cd8874516a16ec409475d95c11d",
+          "fileHash": "d1d57ebd41395b75b01f130cd9503eb8d208212424a399ff9f367f50be8fbc1c6472442b33c686e777c3148f6a609520e8fb732c755157c358cb207fd4d1123a",
+          "legalTimestamp": 1791411340,
+          "bundledMods": [
+            {
+              "modid": "com_velocitypowered_velocity-native",
+              "name": "velocity-native",
+              "description": "",
+              "version": "3.4.0-SNAPSHOT",
+              "modHash": "5dd1b1bfb0861d91841a039762b34db1ec72398f954a917c9e3aa0c899bd93eab35c467cf56a5940ecaf52c5b723d08f7301c298481661a18939c8028d61190b"
+            }
+          ]
+        },
+        {
+          "target_version": [
             "26.2"
           ],
           "version": "0.3.1",
@@ -10307,6 +11977,16 @@
       "description": "Lithium is a free and open-source optimization mod for Minecraft which makes a wide range of performance improvements to the game.",
       "sources": "https://github.com/KingContaria/lithium-mcsr",
       "versions": [
+        {
+          "target_version": [
+            "26.3"
+          ],
+          "version": "0.26.2+mc26.3",
+          "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/xS0Q8LSi/lithium-fabric-0.26.2%2Bmc26.3.jar",
+          "modHash": "1ebc22b85c29d118172e21742808c4f282689f17a877fbdffabdae00912922c8969ef721014ccd888e86b569abe6c8a9b5c1c4ac5ab70a9e4e46b7d92d50f293",
+          "fileHash": "4d7fee66132eedc71feab9390b92c95d7058edbdad0fecfac1d836a2950b97a7ca463afbede61c7ef361ce65e1f927ab9e89dde5bf2e0e0ce486afb5c5dbee40",
+          "legalTimestamp": 1791411340
+        },
         {
           "target_version": [],
           "version": "0.24.7+mc26.1.2",
@@ -12298,6 +13978,231 @@
       "versions": [
         {
           "target_version": [
+            "1.17",
+            "1.17.1",
+            "1.18",
+            "1.18.1",
+            "1.18.2"
+          ],
+          "version": "1.2.5+1.17-1.18.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.17-1.18.2/planifolia-1.2.5+1.17-1.18.2.jar",
+          "modHash": "0afe0974f86ba6b1da424bc8a199788f0984a21c8337ea3816450bf80df227695da2d8c92dc2a7ee324883d69d8a9ed25ccc6229f3391a9637c3497985adaf02",
+          "fileHash": "a445d7975e9d73c4e96bd0dd304012c3ff2eeef308e664b8391170b10e908522d881f3b495f9ca7eb35d94c72cb31612d283515b1d380773d1a8f47d93ad82e9",
+          "legalTimestamp": 1791411320,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.19",
+            "1.19.1",
+            "1.19.2",
+            "1.19.3",
+            "1.19.4",
+            "1.20",
+            "1.20.1",
+            "1.20.2",
+            "1.20.3",
+            "1.20.4",
+            "1.20.5",
+            "1.20.6"
+          ],
+          "version": "1.2.5+1.19-1.20.6",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.19-1.20.6/planifolia-1.2.5+1.19-1.20.6.jar",
+          "modHash": "93987d645770f87df8f5f38fd87ab433a779a2d04c161ef9268ae4ac8bac0e70d217c50351e90b132de65b5f27dc32e126de6f9e90c889f33741ddca380e153d",
+          "fileHash": "a2cca74b24a6c1af5d6f4a263e9c3c6438589c4ffce76fb3ba5627e3f30a026b4edc428cc28f73aa10ddf09f6bc6f71e0f4e21cf9b32f2e9b82bd5dd9f0de25d",
+          "legalTimestamp": 1791411320,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.1"
+          ],
+          "version": "1.2.5+1.21.1+sodium-0.8",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.21.1/planifolia-1.2.5+1.21.1+sodium-0.8.jar",
+          "modHash": "f3e009c41693425b87120cb2b326bbd635d8e7a149634e73ddacdaecc046adee4e08024fb54f22cfbbbd3c846b9fedb1285acb19afc8a701e51a6cb1fa4b5a76",
+          "fileHash": "9e636b3f9994c0a27ee9b6b1caaf40557ed5ecdba1b951c49361cd8d092d08243fb756b85ef7e655de18de9f38191845aa2838bac7987baec7c56f056fd495db",
+          "legalTimestamp": 1791411320,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.11"
+          ],
+          "version": "1.2.5+1.21.11",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.21.11/planifolia-1.2.5+1.21.11.jar",
+          "modHash": "313305c5ceb2ae53feac8bc5f32953149a397611f0fbe527c479eae3f3c06f9ddef0a7b63a5b69d8c5a3fa5120a875c0fa89fb2de5fd09bcf5701c44b550bfab",
+          "fileHash": "bc6f2a4e76552e9fe35b6041fda1158d193d51b297443b0e16e25b64a950421177647032e641630edeb5a44a653ea44b76c3d49677063153727edf16ecd94816",
+          "legalTimestamp": 1791411320,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.2",
+            "1.21.3",
+            "1.21.4",
+            "1.21.5"
+          ],
+          "version": "1.2.5+1.21.2-1.21.5",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.21.2-1.21.5/planifolia-1.2.5+1.21.2-1.21.5.jar",
+          "modHash": "32c29fd8a334f87abb2c84f874481a5d830a4320ae9ff5e98c6bc222b8f0296ef7313b7af422b5327bc325aa4a93deee27383628bf415406f26a12c5ad8fb944",
+          "fileHash": "c000a2f4887e3b81032ccd46ab0987d4eb7f7b9979cf698b0051c01efdf73b1f0c29869721b2219102cb137bc90e8534df220e26ec3030a09d27dc568947f328",
+          "legalTimestamp": 1791411320,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21.6",
+            "1.21.7",
+            "1.21.8"
+          ],
+          "version": "1.2.5+1.21.6-1.21.8",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.21.6-1.21.8/planifolia-1.2.5+1.21.6-1.21.8.jar",
+          "modHash": "aac387228021ed56dd5afc5dfc88d50eaf3ba3ce90837f3f5fd891a04b2e59f56969fd3819d7b122384b094cabf99a5dc3b07889c582744206b9eb872c98cd5b",
+          "fileHash": "c5c5cf2232ce9cb495f773c1c13b15695ca888a5d4cc03976eeaa9b6834a720d384525be0a73d02e9b8097f92aeae153707a78ddec809dde538498d9f3a55fd9",
+          "legalTimestamp": 1791411320,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [],
+          "version": "1.2.5+1.21.9-1.21.10",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.21.9-1.21.10/planifolia-1.2.5+1.21.9-1.21.10.jar",
+          "modHash": "67be42d2b4d12eed14500eeb412bb08e83bed53b8150148315bb2d7550b857a446ec995963451052ff15919672af1698d6609a798b4b003a8904d98a7ffe2a3b",
+          "fileHash": "c8e4c617f576cd3749a9fc36d0eaaf8bffd661da0f800d0dd5e021e798327ed94e9fe21b9c88bd8294054e254e31faf7a8ba5c4680b9edd593bf5fdeb22d04f1",
+          "legalTimestamp": 1791411320,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "1.21"
+          ],
+          "version": "1.2.5+1.21-1.21.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.21/planifolia-1.2.5+1.21-1.21.1.jar",
+          "modHash": "dafcbcb601b4ce43581105deb3105e729a551c12dee30b5c4ca42897d56152cf60248a13144b46e96e99e443fe58e69ae3f6e8ecc48986d68f042f73354a4209",
+          "fileHash": "1b2a8301f3dd9b78ec6b5eca200f646228174aaadc7412ee5442a4a63371fa2e86bfbf4442f0696a157febbf116dee8ab6421f797906993d966776a79105a85a",
+          "legalTimestamp": 1791411320,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [],
+          "version": "1.2.5+26.1-26.1.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/26.1-26.1.2/planifolia-1.2.5+26.1-26.1.2.jar",
+          "modHash": "49d3405f773295f09c86b6f77690c360558f09393e863848691a444c358e9425a90feed865a6ec16a6e9ee25cc16022c9d030412ee3972e4c54459a8f70b7097",
+          "fileHash": "f27f2e6ea9a1a0ec9d11fe44037151e118bc97cf6c857fa01fa2a986478c7eda706868b5f4d5a2c53b9e9d4af95339fc0e0c055ee259f02a50e4400378cba51b",
+          "legalTimestamp": 1791411320,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "26.2"
+          ],
+          "version": "1.2.5+26.2",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/26.2/planifolia-1.2.5+26.2.jar",
+          "modHash": "ab14a5f251375288dbb82cfdfc748cfc3b3041e6fa2ef5d2a68ffb2c59a744db90098882b82159aed6ac76e8889ad976e326fc359dafe1f23e4cd20eadbd9589",
+          "fileHash": "8074214dfcd90ca613526eebe8fe2ae5d9602e0b918e17fa91229660a569471391ecc3381c235d06a352872fe37d74e4f350c62118eb163be835dc55dd4f6d45",
+          "legalTimestamp": 1791411320,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "26.3"
+          ],
+          "version": "1.2.5+26.3",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/26.3/planifolia-1.2.5+26.3.jar",
+          "modHash": "2ec47a9ed73066352f000023ce2e6ad851ed66c353534c4a98a05339517c873b73e56172f3d7c476d1142fd73dbb95ca7881925196fbaf2f7e40467b20e46bbc",
+          "fileHash": "d5d8aefbdddb171d6c2424d440fd9d563490d4c205acd1ab04d7a07072c1f32ffc976b5bd1527035ff54b39fb36111ee5755cd6cd753a7369f744ce81f408e86",
+          "legalTimestamp": 1791411320,
+          "bundledMods": [
+            {
+              "modid": "mixinsquared",
+              "name": "MixinSquared",
+              "description": "Mixin library for mixin'ing into other mod's mixins",
+              "version": "0.2.0-beta.6",
+              "modHash": "84de3998da0f0cd8f2aed847fa7101c487e88dce9c5229ec51e394ddd105e1a2908b9d3110e5934f2b2bf86b6d58c6fadcfd3f7cecca88586ee3ada1983f37f6"
+            }
+          ]
+        },
+        {
+          "target_version": [
             "1.19",
             "1.19.1",
             "1.19.2",
@@ -13112,6 +15017,16 @@
       "description": "Generates worlds in the background for faster resetting.",
       "sources": "https://github.com/KingContaria/seedqueue",
       "versions": [
+        {
+          "target_version": [
+            "1.16.1"
+          ],
+          "version": "1.8+1.16.1",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/a7ce5b5dfd00e7d5cf25400592921606e7485ae9/legal-mods/seedqueue/1.16.1/seedqueue-1.8+1.16.1.jar",
+          "modHash": "9e1546763b8085601bbcf15824616c86d115f35870ec4585f8fb585a926128cf39057d124f992c9b3cc8d8dfb7e54e2db74578bb8cf9dc9d3c7dc5050344c0b1",
+          "fileHash": "d68793d76f0973ece4c72fee3df15ead56fead189ed14c9fbdd0e61084d73f5c7ced868e7c30a25bcdb3ccd63ba370f5806f326ef28f015acdcda052bb53c460",
+          "legalTimestamp": 1791411388
+        },
         {
           "target_version": [
             "1.16.1"
@@ -14488,9 +16403,78 @@
     {
       "modid": "sleepbackground",
       "name": "SleepBackground",
-      "description": "My instances are looks want to sleep",
+      "description": "Dynamically adjusts FPS on pause screen so minecraft doesn't hog resources in background.",
       "sources": "https://github.com/RedLime/SleepBackground",
       "versions": [
+        {
+          "target_version": [
+            "1.3.1",
+            "1.3.2",
+            "1.4",
+            "1.4.1",
+            "1.4.2",
+            "1.4.3",
+            "1.4.4",
+            "1.4.5",
+            "1.4.6",
+            "1.4.7",
+            "1.5",
+            "1.5.1",
+            "1.5.2",
+            "1.6",
+            "1.6.1",
+            "1.6.2",
+            "1.6.3",
+            "1.6.4",
+            "1.7",
+            "1.7.1",
+            "1.7.2",
+            "1.7.3",
+            "1.7.4",
+            "1.7.5",
+            "1.7.6",
+            "1.7.7",
+            "1.7.8",
+            "1.7.9",
+            "1.7.10",
+            "1.8",
+            "1.8.1",
+            "1.8.2",
+            "1.8.3",
+            "1.8.4",
+            "1.8.5",
+            "1.8.6",
+            "1.8.7",
+            "1.8.8",
+            "1.8.9",
+            "1.9.4",
+            "1.10.2",
+            "1.11.2",
+            "1.12.2"
+          ],
+          "version": "4.0.1+1.3-1.12",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/c63aca7229321a68028193501a3f292109230039/legal-mods/sleepbackground/1.3.1-1.12.2/sleepbackground-4.0.1+1.3-1.12.jar",
+          "modHash": "9445fc056749b7d8d07940234cb90067487f48c61c1a253ac0a6c515ba25f75a21feaa48ab0aac2d10e6f09fd6dfb44fbfb6dfc7d0add1c3a1b1644fafaaa758",
+          "fileHash": "8b052710f0e1b76229b7def15d8d9bd291b318853e83a9206f18f1f440ca231a712d0489e1ce3cc74d08bbc063b3004a234e75144602508170eb01de1ac902d6",
+          "legalTimestamp": 1789886326,
+          "recommended": false,
+          "bundledMods": [
+            {
+              "modid": "commons-io_commons-io",
+              "name": "commons-io",
+              "description": "",
+              "version": "2.22.0",
+              "modHash": "e46f29617bb3a85b27a8a18eeebd1d0870ff5c6ae5a08b1f38b190441e6ef1e05f48ba315d07d0d31f75192b0217de6608616b7d9ee24e4ee64cfd9212de3e3c"
+            },
+            {
+              "modid": "com_google_code_gson_gson",
+              "name": "gson",
+              "description": "",
+              "version": "2.14.0",
+              "modHash": "b37816a9dcc8b757483905b6965aa34ccd66f1c2082a94513a6dee8d991d21ec702efcbfa9f77c35a09f279cb8eff06b239cfc8b24936244cf600379b792a911"
+            }
+          ]
+        },
         {
           "target_version": [
             "1.7.1",
@@ -14815,6 +16799,306 @@
       "description": "Sodium is a powerful rendering engine for Minecraft which greatly improves frame rates and micro-stutter, while fixing many graphical issues",
       "sources": "https://github.com/Minecraft-Java-Edition-Speedrunning/sodium",
       "versions": [
+        {
+          "target_version": [
+            "1.21.11"
+          ],
+          "version": "0.8.15-beta.1+mc1.21.11",
+          "url": "https://cdn.modrinth.com/data/AANobbMI/versions/RB7CDjTS/sodium-fabric-0.8.15-beta.1%2Bmc1.21.11.jar",
+          "modHash": "d771a7a08a3e18a2c51735d11375d906cf7b0dc985bc556205da6d14e6b5bad4f3d8db7c623962e22d1cb17cda4342939767e1bda0bf21786b2fc35e2c6ae76b",
+          "fileHash": "9d4270f5cff0a128bcadbf74f272c2de53fbe30389f307273bbcbaafdc30618ab30eea5f51b8bb7f95c0a17066c3f14c9323a7082cc809afd14994c7767534fa",
+          "legalTimestamp": 1791411340,
+          "bundledMods": [
+            {
+              "modid": "fabric-api-base",
+              "name": "Fabric API Base",
+              "description": "Contains the essentials for Fabric API modules.",
+              "version": "1.0.5+4ebb5c083e",
+              "modHash": "6b2fdcfd84d45643ba42962425cd9d5cede0b07a0917b3ec2b07dc02e4461f0287d7239e43f0e8ee499c7a7d3af9c9e004c312a76842c953088ea23c8a28b499"
+            },
+            {
+              "modid": "fabric-block-view-api-v2",
+              "name": "Fabric BlockView API (v2)",
+              "description": "Hooks for block views",
+              "version": "1.0.39+4ebb5c083e",
+              "modHash": "f32459d2a04880afe324c16ba289ad4725efa7ae82f5606d51bdf7495d01b3336e6b0c973f7c998496c4c5f45697d522dc38814c9497abb06aa7336739e33b58"
+            },
+            {
+              "modid": "fabric-lifecycle-events-v1",
+              "name": "Fabric Lifecycle Events (v1)",
+              "description": "Events for the game's lifecycle.",
+              "version": "2.6.15+4ebb5c083e",
+              "modHash": "f3960c774d1b7ef35343ad0ece1b78a1bff5109a2961795a5dfff6ec0e1876771b9a42452ce92958c19800c0c46d7bde7e794a01c4085cf4c6241ad8ce3ce52e"
+            },
+            {
+              "modid": "fabric-renderer-api-v1",
+              "name": "Fabric Renderer API (v1)",
+              "description": "Defines rendering extensions for dynamic/fancy block and item models.",
+              "version": "8.0.0+f4ffd2e53e",
+              "modHash": "1730e0c48858746edc3c297a71bea947c81a6d815f0bd39b383a9ed5bf76b02464e9cb5ce7285bda528393f7cf91db15ed90f9a3e6f87a42391c79f66351db51"
+            },
+            {
+              "modid": "fabric-rendering-fluids-v1",
+              "name": "Fabric Rendering Fluids (v1)",
+              "description": "Hooks for registering fluid renders.",
+              "version": "3.1.43+4ebb5c083e",
+              "modHash": "5960f09ffd46d561e88dc18d9b8fab841e32d38a43c915a3e066ccb2daced21ece46a0ab22cd08960ba913dc024f7ddc40e8ae1a69c85ff733f38bdb2b931795"
+            },
+            {
+              "modid": "fabric-rendering-v1",
+              "name": "Fabric Rendering (v1)",
+              "description": "Hooks and registries for rendering-related things.",
+              "version": "16.2.7+f4ffd2e53e",
+              "modHash": "4b858d4d786b123f71cdfe997faeee40beee0a8c79b3b10575b3ee3101d785d62d9eb758c374671dda456c51cec07e21eab268c7fceaa9411d2692245330d261"
+            },
+            {
+              "modid": "fabric-resource-loader-v0",
+              "name": "Fabric Resource Loader (v0)",
+              "description": "Asset and data resource loading.",
+              "version": "3.3.4+4fc5413f3e",
+              "modHash": "29b71ef3fa2291f0082a8ec65548ae28a0fc6be58fd70f4100200337b1828c139d407f9661f6ea241919f3587a31f47db75e70722f514328d063af8be7482f31"
+            },
+            {
+              "modid": "fabric-resource-loader-v1",
+              "name": "Fabric Resource Loader (v1)",
+              "description": "Asset and data resource loading.",
+              "version": "1.0.10+78c8b4663e",
+              "modHash": "634428a1493f70e4523c2d64d1dd4e50a7d925ef1bd5a5d089974ae0171e850c789131d0ba05e9d2f7821ec3a2568858a4a818c97b98f68c0af8d9dc7463ffb1"
+            },
+            {
+              "modid": "fabric-transitive-access-wideners-v1",
+              "name": "Fabric Transitive Access Wideners (v1)",
+              "description": "Contains transitive access wideners that provide access to otherwise inaccessible Minecraft code.",
+              "version": "7.0.8+0107c3da3e",
+              "modHash": "9bd5dc2e1d7d03d197a27b706a763ec1b9996b264bb5c17c9f886e6a46a8041d36b7dba6120ed59f8353ec0173f3d05cadd063c92a0130539cc4484b85167567"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "26.1.2"
+          ],
+          "version": "0.9.2+mc26.1.2",
+          "url": "https://cdn.modrinth.com/data/AANobbMI/versions/tZQ3jqnf/sodium-fabric-0.9.2%2Bmc26.1.2.jar",
+          "modHash": "7ed3baff8a988279c3723a16ef5b38cb58b765904cb81ff25738e09a72969c1173db4399719f41557dbdf6e1a089227a1e0f7b3ef772b2097386411620692217",
+          "fileHash": "9a3cbc8111979fb2cada74d4df24867f4a8a76053b28d76796f0d1c9156cfc96c4f7d88b07072aea8d9574d46b5bc3ebf3b4d23c09c501f0089ee37681743475",
+          "legalTimestamp": 1791411340,
+          "bundledMods": [
+            {
+              "modid": "fabric-api-base",
+              "name": "Fabric API Base",
+              "description": "Contains the essentials for Fabric API modules.",
+              "version": "2.0.3+ece063234c",
+              "modHash": "ac1c8c130061b13a7f81ae73399de472ce5604d4e10411f3a85765b6c17eb01a69af83fc4246db14d83be0df6d8e4cfdbdb33fb901427ea12a9590d0f1ed6565"
+            },
+            {
+              "modid": "fabric-block-getter-api-v2",
+              "name": "Fabric BlockGetter API (v2)",
+              "description": "Hooks for block getters",
+              "version": "2.0.6+ec56b6014c",
+              "modHash": "8cc592cfcfb847f0f7435c7f2259a1d8f7effd8311564e5a9d258fb436640a38ec680825e4ff0035f47d04427fb9951c2d9281aab123938da1e3ac9c8682ab6e"
+            },
+            {
+              "modid": "fabric-lifecycle-events-v1",
+              "name": "Fabric Lifecycle Events (v1)",
+              "description": "Events for the game's lifecycle.",
+              "version": "4.1.0+6d50a0854c",
+              "modHash": "398340eca4c21bf5ceefb9f43407d70c1bec0485321f429b18ee036e68b97ba1d9d5e0ed80ca6dd97f2778c8b59d33f5f48c9e74ec0549dcdf1f05b1332e30f5"
+            },
+            {
+              "modid": "fabric-renderer-api-v1",
+              "name": "Fabric Renderer API (v1)",
+              "description": "Defines rendering extensions for dynamic/fancy block and item models.",
+              "version": "13.0.3+c80601bb4c",
+              "modHash": "2a64e6427ceabaa243d2aea9cd138a607072df03813864e8ec094c25de637252842b2c7715ea448e6317aa00a311172d90278d3d93da0a168a313acc268ac530"
+            },
+            {
+              "modid": "fabric-rendering-fluids-v1",
+              "name": "Fabric Rendering Fluids (v1)",
+              "description": "Hooks for registering fluid renders.",
+              "version": "6.0.1+d871b99e4c",
+              "modHash": "4e238cc02b6da70b2c329916c6d612e69670892e2f39c453d59061ed3b152cf3efd75538f588101609276e871d993b39f820cc238f8f298a1868d61f832a7b2f"
+            },
+            {
+              "modid": "fabric-rendering-v1",
+              "name": "Fabric Rendering (v1)",
+              "description": "Hooks and registries for rendering-related things.",
+              "version": "23.1.0+1403e82c4c",
+              "modHash": "364c6c17c5aa7a79e5441920a713cf0d696ccb581d44739abca756f874fc6c7c11b5067b37294cfed3772f2ceaabfb6a67dc660119ce6f58905dc5596388aa17"
+            },
+            {
+              "modid": "fabric-resource-loader-v0",
+              "name": "Fabric Resource Loader (v0)",
+              "description": "Asset and data resource loading.",
+              "version": "3.3.16+4fc5413f4c",
+              "modHash": "19416a7c52810cfc4c770c897629f0b55928c6257a3950a1b3de5c035c549ebac8e9657f1a8fb2b1c52088b3f02739654f0594584586937da8f93ba5df2d4e98"
+            },
+            {
+              "modid": "fabric-resource-loader-v1",
+              "name": "Fabric Resource Loader (v1)",
+              "description": "Asset and data resource loading.",
+              "version": "2.0.9+d871b99e4c",
+              "modHash": "3f7aa9a3718e184d6dc4e1a28b740fd6b3dda37ddc9ec4687ca819d39ac59907c1ecea01e67f07c31e5643f59f36510c4478877e7e7f8f076e46b0c37922c87d"
+            },
+            {
+              "modid": "fabric-transitive-access-wideners-v1",
+              "name": "Fabric Transitive Access Wideners (v1)",
+              "description": "Contains transitive access wideners that provide access to otherwise inaccessible Minecraft code.",
+              "version": "8.1.0+acd9108d4c",
+              "modHash": "6f9668be4828b98532f2942c2a19c13f786cc7497134aee2b7dabc056a6fb3d625d84067f9c24ea4ed348c85f1b7e86f136cde5ab5969a23a8024613445642d2"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "26.2"
+          ],
+          "version": "0.9.2+mc26.2",
+          "url": "https://cdn.modrinth.com/data/AANobbMI/versions/xJZxADzI/sodium-fabric-0.9.2%2Bmc26.2.jar",
+          "modHash": "f5c3c75e6715beda3a73a6dadad66f1393945e4a462042e106a4c284a2fd85790ab8db1719bfc4715096dba4a82b9c729945a404f85e87bf0527330ce01c5afd",
+          "fileHash": "9b7a7aade8824543ce2a804fddfd04e37f57d1f91c00574e7dc87e554eb1835d888313ee6f715a7599bd729840cf01fd74e02aeae87b4e5a3c10c34a016e407c",
+          "legalTimestamp": 1791411340,
+          "bundledMods": [
+            {
+              "modid": "fabric-api-base",
+              "name": "Fabric API Base",
+              "description": "Contains the essentials for Fabric API modules.",
+              "version": "2.0.4+ece063239c",
+              "modHash": "b422179c42b7f431376287a35035d9803d58d8a01ce10d4d732989423e439db3c107d11cb71592dd6a49fa79fd46017f9d4014d1483e672177ae645b731d5924"
+            },
+            {
+              "modid": "fabric-block-getter-api-v2",
+              "name": "Fabric BlockGetter API (v2)",
+              "description": "Hooks for block getters",
+              "version": "2.0.7+ec56b6019c",
+              "modHash": "d86b0d42a64f1b0e32d8951037a4ab1496f479a6fd14122628657f3001c31cacdedc8e15eac3cfdb0ba91fa476e9c2b6f69ec170f21592fe5184ddaef0a012c5"
+            },
+            {
+              "modid": "fabric-lifecycle-events-v1",
+              "name": "Fabric Lifecycle Events (v1)",
+              "description": "Events for the game's lifecycle.",
+              "version": "4.1.3+4575b05f9c",
+              "modHash": "737b1de7f5b6fd82dda91c42d457fe3e8bccef9b1ff2916dce3ed5cdd6de7abf9b8b93d74eedfd045153638aeb8b2383d45028a3066297e5ad071d1c116691d9"
+            },
+            {
+              "modid": "fabric-renderer-api-v1",
+              "name": "Fabric Renderer API (v1)",
+              "description": "Defines rendering extensions for dynamic/fancy block and item models.",
+              "version": "14.0.1+eec4cc519c",
+              "modHash": "5c10bc64c168e381e3865d5b4396eb2f41dc4b5deba3db919cbe764f78c48ee05108fa02698dd34992ecc98d59e8a96e5b5cc77442248db4dbadbc9f1cb27562"
+            },
+            {
+              "modid": "fabric-rendering-fluids-v1",
+              "name": "Fabric Rendering Fluids (v1)",
+              "description": "Hooks for registering fluid renders.",
+              "version": "6.0.4+06488ac19c",
+              "modHash": "f8188ba7cf500c8ba388bb69a0359d68902377cd326fe821f035a266b8c2267e862f352f39ae886df5c16d7a89398cffdb865b4ba01b194cc10bec06824e38d8"
+            },
+            {
+              "modid": "fabric-rendering-v1",
+              "name": "Fabric Rendering (v1)",
+              "description": "Hooks and registries for rendering-related things.",
+              "version": "25.1.6+46a6d00c9c",
+              "modHash": "49d3ea70929a1a577933f4a28ee8245fe30d4ba92165e57c617eb2ce1276c36f67bcbad342e493163c71e687d90e1dd9b449b59b14d97ed2cb05ec2562781b6d"
+            },
+            {
+              "modid": "fabric-resource-loader-v0",
+              "name": "Fabric Resource Loader (v0)",
+              "description": "Asset and data resource loading.",
+              "version": "3.3.20+4fc5413f9c",
+              "modHash": "0a950e7772c47aeb489f72a64d87e74ad39933313844919b4e3fa6deb2a83cc3e7ba2dce756a2eb6d19ae990ca6d6ae19530444f5a16f818939fd0d2e8316aa3"
+            },
+            {
+              "modid": "fabric-resource-loader-v1",
+              "name": "Fabric Resource Loader (v1)",
+              "description": "Asset and data resource loading.",
+              "version": "2.0.13+9edec1269c",
+              "modHash": "1ca75b1dce1f2958a2ab06edf16b9fa2aa2606408086800d6f15d9ea7254642be7174578fbfed273e558b23880f2f7d627eb1679f56ffde01bc127d6c99fc765"
+            },
+            {
+              "modid": "fabric-transitive-access-wideners-v1",
+              "name": "Fabric Transitive Access Wideners (v1)",
+              "description": "Contains transitive access wideners that provide access to otherwise inaccessible Minecraft code.",
+              "version": "8.1.3+e098252d9c",
+              "modHash": "734ba6d3648e6314b8f7e5888e0e2344654ed780b472900d2c4fc9ea0f21a7d45dbb977737206f6295a699d5ad638d853239defd670911c8099c7c77e7588d9b"
+            }
+          ]
+        },
+        {
+          "target_version": [
+            "26.3"
+          ],
+          "version": "0.9.3-alpha.1+mc26.3",
+          "url": "https://cdn.modrinth.com/data/AANobbMI/versions/v4PSXean/sodium-fabric-0.9.3-alpha.1%2Bmc26.3.jar",
+          "modHash": "2608839703b5b45ede393e13017c1c5b19bd59ce7b6e9d3e2f9d2e0ee6932a923179f188e5f3ccb8b5fa1d365d4236bfd7030da18d37b75ed549ab13940bfbe5",
+          "fileHash": "8aa044fea0185855e2ca0971b4e3b3bc1ee4c616e3a7d6ca4d4b979fbb99340678c0bf6acd16be04095bc885b75b4caf95401486e91b65239385e98fab6d3542",
+          "legalTimestamp": 1791411340,
+          "bundledMods": [
+            {
+              "modid": "fabric-api-base",
+              "name": "Fabric API Base",
+              "description": "Contains the essentials for Fabric API modules.",
+              "version": "2.0.6+fcdff87f02",
+              "modHash": "7ef9dcb4391cd12f8ecc22861b342ebbf29c0a92f53185c1368fcfeb36025564d65bdf6aefb23037d99a2a61b0b242c5cba569f539f39142cfa8868435776a53"
+            },
+            {
+              "modid": "fabric-block-getter-api-v2",
+              "name": "Fabric BlockGetter API (v2)",
+              "description": "Hooks for block getters",
+              "version": "2.0.9+3434d6d902",
+              "modHash": "c7427e163fa2fc29dd0399389b9afab93987a0eb7ca2435687afc4af10b2f0b1faaa7c8c4d568ccdd9ed970112a1039eb064e3f7795ed88f84658bb373b1e7d5"
+            },
+            {
+              "modid": "fabric-lifecycle-events-v1",
+              "name": "Fabric Lifecycle Events (v1)",
+              "description": "Events for the game's lifecycle.",
+              "version": "4.1.9+ffef5f6702",
+              "modHash": "4f89b453b29c1bf3ab781a7469ad1bd452e0e33d8dcc6f8974dba63ffc9ccddf1f6c442a17f7abd74dfb22558c83abb7ee82999008bf84c72956fcaa88ad777b"
+            },
+            {
+              "modid": "fabric-renderer-api-v1",
+              "name": "Fabric Renderer API (v1)",
+              "description": "Defines rendering extensions for dynamic/fancy block and item models.",
+              "version": "17.0.14+2ce735b802",
+              "modHash": "2ede0d3eada030a7a8841d5a7bab353000196a48ec077b67731132676ce6339a19595c653657be27104f9a2022716c6816942bc2e88de804ecfc7e26e2845e12"
+            },
+            {
+              "modid": "fabric-rendering-fluids-v1",
+              "name": "Fabric Rendering Fluids (v1)",
+              "description": "Hooks for registering fluid renders.",
+              "version": "6.0.6+3434d6d902",
+              "modHash": "3e55150d174db109def0773e51fac756baf503c16fa8be4bfad31f9fab0468e428d227e84a46129041c19e664c4b77d327c54dd5fe9b543272a1a3b13deef7ec"
+            },
+            {
+              "modid": "fabric-rendering-v1",
+              "name": "Fabric Rendering (v1)",
+              "description": "Hooks and registries for rendering-related things.",
+              "version": "27.0.14+901a437c02",
+              "modHash": "f3f9b5286c59930938a9a825c2afc393f4db480bfddefde000ae475c5892cc75604e1f9e7f21cf0be1cca224a460751b8af80ecbb3589e2dd195b35813d1c903"
+            },
+            {
+              "modid": "fabric-resource-loader-v0",
+              "name": "Fabric Resource Loader (v0)",
+              "description": "Asset and data resource loading.",
+              "version": "3.3.26+4fc5413f02",
+              "modHash": "61040998300bfadc23779a3863f4dc14caae99a84759fe8db85bf341236745e9a141bdbd883d7ff18bdfa47c9e16a08d412bcf1406a5c227b1b3c8cf3ed02a23"
+            },
+            {
+              "modid": "fabric-resource-loader-v1",
+              "name": "Fabric Resource Loader (v1)",
+              "description": "Asset and data resource loading.",
+              "version": "3.0.4+fcdff87f02",
+              "modHash": "22d20dccbbe69535537f9d8e1725c4dc9c62685db0e227f892bb8cc4ce026cf035589c155c4f481ff32538987a02696d8be7da94725edd393d28e0d9b8f01ddb"
+            },
+            {
+              "modid": "fabric-transitive-access-wideners-v1",
+              "name": "Fabric Transitive Access Wideners (v1)",
+              "description": "Contains transitive access wideners that provide access to otherwise inaccessible Minecraft code.",
+              "version": "8.1.16+52268a0e02",
+              "modHash": "07a9fd226a3596de4a8b4341d0b5d1f87ff56616a4a9dea37c09f2dc90b4b465769b3883cd67762f95014a568332fef6e1bc93c7aa642e800af90a9cad6e0493"
+            }
+          ]
+        },
         {
           "target_version": [
             "1.21.1"
@@ -19153,6 +21437,37 @@
       "description": "Displays the timer with RTA, IGT in Minecraft",
       "sources": "https://github.com/RedLime/SpeedRunIGT",
       "versions": [
+        {
+          "target_version": [],
+          "version": "14.2+26.3.x",
+          "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9e5137915caac4c86f5717a0e81dc2e9de0c87e6/legal-mods/speedrunigt/26.3-26.3.99/SpeedRunIGT-14.2+26.3.x.jar",
+          "modHash": "c2af6c130749a158ee2fc52e6d2cdbc77be9023b2c1e324555be7e464bb641f4858eebe2f4218bc5427a853388f63dd07ec0f9f177b04118bb51fef367cf8689",
+          "fileHash": "854f84850ec13ecc35ee5cdd867da4aeb00f4116fbb6aaf598ed5141004cfd245cacf8ed75249d54d0412ced438e4d3e6041b5e11388530f8f384732e5cad037",
+          "legalTimestamp": 1791411349,
+          "bundledMods": [
+            {
+              "modid": "fabric-api-base",
+              "name": "Fabric API Base",
+              "description": "Contains the essentials for Fabric API modules.",
+              "version": "2.0.6+fcdff87f5d",
+              "modHash": "757caa6365302947ee848623fcbd0283d1b5dc950eb145265a146770799af89896168bccfd0471302c8e89aad08c7e8c0932e1bade9ab671319a6294cbd49bcf"
+            },
+            {
+              "modid": "fabric-key-mapping-api-v1",
+              "name": "Fabric Key Mapping API (v1)",
+              "description": "Key Mapping registry API.",
+              "version": "2.0.8+3434d6d95d",
+              "modHash": "f88af020733a2476a01156afb9264d3b058175f393f0dd69d967cb02024cdbdb61a6bd27d7a2e747446e11da9104d435919bb09c79abdbbb2bf6dd1c51cbeeb8"
+            },
+            {
+              "modid": "fabric-networking-api-v1",
+              "name": "Fabric Networking API (v1)",
+              "description": "Low-level, vanilla protocol oriented networking hooks.",
+              "version": "6.3.8+fcdff87f5d",
+              "modHash": "db554f3dfc256161c66b5519585e4cc8c6f443ea0c9787075d3f78a91da5777b83b9a446d187391a3f64c7c7f0a0176d97c151eed9051b6b102c5da2aadf53a9"
+            }
+          ]
+        },
         {
           "target_version": [],
           "version": "14.2+26.2.x",

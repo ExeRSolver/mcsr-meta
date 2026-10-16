@@ -259,21 +259,28 @@ fun getBundledMods(jarBytes: ByteArray, bundledJars: List<FabricModJson.File>): 
 }
 
 fun getModHash(jarBytes: ByteArray): String {
-    val entries = mutableListOf<Pair<String, ByteArray?>>()
+    val entries = sortedMapOf<String, ByteArray?>()
 
     ZipInputStream(ByteArrayInputStream(jarBytes)).use { zip ->
-        var entry: ZipEntry? = zip.nextEntry
-        while (entry != null) {
+        while (true) {
+            val entry = zip.nextEntry ?: break
             val name = "/${entry.name.removeSuffix("/")}"
-            val content = if (entry.isDirectory) null else zip.readBytes()
-            entries.add(name to content)
-            entry = zip.nextEntry
+
+            var slashIdx = name.lastIndexOf('/')
+            while (slashIdx > 0) {
+                val parent = name.substring(0, slashIdx)
+                entries.putIfAbsent(parent, null)
+                slashIdx = name.lastIndexOf('/', slashIdx - 1)
+            }
+
+            entries[name] = if (entry.isDirectory) null else zip.readBytes()
+            zip.closeEntry()
         }
     }
 
     val digest = MessageDigest.getInstance("SHA-512")
     digest.update("/".toByteArray(Charsets.UTF_8))
-    entries.sortedBy { it.first }.forEach { (name, content) ->
+    for ((name, content) in entries) {
         digest.update(name.toByteArray(Charsets.UTF_8))
         content?.let { digest.update(it) }
     }

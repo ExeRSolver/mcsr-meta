@@ -3213,7 +3213,7 @@
           ],
           "version": "1.1.3",
           "url": "https://cdn.modrinth.com/data/8dI2tmqs/versions/v1.1.3/FabricProxy-Lite-1.1.3.jar",
-          "modHash": "aac95439b1b8d7c96095b70c915c9460edc8a6c262813f66f32f25235d21ced6e7c591e21f23eacdb83f9583ec80a64dcea920c33153d67d922eac76859cea08",
+          "modHash": "aaf2835492589909c9f59c325cfb057fc07b884518a787da83019bb8bf36fcb5dda2e3fd9a79475889118b3ab0eaa2566a0574d2d8423573b998c5e471b28240",
           "fileHash": "93445cc2df0c26898ebfbe28d5828b5e630762e46d397c56b2f4482ddbc61786b8790e3b1d6fc1cf6745fd5a67083cfdd190a3b3fb928217174fe84bb177caa7",
           "legalTimestamp": 1701215932,
           "bundledMods": [
@@ -3229,7 +3229,7 @@
               "name": "Auto Config v1 Updated",
               "description": "Annotation based API for mod configs, with Cloth Config GUI integration",
               "version": "3.3.1",
-              "modHash": "cf23cd14f00fbfec601d3d79d1ef397154c856b83e8610728f0f59a1f564519abcf65d12a37900c2aff5ad3aa7ce9e93e7c6a09137fac3b04bb386384ebfe581",
+              "modHash": "5f556ba2f2aef6903854997c7b2694cac5c5a1c570f515cb9e33f04298068f8e6bab94e946eb01e058e18d9dae0bfe0bbbf5103a4218baa8b64023350dae7123",
               "bundledMods": [
                 {
                   "modid": "fabric-api-base",
@@ -3248,7 +3248,7 @@
           ],
           "version": "1.1.5",
           "url": "https://cdn.modrinth.com/data/8dI2tmqs/versions/v1.1.5/FabricProxy-Lite-1.1.5.jar",
-          "modHash": "ef278009c4f1d006c703a43084736f6a0a47bc7d3f0c0e46d20007bd5b8357e129b8b1413ef3d5abe0d7187a0ab29e519372e30bb265d680e9543615381a3be6",
+          "modHash": "1376c28dfdf8889904a7cda2be7e1b0c5dd228c3863bccbac3ec4e84b5e0a401b37cbfc555ff92e9475c9b87a1842f164a39cfb9e27438a35d0781a28bbd007e",
           "fileHash": "eba081ef3a4b6884cb11a0970f7fe46ca5d4fc62b3f599a9a62e0434caa283f8dd22a7483d0394805a66397a2b6cc844dcce6a36fe96bb96398b7f8b856c2285",
           "legalTimestamp": 1701215932,
           "bundledMods": [
@@ -3264,7 +3264,7 @@
               "name": "Auto Config v1 Updated",
               "description": "Annotation based API for mod configs, with Cloth Config GUI integration",
               "version": "3.3.1",
-              "modHash": "cf23cd14f00fbfec601d3d79d1ef397154c856b83e8610728f0f59a1f564519abcf65d12a37900c2aff5ad3aa7ce9e93e7c6a09137fac3b04bb386384ebfe581",
+              "modHash": "5f556ba2f2aef6903854997c7b2694cac5c5a1c570f515cb9e33f04298068f8e6bab94e946eb01e058e18d9dae0bfe0bbbf5103a4218baa8b64023350dae7123",
               "bundledMods": [
                 {
                   "modid": "fabric-api-base",
@@ -3283,7 +3283,7 @@
           ],
           "version": "1.1.4",
           "url": "https://cdn.modrinth.com/data/8dI2tmqs/versions/v1.1.4/FabricProxy-Lite-1.1.4.jar",
-          "modHash": "ff7c60c7c7041cf2e1302d281d420f916e82b84d2fd7113b01da8a681ee00d7c3b60edeac748effb858a992239f0fbf9599b42c210302de6661a94195f8faaee",
+          "modHash": "9f7e95223d33bd727f5978541bbf9dd4a36ea0f5d321939c65fd93e57c84344d29a8439ac9aff5d7ffb3b5ee6d0cf8d990cbed64c3a08cd7a4d2e25ef46be22f",
           "fileHash": "ae2c8635eb62f273e8f50da4e012e57ed1b24c505e678596768e3cec14d19e7eedc4c0649723c268af43f482a593dc98ef57aafcd4293f18eba6616e9ae90b1c",
           "legalTimestamp": 1701215932,
           "bundledMods": [
@@ -3299,7 +3299,7 @@
               "name": "Auto Config v1 Updated",
               "description": "Annotation based API for mod configs, with Cloth Config GUI integration",
               "version": "3.3.1",
-              "modHash": "cf23cd14f00fbfec601d3d79d1ef397154c856b83e8610728f0f59a1f564519abcf65d12a37900c2aff5ad3aa7ce9e93e7c6a09137fac3b04bb386384ebfe581",
+              "modHash": "5f556ba2f2aef6903854997c7b2694cac5c5a1c570f515cb9e33f04298068f8e6bab94e946eb01e058e18d9dae0bfe0bbbf5103a4218baa8b64023350dae7123",
               "bundledMods": [
                 {
                   "modid": "fabric-api-base",
@@ -4368,7 +4368,7 @@
           ],
           "version": "0.16.0+MC1.14.1",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.14.1/hermes-0.16.0+MC1.14.1.jar",
-          "modHash": "56ed38bcfdc1feae5d1daa240a1f6dfb0db47e2a5143817043bc64582b7d3af22496eac3470f9eb7bce7a788f7f7b62295e9c96689697b549e6ae323567381c1",
+          "modHash": "4806efd622a78c98b2aeb6592dd87f84ae9636815f3792b098e1a364f7307a09989f52ce7aff22ee15762f84f755c1279154a333345f70d03184177126abdc23",
           "fileHash": "9838d0a25f14607a9fc45e4414b4436fc48d99502114f07c65d5079f31c7f29f287cf213b2bcc6b2b7687ce80ade136e5fc858629afc5c40eea1ccb431cbea29",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4403,7 +4403,7 @@
           ],
           "version": "0.16.0+MC1.14.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.14.2/hermes-0.16.0+MC1.14.2.jar",
-          "modHash": "6e68c8a40c6088dc14beca1ba03fb14a538df614b3c9c038c2887293cfd3786be8eea5dc5a9aeaffa3cc68305c617e2869bc601ef20209c8debf1beeeed4cd02",
+          "modHash": "c26352b95053d011bb2a7f9911f54b6029dba0c975495f0361b344a3019cc90532a0e3f4dfcd11f3c6d58e0e7ed79d6f664226cfd399eb308640479b2279a8bd",
           "fileHash": "771a9a2a32904921b98e7dde5b8e858b2e62817604f9b14d55c4ab1ea4c4bdb26427b11587a4ab32258e72fa86589b80868fd0f4f16ccfb3b8638f07491caf81",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4438,7 +4438,7 @@
           ],
           "version": "0.16.0+MC1.14.3",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.14.3/hermes-0.16.0+MC1.14.3.jar",
-          "modHash": "b1e37619d33ed5af60d2cc0505214f1bca6e768e7400159e06317048581687829e002f9d9e27b297bf30e867e9e7c34bf16e49cf1f0ad42c6df175716a64a412",
+          "modHash": "798026776071c4850d2913883b933378fd3f7d42aaee4c1a4cfec15e0daf35c8f8de69762c4e4618d96ac271757396458ff7e3baa53f3d0e4ea8f04a7b02e7a4",
           "fileHash": "6f786b957c014ae7c0b50c906eb8f0d8a110283978258a72e84d86883ba010d864c1aac40abe8d91f3f26ec631cfd58a65ab2f5fc78582d81f46d37383c68573",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4473,7 +4473,7 @@
           ],
           "version": "0.16.0+MC1.14.4",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.14.4/hermes-0.16.0+MC1.14.4.jar",
-          "modHash": "0ba875d917d1a5ad924e497b17c947336e49f545a935075dcc0ba0d5777c5459e6e21047e49e193335f14d6b08ed043ea61dad8aae92f66557f2da144259db63",
+          "modHash": "aa02ee0755b19023f2410b994c6da433da6b7775490cba3d95f01d9e23e262831429d2843aa665ca8dab5b94ad8495f2cb9ad9180eaddfd146646b6c7f4ae9e7",
           "fileHash": "14f9e2f717a9c8496c51253b1ac675a91bb85bd0c2beb49db781b660f0d4591b2962a3b762336ffecb29495c29b62075318d3d85f94aa5842b5dbe68cf9841ec",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4508,7 +4508,7 @@
           ],
           "version": "0.16.0+MC1.14",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.14/hermes-0.16.0+MC1.14.jar",
-          "modHash": "1fd5e7bf71a4e5e50b7af7a9b8fb6a5c8a513d4bc50b34378a56835faa753285d73e98773beeec78f8bbcdff8e56de102674d85eaf3d595f061865559605f702",
+          "modHash": "de316d8e46034ec265a417f69433ffc46791cdccc9acae59b3fd84e34dadc8c020e5e11885e0cd5cab76198ddbda0239b5d5989221183d341d60eef245a86c01",
           "fileHash": "fa0f064e32b4a97d1c92ad9e263050496cef6ed3ddab784bc9b1e2c81c1b3cd6b514b442a89d0b3e644e92c0e649c3aa63e25f0b3650512e95786fffe9189928",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4543,7 +4543,7 @@
           ],
           "version": "0.16.0+MC1.15.1",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.15.1/hermes-0.16.0+MC1.15.1.jar",
-          "modHash": "24ba1708c15e263ea1468b781d1fa8b2966e178104ce1e7b09e0c8a9494574392b2634aed3a502181edc04afad2418a51f1212cb0e5fc0b116d3e7042c52af49",
+          "modHash": "8df88b95465a2d23b0b076920de7e625c475342651e2cc44f19f72608da73854e45de2161831644275ca705ab47cec7d2d3325fb41b40d91372977febeec42e1",
           "fileHash": "2d1fdb653cd8459d9151103b6ebcbcb867e24f395dff977a68d9aea9bdf442f2f00c534bfc85cb524446fff39051a7f4acc0ab8102d1bd803ea609a55c05f03e",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4578,7 +4578,7 @@
           ],
           "version": "0.16.0+MC1.15.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.15.2/hermes-0.16.0+MC1.15.2.jar",
-          "modHash": "505992f8a7050468f6a03ae83649d3b6cd74075103cea544e7eabdf3104f1e64aa6d253a94d39ab61c494c9106c45bde43d3ab233cc3ba4841f3d8601f05ba86",
+          "modHash": "a0d432331e809f0a599f50c12cabbaa07b03f018def00d5fddbd08c9d93875e8a8e1548bfe1694412f8a10291f85d7d282e715dc757cda2eb9ee9f5187f47d12",
           "fileHash": "5a03acfa6b5869d3825e131c1599d3f98e13064dec041e5f7e2dc9a632dea4ef21f9cdf0235561a77e05ab31f0aaa893daf3c60b565ffaff1b4ae8313c78e637",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4613,7 +4613,7 @@
           ],
           "version": "0.16.0+MC1.15",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.15/hermes-0.16.0+MC1.15.jar",
-          "modHash": "adeb6fb7d790174e19bb0a4bc9fa628c6859b6d14ea765c3af1ebdc94c5f1f37585d9b6eb7c4d06338aab91e06fa1ade44ee3d8ca9fe8e458178e85a7a6c8546",
+          "modHash": "b8ac60b0a6ddf208225d00ae9f8196bfb448d5f806785187f64683b3a549901429122d61514d5bb7a9e5a558b9a448f1bc28dc6ff0499d7d66aefc0f04b1f8ef",
           "fileHash": "b77f5fee8c66b0f0d0c61f8c61557525a7adcce87f2cd6d80c70ecbc4ca9cd5c79ca303866fed0892a7f32dae59cbbf7b2927669824ef07a34bb52cc34801ddf",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4648,7 +4648,7 @@
           ],
           "version": "0.16.0+MC1.16.1",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.16.1/hermes-0.16.0+MC1.16.1.jar",
-          "modHash": "ad8582949b67b2ed984ad744f52dadd390987bae14ee97410c3b3a8cc5942d332059b2bf70f8884828cd56ef44556004386a7c06e4371dc9650ac0f2bc7183d2",
+          "modHash": "cb3414b3b5832539489700e6418b7c57716b3913433ce0ed4d7463d1e769492b7f96fd96ded559288784bbf0d2a8bcdecf15824e5ef04e84e7fc007e5534cc50",
           "fileHash": "4a931c40d72e7a49199a709bddf6cdc8a79ed8e616d33be7678d38b4d76bb67c94bdf5ada322f3809c6dafe41f04cfe1ae6328a8aed0653c0ad54c8f249eee8b",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4683,7 +4683,7 @@
           ],
           "version": "0.16.0+MC1.16.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.16.2/hermes-0.16.0+MC1.16.2.jar",
-          "modHash": "680c59ff1dff19bc3d46da6b19dccb2745e78fcdf793ca94366e175bf181da998ff312413e1ae6393d2fef54bb4b36a3a5b124fac191d2d7fa9664a1f9b95084",
+          "modHash": "bf3d6a3128fc7eaeeabdbb5f97b76e4139a29200dc884c8446914ba381373297e10f1f7bb16ef03d34e688cce3699c200d593cd4e55febe02f9dbe9780dd41a0",
           "fileHash": "347958ac007892dedf280cf6c7e172a6610f1d87eece7d7dc6a570a32ca0fb78872a9be8b118500670bf37f744d1521e661df4aa4b153c134487aa0c6a756c6b",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4718,7 +4718,7 @@
           ],
           "version": "0.16.0+MC1.16.3",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.16.3/hermes-0.16.0+MC1.16.3.jar",
-          "modHash": "b201d4c9dd386da1f8cdc14091f65d304f339595d0adef60322b6615d9e38039e9bb1e8a1cce9893b3d429ca8ffae2d7ebf48de3d6f0bfd95c1bfb76a5feb3c4",
+          "modHash": "fe16d3f76e2446237ee796e31b00ceff93bed262f84c2a6748773fe73d12c1ecc6c0fbfd161ff8de8960aae9850fca2257b38d74a8d7e4babefa15f3333fab18",
           "fileHash": "c2c49abd93d7516f4956b6f0138825fe3a3fc329c2d385111bd5bb4014b69cbf674a1f15b5d0a2cc4a23d183d86102ed3f26b242e7106cded81adb1d42120454",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4753,7 +4753,7 @@
           ],
           "version": "0.16.0+MC1.16.4",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.16.4/hermes-0.16.0+MC1.16.4.jar",
-          "modHash": "24fb3f5f57277abba2fd25c35a544af0f01ce67fe2430d24edd66db0543f1c0c2199c76ed301e423734ebe487ae28076084b1deb70474c93d4d132276e693c13",
+          "modHash": "a0063977625d3ec8b8c0a1d418ac2d421e6ce15a69d762067146f65f081b300f5a54d78df4814044956d351303c901754933dae3d8e9aa06fb13888e351d26d0",
           "fileHash": "c134103f80e582ccf20715508c0622ff6c4a203c620cc109a5528bf4b3a91887e8bd5318784806e9232c687bb655014907fd812f473cef952655c1ecae6887bb",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4788,7 +4788,7 @@
           ],
           "version": "0.16.0+MC1.16.5",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.16.5/hermes-0.16.0+MC1.16.5.jar",
-          "modHash": "69547af7016ce296136767ad1680eb516c616b81b709ecdadd1c9fce9810c4081a884002d351c0e357db6bf37981d610894acef5ebb07697d21898af4e0ed666",
+          "modHash": "579049b922fc25439b7010b4e84876f8a164e0d0ba9e53b3657c25d8582e41cf80ae58576b3ceea78aa9d8db0ad04ab60d94e7650cfda95bb6c164a044f24752",
           "fileHash": "0df098a1fc22254e088fac091f47622e1f40f002d2ff8fa39211dc87fafac7422c030e328c85682eec7ef801e1498a1ec53eec356a5165e5c127724b52acce1a",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4823,7 +4823,7 @@
           ],
           "version": "0.16.0+MC1.16",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.16/hermes-0.16.0+MC1.16.jar",
-          "modHash": "a03a709e37840a2862a4f33711063d4194276070f4d453aad5a53174f325183ea7ed675dd0b1b0270caf77fc9d58c9f99b18bbaf7d56cf944bf93216e8943c4e",
+          "modHash": "4a15a6ba30a1501f2521d85143a4fb3934c3ca5cda05b7e953f65a93b4fc4342cffe20ce8cf11d9a637003e4df5dd90bf5f80d7f8e987e7a678ab06ae12403ef",
           "fileHash": "48c20cf9634dde500d239a7358be1b64e3ebb4451f40e19b34c466c17542872e3f607246e92c2eaf2d234376ecd8649067b2fadc6395bdec6415f526065ae0d7",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4858,7 +4858,7 @@
           ],
           "version": "0.16.0+MC1.17.1",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.17.1/hermes-0.16.0+MC1.17.1.jar",
-          "modHash": "8a6c62ca5a796522b85f8a2ade7f67b7c1154ddd4ccdeac6d246f8e48c0fdafaee431db70d5a7e6eebc25ef087af3339cb271a5d30e805fedd86845d6861b4ac",
+          "modHash": "3e1263b62694180efa9a012f35086515335f6f96805b10b71033f2f74843aaa29dabd9fc19a3bbf903ec39d56a4d34a50e99dbe7a0226c65446d924abb4475cc",
           "fileHash": "36fc4e496566d2851555dfb5271f057cfa07ea764be21067c1fa60950b1a498999fda9dbb33f77644cc80b366988ca30af48f3810bef59a23aa93977ad4a67da",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4893,7 +4893,7 @@
           ],
           "version": "0.16.0+MC1.17",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.17/hermes-0.16.0+MC1.17.jar",
-          "modHash": "1f980a75633d017c609b742e0188839a9710f48e04bedd9b2a5acb95c1f09b2942705d0c2c017a274ae060a5983f89deac3b56e0f6c5bf45ac43ffa35d612123",
+          "modHash": "9d3bbfd7d21a4c08d2a327b8f42c0c593c60453a2c699661f49638f72b14c77c363c7f6cec00ca4f7bb30ebc31f0577328be03a0e346aa1d6a10634bc35dd105",
           "fileHash": "e87bbe68b809bb5d4800c93d3a1b49fdd98098f457932efb9057292fc16347053d95b97f20b0d2ea7458dc1d71a76c0f479e22e4d1fbee46c57bb8b0f6ce16c2",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4928,7 +4928,7 @@
           ],
           "version": "0.16.0+MC1.18.1",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.18.1/hermes-0.16.0+MC1.18.1.jar",
-          "modHash": "22d65bd49b9999092bea461f322e447ce46785d601d1c9f47df583cd31e89b65cf176f5ef7758ae9462c7ca7aac4786404e3ea561c95a6f05e781ce9a2804072",
+          "modHash": "e7d2af6afec64bd41d64a295bf9a2db0079e309d2555603345f45c0c36c67ef9abeb64bc36193c5180f2a9665e9208f703e3c11b32260265709e4f7eaee6ec42",
           "fileHash": "aa60da5699add08a9b8cf9c04048364d7437c7a0120cfabe0385baa93f240a4235749fa4cd177e44398a6707ae011548ceb8a3ecd760fe1480cb7bae673842f3",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4963,7 +4963,7 @@
           ],
           "version": "0.16.0+MC1.18.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.18.2/hermes-0.16.0+MC1.18.2.jar",
-          "modHash": "a0a725ec43f077eaf42a941a47fc1adb9ff71a69f5d4b9b72d29d08b825b09e52938f97e760082943b93ecc9a8b42742b70969b6764e6445fe866259d3c4b230",
+          "modHash": "a9a62ca82265f221284b833d0570b9fa6bc38c19a3c4e0ce9b55955916cd57fc40ef4b659022e483246b57a3ac07c29e9745040cebfb2358d0a00b054ee580b6",
           "fileHash": "a5a5b0f575edf8bd13965d4acecae71e913ed6c91c9afa3eb806ced039e13fe02e96d57db34207d8b3205452266792251ced0dfcd1ae9947674a3b1b4e982693",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -4998,7 +4998,7 @@
           ],
           "version": "0.16.0+MC1.18",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.18/hermes-0.16.0+MC1.18.jar",
-          "modHash": "c27141d7b359ca8d4b6ad8289bd25d7d84c3c7c15f53ec1ddfdd2eca885aef718ef9d1732dca5f1b09d5e35e5746b9ff846ededa2bea9f97369d89835747a4e5",
+          "modHash": "a2bb34bf813f971a7d97f87eb2d0dd26c218048312659149664b732e2adf39d2df661c53c80baf580d4e83839e92e29c148b416ed9e38b99353fa44706762af7",
           "fileHash": "660fee2de711f70300734efc9ada07d5ff153f23d53945f6296df4289afe7f66123c74c7368d37795052d62f756835a34b5866c7b82c65a2f6798316eedf55a5",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5033,7 +5033,7 @@
           ],
           "version": "0.16.0+MC1.19.1",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.19.1/hermes-0.16.0+MC1.19.1.jar",
-          "modHash": "29bd0736071890342e3ddd9c23467bdd10ddfb59d754f8d9efbe8bead2a90afb9455dc16a4721526d79509f4988da43f77b64ce489ef7e20f3a7cd3c3787ff3f",
+          "modHash": "5cda0cb2099e9428052612f320197c43564b6449e5c627d33e34ccec60e45db1cfdfba2b77dd29969a41f65b5d4bae7c2104ec06f000c8773f9ae034999a423e",
           "fileHash": "c1a84dd313d06fb61d02bb88fd5f795cd8d0814266318672b0c333f8cf3b6825066543802e1667c4810dfa75aeb58e3e82374f81bd60d971947dd9d5eb8cea2d",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5068,7 +5068,7 @@
           ],
           "version": "0.16.0+MC1.19.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.19.2/hermes-0.16.0+MC1.19.2.jar",
-          "modHash": "647643981ccd2f8c84db33902ab54026790f1468c7303caf0d51e87942b4944a198950763c8cda925632efbbc8ade4027a21b7c13aef878244399971de7af018",
+          "modHash": "ea4f9899fc26b4097cd8804c99800945dc3879615e7b5050e05a9bcb3c79ff40bc2429defc17e8c35cd639c0df37a767f4650769140bf8245ac0a9ea9227afdf",
           "fileHash": "ffcccdd22e950d382d7d6eb000ce83841301b2da58d7f4835e4a0989dbadeea0805c9198cf72bee226216a925f45d5262705c03aeddf549d7009727650e007c8",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5103,7 +5103,7 @@
           ],
           "version": "0.16.0+MC1.19.3",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.19.3/hermes-0.16.0+MC1.19.3.jar",
-          "modHash": "b9f917a8814dd90d053da2f4cfbf6442df86bb3209015101ef5e9886820e99410e9aeb44c62731d316e52ed9a93eebcf7d410ee91ab6cef002a3f285fa461f0d",
+          "modHash": "59904fe45fb23b60f97453d3c788cc4576254677b04d0929afbaf841c2706baf1591137be91bca2237d1ba82065116bc94e1f0a549615ebc0cb832d742b48a9d",
           "fileHash": "58d2b607275c73791361a23ed39a50107cafe6662e02408104c0f449c4a3f9e4411e0c5c2a4e1b57bad4a1f7a5a2ca8a8ae3b5d20d924663308e5fc2500939ee",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5138,7 +5138,7 @@
           ],
           "version": "0.16.0+MC1.19.4",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.19.4/hermes-0.16.0+MC1.19.4.jar",
-          "modHash": "ba8a29862c24182ce05ed1ea78ff5f3578c9062863a9bf90cb213e1adde8c41408b89580f92c87233f430c91af12fe4c3351fe9753e423477080e8029af7016c",
+          "modHash": "af059d81415998f313640d5c276c4787c9a8cc07a252547440c0c28f18a74e03aa8963707080c848b4ee62490ce8e139d1ccd55b12d4ec81fd94697d3a57f41b",
           "fileHash": "34af8882e6503deeacbc0f4a330d1ee9da5b9d92a28e68354e669ec8b5960c38bdae954f65458fd9b5e16e95f4abfde994059f3f30be2bb6ee2d0732cbcaff8d",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5173,7 +5173,7 @@
           ],
           "version": "0.16.0+MC1.19",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.19/hermes-0.16.0+MC1.19.jar",
-          "modHash": "b69274463151edd07476216b1c0aec6df53ad2280d9c4f74919c9c4748702185583016eefed21554dbfb3e5c9510b41c10fdbae198d07dbcda097247ac97667c",
+          "modHash": "bd5b700568c5713a1a89535d3ee36ca4a7d1025568f246719c4ade93eeee58fdd9c2ee5c2299471b091de7107cf2682894a3bba888daea2b79ddf25df17dfeee",
           "fileHash": "e3187b8c9d758ad8eed8fc98379ce21f19d619ba46c95f8fc28221e8f9b9b8745acad490df6e10b4209ad947acf9a73a8701c2cf96274ff493141eed0cf3e18c",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5208,7 +5208,7 @@
           ],
           "version": "0.16.0+MC1.20.1",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.20.1/hermes-0.16.0+MC1.20.1.jar",
-          "modHash": "88f6614dbd323a41de471189c8b33a53d9ef21825fc8843e028a4a147636393694c4c36507ee449cc093270bfaf450cb4639e3f716c2d8afdab387cc36ec7d6c",
+          "modHash": "e0f7235ece9498a9948b6bae9f1d11ab590b02c4f9ccf7ae7815bc5809974a522d84e91160fa1fd242fc9c92a680d00c6c0d3ad340ca95c9538353b95fe0c4eb",
           "fileHash": "f087247fc3eae7833780d85abcb3fb187b8decd33b9654647a7df89af3b467b136ef6b31ad8e62e61ae7fbdcf3d1471b9c1c4712a136244e14e6c2a5b6a10c21",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5243,7 +5243,7 @@
           ],
           "version": "0.16.0+MC1.20.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.20.2/hermes-0.16.0+MC1.20.2.jar",
-          "modHash": "e217b7a313aebb16dfe701f3baa6dd6d1a5d6759c1748f2e0c2c5e34d5421a53b4d56f49e69f1915ea590b604af0b722720b42705a6e1a1ae5ba7b4e73deb6ac",
+          "modHash": "edbb48f98b0e51af01a8dc59172f30c04b5cddcecc9b1e7221b66ad05e8715e759eef8fde8335276aca1758ed5a10992822cc9fa0c7a9ca4711095db358286df",
           "fileHash": "1ebaa8c9a223cc489a14c64024cf4939a414671b1055d4eb503461766f010bffc9ab56429180d56eb92cef3778d419cba1232a0a6181951b8ef1ed07d29e9ccb",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5278,7 +5278,7 @@
           ],
           "version": "0.16.0+MC1.20.3",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.20.3/hermes-0.16.0+MC1.20.3.jar",
-          "modHash": "7a9c4fbc1cb2707df5c0df46300dd14de02f323466db1905fc2a1ace190a5dba605913dbc2406f6277ec94b2316a6137107d6c83256b87f4937f49ca5a6515f0",
+          "modHash": "d1965123eefc2309e6b239d5a56360e924af40b5c2a62dd001799613a4adfbf0b7707a7927a739fb56970a11d0ae0ff90bd72678eb64b6317c05e86a336bc9ad",
           "fileHash": "d6a82b9c279244de2da28a982b058d88fbf8e9173531deeeb08b766ced9a574337f86087c9af980a8df84f8fdd70373cd3a754713c5193c7c26e6fca5362533c",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5313,7 +5313,7 @@
           ],
           "version": "0.16.0+MC1.20.4",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.20.4/hermes-0.16.0+MC1.20.4.jar",
-          "modHash": "0c9506e687335c448114d27ba6995e1f5a87a0bb1f34c8d617a39d2ced672a82763eb7c013dd0fc4750eb3e847dc6b0cb94bdc0a1b93d07157e5f1e6deb346b0",
+          "modHash": "807d9b9296814a40a2652e0c78a08c20dabedb5a26da1573debdd014f5f0b6c761342d7ae0dde1eb1433dc5bf095186e8c1deac45639b0ae92d2dccaa4871e90",
           "fileHash": "0db8df17f4722e4f96f1ad243ad6ac43e14ce820cd1e32772b62016b432c3100c4ac40e11287a7919f00945b9f0a557058086b6ab147cfcae94dd5ef0e565ae4",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5348,7 +5348,7 @@
           ],
           "version": "0.16.0+MC1.20.5",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.20.5/hermes-0.16.0+MC1.20.5.jar",
-          "modHash": "70b0a8a8a0780070a697e54e05b0dfaa22bf4a6dd3b213a10a4ff10354fece572e0c66aa52daaabff0b38d97e70f62de097214a0e09b2b23951d4de8a11dfa8c",
+          "modHash": "105e6dc652e4e47466154b736ca0804fdfea905168ea2600191242551420227cd654a36699b374de8f40b24bca4f8222e9728aa17738ba4b957eb455b6fe3bee",
           "fileHash": "435691025908d1ef310fb3aa54d9c34c30e4d0abbde93f83ccec1b97f0729ca48ef0b44f7a124e59cee1dcd56504e4b0ed212f12eb129427c3db7966a2be4f2b",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5383,7 +5383,7 @@
           ],
           "version": "0.16.0+MC1.20.6",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.20.6/hermes-0.16.0+MC1.20.6.jar",
-          "modHash": "6dad5223dde1f7170a1719011c06ed16a0db90d51669397f06581949d8dae63638549c82b05f1a5390e13a962565dd8922fdeaf2550793232221b688feea280b",
+          "modHash": "2be5bc4f09bdf49d4a44374dffd0943fa111157aed04256ce8303e791179ac6a38002cf4d938b47579cef074343981456da2c8e472f66096fe2e663c3ef7b888",
           "fileHash": "e89257d43b2b8387b71b4fa5c64b4085e495fba4664dcb8707b17bfa433684929b9aa1bafdf4430bfb698587fc59bdf8cadbec4fcaa484ac7f8a94bf41a2b73e",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5418,7 +5418,7 @@
           ],
           "version": "0.16.0+MC1.20",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.20/hermes-0.16.0+MC1.20.jar",
-          "modHash": "7ba230d82cc1fb835029dbfddbfa642a027d6d89e67c5115e76857d204c7c8bf1c430a7557a9e6d04f791c6d40f7b45f3189a256d69d73d57ba5f069e2eb330b",
+          "modHash": "d1d4e56d03c977b4478f26cfcb93442cae8036293035b8a826b315320db2433fcdcf0141521d7d9f7832f7a10e9653aa50298a128bc90fb30fbd3ebfcf817e8a",
           "fileHash": "fb5639d9972e4229252b1909ceef49c2d6a1a7670b977643a38e073b9ebd7ca9cc22ad8f2b0b82850cfc56f674c28cf36dd5440ce5005a3627983fafb34c006c",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5453,7 +5453,7 @@
           ],
           "version": "0.16.0+MC1.21.1",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.1/hermes-0.16.0+MC1.21.1.jar",
-          "modHash": "792cdb3926c54ed52e0e0330a422b4cffb562ad1857bbbd378d0c36f0d2faab8d3e6818885cd7759918c083a457f959c9d8f2555220a6c365bf9929ba7adf2ee",
+          "modHash": "ccb20e37deb9e5705c3859ad938a6a5813dc5fe4f26ebaa332ad5cb1502f10335e6931a8c64d3c28e87d0e348137c5b0a2af53ef5c8d1e0ae1bf8a0bfbb638f9",
           "fileHash": "9a0786cd68346346c8b720dabc6ca085d3f9da7ba9f7ce607c838fc06d760a83a63f582b431be79be37ee8124e2add3dd9d8cb2e64317f85759283638a46c8a9",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5488,7 +5488,7 @@
           ],
           "version": "0.16.0+MC1.21.10",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.10/hermes-0.16.0+MC1.21.10.jar",
-          "modHash": "6aff96e94772686df7d3d146a3971fd623b70cb63ceedd43ab2d47c24ad6207339651776dd60d34570a8928f468773973e329fdc5a14082a79c779f77f11f670",
+          "modHash": "57190a73ad6dca1b78c65746685ae20ee95abe7388a50d30843bb69837add5266e9f3be07d0954c3a6edd1af1e2eb5b00d3116e19cca70715fafa18e5e00a294",
           "fileHash": "b5ebcfc3cdf5e5fa3ecec2fa6b516a5e21c56de3f2a7160d04990bd2233d90808726f4ca6a5e0573236095620e854d885c2fd8474dcc2a15e6461727549c3000",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5523,7 +5523,7 @@
           ],
           "version": "0.16.0+MC1.21.11",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.11/hermes-0.16.0+MC1.21.11.jar",
-          "modHash": "5f3f7b17c4195b19bac792d210f22b0421677435432c2796b7722d462c67b85de16ee823470a1668404b9cf61e3c0c966568043bdea41df64aada85aba6830bc",
+          "modHash": "3dce9fb75e784538380f28bdbeb1b3f44cfa51f67c37f66784aaa67a307a14f2741fc146508328df1437f991ec55601203919c990b69020b299f57668ac0d6ff",
           "fileHash": "02d86ecc2ea490083bf86ab2f00a205723ab3b12740fc89aeea5be92ec20a4530a7f21b59145eecdb896db7adfea43b731ba8bc30ad21bc79e1c38e3743cda70",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5558,7 +5558,7 @@
           ],
           "version": "0.16.0+MC1.21.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.2/hermes-0.16.0+MC1.21.2.jar",
-          "modHash": "5cde133f8116c787ef67282d2f2f216617f220ecb9481bf531cc0b241c745ef5a4ab1849566651ca596dd635c5fd21e374f48adacc19d8b03594bf6019318c7f",
+          "modHash": "f98b63bd8ffc2927c18d3104fc53d2d961730a2591a6c103dc7a26465752b7ebe48cb3a202cd1665590ab71feb1e849021a14b01b1e465c8bb2021490f0ec95f",
           "fileHash": "6fdeea0cc991d6998c121e3e807ad403cf743a1e04cafa32623f0dd3d74f8f30d6ed742e2b147560c74cb10b651515511298da75db15628cf4a9f13daa5fad44",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5593,7 +5593,7 @@
           ],
           "version": "0.16.0+MC1.21.3",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.3/hermes-0.16.0+MC1.21.3.jar",
-          "modHash": "06c4715114aeab8fb085c757c63a5e895274340d12461cb095e6e68bff491b15c97c74b0e0682776ffc49bf7d5b8ebf9ef40ef2ed74a5d47cd453ebfe9637015",
+          "modHash": "12d6b09a3dcbeb252c53908e6082a51e846077d084a8e42fc005b01a7110d4d259030faa53e5e0d7f88588c4217f3765e622a21ee7b75110f3dd29dbc1747eb7",
           "fileHash": "cc87159ac8de883cf404735d745e462b60f086aee4c1a43f00cd769734c4105e38a9c884ed67f1c501865e91f171c6cadd11bf1121fe02c4cc866dd2dbd66e4b",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5628,7 +5628,7 @@
           ],
           "version": "0.16.0+MC1.21.4",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.4/hermes-0.16.0+MC1.21.4.jar",
-          "modHash": "4d8e6c9e63a2edab510d1636057fe15e2fcb353cf7ed6ac86207a15e5f18c869a78f41e57beded9636ad8467fa92ae9c4029b55f319fb099f003efc1a3df6e11",
+          "modHash": "04f3d8ab6aa991f209c4041cb81d2e3fc0a5446a6d81b14b2728e37065508c864b8eb500400f8fd7653b8c5daf100515fe7673cc2eac7e5ee191f5bcbcd86ed9",
           "fileHash": "6674bea6e8475d5f48f6d6ae41739ac41dcf6182fb7ad7408741dc7647101430a8e488b8ed17f6993ee8509b51246ec87d8b8b1a9f39bf78153d093c893f97d5",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5663,7 +5663,7 @@
           ],
           "version": "0.16.0+MC1.21.5",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.5/hermes-0.16.0+MC1.21.5.jar",
-          "modHash": "69ee0aa92dfd94a65b8af00fc1946028a9f0a4c3b0455fd9326facfde646d2a6b300ec2eb7955a370ca5e5cc5ffd40a6e354093219af8c295efb057ca63dfa17",
+          "modHash": "e32627ca83076b4857c620cb7c3874a152031199637abc9e0cb799ba654e3b7e6bbd1f6b7ed83009c6f502c22f064d38ee552af816c1f207e71b12fc036c01f7",
           "fileHash": "1d55cfe86d91244677a26ebe890952280bda51a25d0768913886f0ae3673f3b9a666a2e62ac979d69fdd1443a102799e11db08915f8effb2ddbc1fa8c7a9ef60",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5698,7 +5698,7 @@
           ],
           "version": "0.16.0+MC1.21.6",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.6/hermes-0.16.0+MC1.21.6.jar",
-          "modHash": "d5be6b384140a682dd695ad138b552c82ad793c52e9536d1d1a36f1e51d7a698567b4280d373b1708a0b684b0efbb71b92530308913900064db29f616a862594",
+          "modHash": "d2d428f6f73f23b179ff6bc74825b4c949af929d4837c241e38ccc433864a935cbb5043a8d3ccad012f284a1b7e8b876e2f76bcc9933885d22981b68e7729239",
           "fileHash": "27560d1233c20a09ca5e0f487676a622728447c4b9675ddcdcb1e409d10fd20f8950fed1abfd4017630228a8084995a923efbed2a83ff3456369b915e094b425",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5733,7 +5733,7 @@
           ],
           "version": "0.16.0+MC1.21.7",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.7/hermes-0.16.0+MC1.21.7.jar",
-          "modHash": "8e3fb7a50a739f1b91e7d46e471def81a5dacb7a1bcf38e5f132c5d4cb1350fa22a187308069cf58abd687b43d64916fd0fb9b151638d62160f014eb42be2e40",
+          "modHash": "541db08e83c110b0467a2fa2565f581fe206e26b9b782b76ff37dfadd2bb3dfb36f42e38f79f8f44d5b0af835c1713f6c1e6ca4a550563c8b08df3db5698b416",
           "fileHash": "669475c8679ebf0d4c7d325238afb212a62943fd3357a857897367eeffcc88b7df0b57d2a3ca93b6c8a414bdf0be7f7fd45158e0959b07acd0f2bc2647ab53e6",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5768,7 +5768,7 @@
           ],
           "version": "0.16.0+MC1.21.8",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.8/hermes-0.16.0+MC1.21.8.jar",
-          "modHash": "744ce09948d906713cf71a096b601a250f97177445ec23d4e831d46f85768d2526a9a5d8d488fd0b6df29607f6148a2b05af71de1b93003496817e5689d191d0",
+          "modHash": "67fd57c7a0f08d59bc5e2ffaf3b35f4ff021e498527efd4e7a555041b0d097237ece9ed44133e8009056c0b37e06867d80357bad3677d892a9e2178f05c2d913",
           "fileHash": "c79bc51c158e166473f8ae7ad1f48680b13d4d8c0b78a1c289f9d7777a42afcd6f319b08879a3360b11408d16818ecd9ed75ceb103122f1296091085df29f39d",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5803,7 +5803,7 @@
           ],
           "version": "0.16.0+MC1.21.9",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21.9/hermes-0.16.0+MC1.21.9.jar",
-          "modHash": "35037fd884aab2c979ae385f5827bb58120a9ead9303671d77e6df236f7cc956c4c48e1eeab204703297393c0464952cc2a2f879cb074684ed46c55ddcd22454",
+          "modHash": "428efb3a6ce018fdb4f8cca74def89e123013214e6cc8afae5ce13c0e5067c8cc3186afdeeeeab556233d1b5242e78c75b13c6b502724a1807632f4df681ece2",
           "fileHash": "0ff2a58762fd6bed7af9428244fac163cd833a807a409ddfdcd38d4d3437b83dc55350e9bf9097e3583d9129caa73d013e2f7b7ae422870a4da9bda18985b015",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5838,7 +5838,7 @@
           ],
           "version": "0.16.0+MC1.21",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/1.21/hermes-0.16.0+MC1.21.jar",
-          "modHash": "76d14af215e4399af79628fa25557cabe167d4cb6c98461b797baea4637c170b9cb8159946d42a0bbbea72b3f00b20d6e6b6fc15248cc2c779d66315b24743c4",
+          "modHash": "3d738a68f67f1b367654c6aa886df956da42f9bddd9c2fbe3d4a4b070b0a393da1d33dc4f8c2bf571c47667c5321f9df837f93219fbc808a9990731b61804d01",
           "fileHash": "74e81f3473c468d3645308fc579e9a156009c9b5ccf24418b3429b8074f1a9458e28ba871d391faf7bf96173576bc935a8e7aafa3b1feca3b6ef8bfd5ed02574",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5873,7 +5873,7 @@
           ],
           "version": "0.16.0+MC26.1.1",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/26.1.1/hermes-0.16.0+MC26.1.1.jar",
-          "modHash": "f9f611772f40f4b8c0477da8e3aed9aeb15aeb122441de235eb39ffeb271ffc26a1c701bf6520da755ad98d933e4d6a75843773485b3f4852a39c403e9478034",
+          "modHash": "667e0907c604c5afebb1580d2a248325ba1c4e9e22209f30f74b14558987bd20f590776b4f1ebc04d65d56cb15c3ff2d064cdb1f9dfcb7f89da6e8b73c602ce4",
           "fileHash": "f8b09b19703b35d6cef1a3cf8f2fca052d103e32e62b8b5c3a43433afe0b5804dbf95645eb6df13f7919003887b133f381befc5164eb18ec03d94081881b3a48",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5901,7 +5901,7 @@
           ],
           "version": "0.16.0+MC26.1.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/26.1.2/hermes-0.16.0+MC26.1.2.jar",
-          "modHash": "baa68f263d3f19e78a920b708c9dcb9a56ef66933ab4a90374614287c6d68c91e0a75e2961e9016303e88fe5e6678a5645f08197d21a89c0b09c7428bed5c769",
+          "modHash": "d506dc7f33265fbc848b2277ee65fdd0fb1f9dea2bf74b263230c13dd57f3be433d9ae3c48efa3f9be1ea3be18fde457d2916776fd3579767e2eb2a1614bbd7d",
           "fileHash": "d1be8c855441e6927e499da54cb3b1ea9ba3e885ca141087a7816707fd13092aa04d4cf908c102a97f15560edec6c0b6956eb8e51ea7953c8fb452900e5481ba",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5929,7 +5929,7 @@
           ],
           "version": "0.16.0+MC26.1",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/26.1/hermes-0.16.0+MC26.1.jar",
-          "modHash": "326d11dc07db925d9b5d5a77e4a0ddfbf307156cf6ab55b84d6293d61c261f612e6eb6ab37d33e02b0c60c4ed2a82ea21ce3147080b8dbe7985fb2529ee21b9c",
+          "modHash": "67725470a9f6747d316acb1d8fd32d5cec6881f70e340f8ca1eeba16a08f13f0c1f3431feb161bef5dffa418fb4682779ca89818af46dafc5d3b391727c26c1c",
           "fileHash": "00c59000f66dacbf29bc1dd6ee44a0397c78390101511e8fc09b6b97132819b6bfe0ed2ad13594888f46e3abfc0411611d67fb6bc0eec903e43c7a05eb5de674",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5957,7 +5957,7 @@
           ],
           "version": "0.16.0+MC26.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/26.2/hermes-0.16.0+MC26.2.jar",
-          "modHash": "e5b7c1e4bc8d2dbf9d9b65c8188b9ae06ec88689a6e713ac4bc2bd2515e4c3b3c7bd59f447adfa9e7b0323d7281dee5054cf61232395a55696520fbaa15a5177",
+          "modHash": "7fe7e168d9d46a2eea11ca4caf2a8fbca0fedabb71d853793c2ea9af1707110cd241380805191bf762cce384d8c7d2b5f9493e093ed8873144ccbf49b88a00c1",
           "fileHash": "e30c0f8fbcddecf3d3ae7e9772733af9784c9f1fc32420f0571f99817cff7e437f1544de3bc6b9c4e6f340a125aa11a875ad7d2415db97f76a81c32e91fed3fb",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -5983,7 +5983,7 @@
           "target_version": [],
           "version": "0.16.0+MC26.3",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/f85d7a967b812fe3b45531d3b5cdd7e931098e61/legal-mods/hermes/26.3-26.3.99/hermes-0.16.0+MC26.3.jar",
-          "modHash": "ef3a1d2c1bfdc8dc76febe2f1478f00f677e3cef5c3690d56e0f97c85721f853411f31ab58a9f00d77b5742f446bd6477f63fad18c875cbdd91fba9baf8101c7",
+          "modHash": "3d8e0b062811658aaa702fcf3c9d22f02a4501b5beebf7b17261e9b002a6ec7f76ef6dc0f44cb8c7fa06e225e28d901cd3646d0de06aeeb32fc46bf944c6935d",
           "fileHash": "49bba73ea5fb510f07af2246bc2298626a36522eed4ebc1383521187ca90513970de6fd28485cb240210ab65262725419a6cf968e96ac63dcfc6a5ef124628c8",
           "legalTimestamp": 1791411363,
           "bundledMods": [
@@ -11185,7 +11185,7 @@
           ],
           "version": "0.3.2",
           "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/UugdIYJw/krypton-0.3.2.jar",
-          "modHash": "aec84988d0257c90655923f12427763a5a04c0093852cbebc57df875821c80137c75e1ad77bc553cff0de5b56fe663a166a19cd8874516a16ec409475d95c11d",
+          "modHash": "7c38d6f197aaec19e94062947671e84b25bd7dff109a592ca3133a6352fc690f6f7fd78eba120401b2dc711b1415e1a87062de307f2ef34447d21a2ed895efd1",
           "fileHash": "d1d57ebd41395b75b01f130cd9503eb8d208212424a399ff9f367f50be8fbc1c6472442b33c686e777c3148f6a609520e8fb732c755157c358cb207fd4d1123a",
           "legalTimestamp": 1791411340,
           "bundledMods": [
@@ -11204,7 +11204,7 @@
           ],
           "version": "0.3.1",
           "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/5WeL0Nkz/krypton-0.3.1.jar",
-          "modHash": "6d240b2869235ef2584b5c24266cce47f6a607ae8bc62c20aa74fc2f317435063ab654e7c02a93fad78cbffda80a1a90817c5f7c9f8810854097837891d0a7a7",
+          "modHash": "038596093cab1fb814c73d8e27af9f0402ef9920f00bc756ea817ea39ba44a01c5332f12a5e11d23c023f956bc65c0e1cb2834be0673353aeea855119521911a",
           "fileHash": "b8d9af34cd0050493afb8a6232cb8f785daa9d8887b7045f6e6a53c6bb9b5ffc4318fd9b0347a940eacfeba4773f10cb80ae0be1e79ce4c1888f96eda21e564e",
           "legalTimestamp": 1788912748,
           "bundledMods": [
@@ -11370,7 +11370,7 @@
           ],
           "version": "0.1.4",
           "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/0.1.4/krypton-0.1.4.jar",
-          "modHash": "a5cae466919e8d579700425c10ad7c230df9279e24d838688446c60a76b4911abc18a12cdbc53132377a6443e8aa5fd1f18ebdc3a4f5fdb566639758e5b8cc1f",
+          "modHash": "305166fe387d0a027b4a6ff80fd24240e765d0e46000156d4c8d08cf54892e5a2dcf42ad6f04470140f5aae6980a2b3263b09b0f4ff4152e8ee6bfb0244c84bd",
           "fileHash": "11caa7034af4b3902da46467e00fe734b5266817d7d312815ea23d3cb1d6ab6a9959625138b70e79dc70ff872fe066e8358c7c5cd1cb8cfa8099a08f26531481",
           "legalTimestamp": 1701215932,
           "bundledMods": [
@@ -11389,7 +11389,7 @@
           ],
           "version": "0.1.3",
           "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/0.1.3/krypton-0.1.3.jar",
-          "modHash": "04a0202d21007bb4643c6163c07508c9e50fd1412b47167b65c20d5e7a767210cd63784b619d2db1591eafd8cc5ec0407775b757e0d5469a9f5f88acd113a2b7",
+          "modHash": "cbef22c4324653fa8a161bc822887ae83c79a3ee993091017057793cbee93513c94011e03a5c38c26a263df97310ee66fc64c780ec3200f8bc1904306096048a",
           "fileHash": "1fe3029f78ae02e4fef523923f722229fb9439e9881b657932a9cef4839f2d3cf3e3ee7cdfe17418fbbffbd73cfedbc920562b9429be2c0efecbc9af052074cf",
           "legalTimestamp": 1701215932,
           "bundledMods": [
@@ -12429,7 +12429,7 @@
           ],
           "version": "0.4.6",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/b97d22bc7fc60d58a74246c81abf3a030ae79911/legal-mods/lithium/1.15.2/lithium-mc1.15.2-fabric-0.4.6-mod.jar",
-          "modHash": "f106158fbf070a3dce4a8a6bfd0e944e45a9ede87014183662372fc2881db840a42962fdbca9f10a278f42f5c212b00079d9c377ab24ec7d627c86b7c6bf0faf",
+          "modHash": "4bdcb0b0ddc88d325cd60be08ffb4be8e608dedc7a3e58e827ef37300e2ad18a707467492171dedc2cb3bbede3ed27302cb6b5e94ab9f84daf1657dd76f6d97f",
           "fileHash": "e264c8cea35e924dc3c28981f4cf579da7244fc3ca40b4dec97a894cacd2c92cc87659260adbf36c25188717fa205f26fad0cbad253b293d632bd4d34b388825",
           "legalTimestamp": 1700874351,
           "bundledMods": [
@@ -13461,7 +13461,7 @@
           ],
           "version": "1.0.4+1.10.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/b97d22bc7fc60d58a74246c81abf3a030ae79911/legal-mods/optifabric/1.10.2/optifabric-1.0.4+1.10.2.jar",
-          "modHash": "2455c1f63b07495f86abb74682fc4e9ae99ebd15fee9f8b8e4ffeece771380b9a757fa9fe4ab52bf706b2397b961453f128881a16b0803a037115968995e3af3",
+          "modHash": "b6ff469427dfd3a02f9cbdcb68676704ee807ea71f53a806a939081aa4ad7516b9aac34023a996648860db69a015f6958a5461c000b0d049e357cabd17588add",
           "fileHash": "0419e2f1e85cd68b9fb1affafaa17aded7ef567d69e2e7a87f8bc505af9a32681c0ae29eacf4c3c90d4dec52057555c8ca6e4954230a0e0ab96860948078dc3a",
           "legalTimestamp": 1700874351,
           "bundledMods": [
@@ -13501,7 +13501,7 @@
           ],
           "version": "1.0.4+1.11.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/b97d22bc7fc60d58a74246c81abf3a030ae79911/legal-mods/optifabric/1.11.2/optifabric-1.0.4+1.11.2.jar",
-          "modHash": "099100d737e488e186af70f06569656b8d4d62f9fa2bf409e3c2e92b71584dcfcc547a054e9f511559321430936ef5c370c2918fd364fd005f5dce9d57da6fd5",
+          "modHash": "bd7cb18ab3831fe449711bcd9ceaf97249ac57310df587c362967d534d8e63de0ca94d53ba9dc172b42841d94918748b8264409a37ce5710299945587582c39e",
           "fileHash": "dc6b474985a0a3ce02d4091a68acec59986a25a1fc522c0c804d4d64021ef4f224b8ba9e64d1cf4095a7d9e43a2846f8a49eedda2dea7d071d12c946a72887ba",
           "legalTimestamp": 1700874351,
           "bundledMods": [
@@ -13541,7 +13541,7 @@
           ],
           "version": "1.0.4+1.12.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/b97d22bc7fc60d58a74246c81abf3a030ae79911/legal-mods/optifabric/1.12.2/optifabric-1.0.4+1.12.2.jar",
-          "modHash": "6bed11ea8260368101466f7fef72fcb5cc57a190057805d709e82cb41e078bcd79f6f3cf1155e69287aef8451443ce7a949bed679b6fe4436f9130928cede866",
+          "modHash": "14e5e7c708e03efa3de05f0ed4c4b66e479da6fd8843d3f2012371d06047820fa4408e23bb9bf46b7d4eee0e13b8d8b3ed29cfae6f31fb123d0b5d351b3f4b0b",
           "fileHash": "75a97dc3e257766e03d4ab5213a67b9a2b6646533f7220b9d9e9ae9a32342d98150947b9c703d9a33d12351213b7fc5bd53201581b43d57340a9cdb75d801a92",
           "legalTimestamp": 1700874351,
           "bundledMods": [
@@ -13600,7 +13600,7 @@
           ],
           "version": "1.0.5+1.7.10",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/b97d22bc7fc60d58a74246c81abf3a030ae79911/legal-mods/optifabric/1.7.10/optifabric-1.0.5+1.7.10.jar",
-          "modHash": "09535c096636543618ff28e0c47304d3db3edf4d2ce2b096fd7fb73afc1c4265e739d1add2dc080d1f4c3bdbacd61800a4798e943fac93ec7a0e55dcb9975494",
+          "modHash": "3482c3c784ae9157ebd6eb15dad0155090406c5fac8d65b528e9e203e3306de509c166fc253ac5c5597b59e37591846b1fc44ba3b6b6e0fa8de42b55d3791aff",
           "fileHash": "91e838275f32d3627e0a11b527f35fe8679ca2fe2c09e97a0e896ccf2c39cc077b09a50d3cf218436b8824123ed6ea1b28e48bd6fef2b253f93851c280cb0e61",
           "legalTimestamp": 1700874351,
           "bundledMods": [
@@ -13680,7 +13680,7 @@
           ],
           "version": "1.0.5+1.7.4",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/b97d22bc7fc60d58a74246c81abf3a030ae79911/legal-mods/optifabric/1.7.4/optifabric-1.0.5+1.7.4.jar",
-          "modHash": "67ef779b5f9e77a15c02b00ebdd1a4550c5160860dfe649643ded92f634740c7b0f9f92467339568c9b82f92a7f9e99288d7af10a4229c74fd110d0dedf21d7d",
+          "modHash": "86c24fc154a441d1d66718a3de6da60bf096d2d71b6228f068a55b60195b82a49bdc8b90bcb0bcc2c3bf4ebaf00ab08bca9d1e66599dffdb230074322b7e73d2",
           "fileHash": "c44aa238785f96359c9916ef4fc5f52bbdeb82b21aa3da864e52feb95249fc7eafd6b5640bd3426d6ff3dd4aa003e24a07caea1a3e67d55e6882905eb92bdb35",
           "legalTimestamp": 1700874351,
           "bundledMods": [
@@ -13720,7 +13720,7 @@
           ],
           "version": "1.0.5+1.8.9",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/b97d22bc7fc60d58a74246c81abf3a030ae79911/legal-mods/optifabric/1.8.9/optifabric-1.0.5+1.8.9.jar",
-          "modHash": "93951fb09a06cf0f1d3d097f7aa7fc563279de524927e492c0caf7f791ebad041890dcfbda6caa2dcce7f6765c78805b365238083325ffa73f6fc9461f289a38",
+          "modHash": "a769a4f631170fe782d03b01428f9ba31a3e6ac7985a5e2f54aaff020d2e009721d5a8e623ff80e532079113c61e8dcb9d18170f2eac263e9dcda2e75518928b",
           "fileHash": "d788ea894dd543c91214d8e08f21e52ea56c6253c80dcf3d3085fd4284bc690c4246de082091044c9120e6d77e97fa35cd3b79f06387c95866959a6ebe3ffd1b",
           "legalTimestamp": 1700874351,
           "bundledMods": [
@@ -13760,7 +13760,7 @@
           ],
           "version": "1.0.5+1.8.0",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/b97d22bc7fc60d58a74246c81abf3a030ae79911/legal-mods/optifabric/1.8/optifabric-1.0.5+1.8.0.jar",
-          "modHash": "b7b1ced8d2f75ed218178bd99e89b0b96c5f04b5414a87eb2e2664ed2a02771a8464daaa5b64676a51bd5d1f013132013c7cff23c609031eb96d00eceeecdea3",
+          "modHash": "3bb91939174cc37841bd8336bd81102ecdc1a1471d6843dc527770dc89cb83c8756fca7a5f1447c512b3a422d8524ce93089b05299abab3e202046f01e73e6d0",
           "fileHash": "7874e9f58f16a072e03d5f0cdc7a14b7408fdf8374d7e5df1c91c76ccd656efdce1c192c3bb9e191cea39787452098124ce2b5b22734acf0ca33fa79f83ae3f9",
           "legalTimestamp": 1700874351,
           "bundledMods": [
@@ -13800,7 +13800,7 @@
           ],
           "version": "1.0.4+1.9.4",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/b97d22bc7fc60d58a74246c81abf3a030ae79911/legal-mods/optifabric/1.9.4/optifabric-1.0.4+1.9.4.jar",
-          "modHash": "f81250b553de0a03f7e72b9578b61d0170fd49c5440ba132dfd36e45a1423f1668d3d8d4ed165f01a92e3e1fa8d7ea2e55b79f148965388f75143482c9f1b733",
+          "modHash": "cc5db86f6a8a4b3605d5a7b43295321f2d727354283c1aabaaf3d8c9720adfb01278e67c15fb6327b668d0b136c5a54ac278abdba12e44d474532ada3c12eadd",
           "fileHash": "5b6aa19e353594a01b08c02d62370f61b3944e4b7c4426ce36ce249cf71d81898e4d01b626adb126350816251b74c0ca59aa3f9feaaf343d689d7726e503a617",
           "legalTimestamp": 1700874351,
           "bundledMods": [
@@ -13986,7 +13986,7 @@
           ],
           "version": "1.2.5+1.17-1.18.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.17-1.18.2/planifolia-1.2.5+1.17-1.18.2.jar",
-          "modHash": "0afe0974f86ba6b1da424bc8a199788f0984a21c8337ea3816450bf80df227695da2d8c92dc2a7ee324883d69d8a9ed25ccc6229f3391a9637c3497985adaf02",
+          "modHash": "688a2df938c1f4ecfa3797329eb34f44d4b746ba3d8c81ceaa99784b458fcf60bbef8785a906c617ddb200016403a920e02d69aee1d544ae1c05c37bd0b4745b",
           "fileHash": "a445d7975e9d73c4e96bd0dd304012c3ff2eeef308e664b8391170b10e908522d881f3b495f9ca7eb35d94c72cb31612d283515b1d380773d1a8f47d93ad82e9",
           "legalTimestamp": 1791411320,
           "bundledMods": [
@@ -14016,7 +14016,7 @@
           ],
           "version": "1.2.5+1.19-1.20.6",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.19-1.20.6/planifolia-1.2.5+1.19-1.20.6.jar",
-          "modHash": "93987d645770f87df8f5f38fd87ab433a779a2d04c161ef9268ae4ac8bac0e70d217c50351e90b132de65b5f27dc32e126de6f9e90c889f33741ddca380e153d",
+          "modHash": "230026c355cb8f7ea20b6ad8a1ef8ebfaa13246f0e8d6c593f6fc86a789a10d9bb6d529c3dadd1cba99974e2176a83a49fab3b521cd7cb2eb2f5eb29620e6361",
           "fileHash": "a2cca74b24a6c1af5d6f4a263e9c3c6438589c4ffce76fb3ba5627e3f30a026b4edc428cc28f73aa10ddf09f6bc6f71e0f4e21cf9b32f2e9b82bd5dd9f0de25d",
           "legalTimestamp": 1791411320,
           "bundledMods": [
@@ -14035,7 +14035,7 @@
           ],
           "version": "1.2.5+1.21.1+sodium-0.8",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.21.1/planifolia-1.2.5+1.21.1+sodium-0.8.jar",
-          "modHash": "f3e009c41693425b87120cb2b326bbd635d8e7a149634e73ddacdaecc046adee4e08024fb54f22cfbbbd3c846b9fedb1285acb19afc8a701e51a6cb1fa4b5a76",
+          "modHash": "b191764649a7a8be3173bf513fa6c63a5e2de96f2b805640f8cde412dc6d710ade379e57778a641ced7e89097b643cdeb6159d9162d88eed5f437ff4c57e8506",
           "fileHash": "9e636b3f9994c0a27ee9b6b1caaf40557ed5ecdba1b951c49361cd8d092d08243fb756b85ef7e655de18de9f38191845aa2838bac7987baec7c56f056fd495db",
           "legalTimestamp": 1791411320,
           "bundledMods": [
@@ -14054,7 +14054,7 @@
           ],
           "version": "1.2.5+1.21.11",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.21.11/planifolia-1.2.5+1.21.11.jar",
-          "modHash": "313305c5ceb2ae53feac8bc5f32953149a397611f0fbe527c479eae3f3c06f9ddef0a7b63a5b69d8c5a3fa5120a875c0fa89fb2de5fd09bcf5701c44b550bfab",
+          "modHash": "65830369966ab8ff94a0afcc4269f772af0cad01bdcecb5fe83f0358ea936595e2449d27fbad10026bb7175ac62b434d2aef4b5c1c721521568920f31ddef251",
           "fileHash": "bc6f2a4e76552e9fe35b6041fda1158d193d51b297443b0e16e25b64a950421177647032e641630edeb5a44a653ea44b76c3d49677063153727edf16ecd94816",
           "legalTimestamp": 1791411320,
           "bundledMods": [
@@ -14076,7 +14076,7 @@
           ],
           "version": "1.2.5+1.21.2-1.21.5",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.21.2-1.21.5/planifolia-1.2.5+1.21.2-1.21.5.jar",
-          "modHash": "32c29fd8a334f87abb2c84f874481a5d830a4320ae9ff5e98c6bc222b8f0296ef7313b7af422b5327bc325aa4a93deee27383628bf415406f26a12c5ad8fb944",
+          "modHash": "31286337ee1f1a4455cefa05cc0a0beea58ee1586de619c081f08f916a1c007d90e8c77dfb48e35533ad9a018f92ffabb589e342abff6ce4060d3b29a6989f07",
           "fileHash": "c000a2f4887e3b81032ccd46ab0987d4eb7f7b9979cf698b0051c01efdf73b1f0c29869721b2219102cb137bc90e8534df220e26ec3030a09d27dc568947f328",
           "legalTimestamp": 1791411320,
           "bundledMods": [
@@ -14097,7 +14097,7 @@
           ],
           "version": "1.2.5+1.21.6-1.21.8",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.21.6-1.21.8/planifolia-1.2.5+1.21.6-1.21.8.jar",
-          "modHash": "aac387228021ed56dd5afc5dfc88d50eaf3ba3ce90837f3f5fd891a04b2e59f56969fd3819d7b122384b094cabf99a5dc3b07889c582744206b9eb872c98cd5b",
+          "modHash": "dba687ab6bd346f144335ce7f74e5ccd98a83555be67b1f993a46aa818bdd44ac7532cc6ba625589752ce45d4986cc1e2f1d75e82efa0b690a02ba0b098a3773",
           "fileHash": "c5c5cf2232ce9cb495f773c1c13b15695ca888a5d4cc03976eeaa9b6834a720d384525be0a73d02e9b8097f92aeae153707a78ddec809dde538498d9f3a55fd9",
           "legalTimestamp": 1791411320,
           "bundledMods": [
@@ -14114,7 +14114,7 @@
           "target_version": [],
           "version": "1.2.5+1.21.9-1.21.10",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.21.9-1.21.10/planifolia-1.2.5+1.21.9-1.21.10.jar",
-          "modHash": "67be42d2b4d12eed14500eeb412bb08e83bed53b8150148315bb2d7550b857a446ec995963451052ff15919672af1698d6609a798b4b003a8904d98a7ffe2a3b",
+          "modHash": "15ae962d4567d2c02fab29a71d444a657aed5069823e224d8623b9c797c863015fc56bf8735ee54703cbf8ce5cd9c75040d538a4006660b9956253b763e5529c",
           "fileHash": "c8e4c617f576cd3749a9fc36d0eaaf8bffd661da0f800d0dd5e021e798327ed94e9fe21b9c88bd8294054e254e31faf7a8ba5c4680b9edd593bf5fdeb22d04f1",
           "legalTimestamp": 1791411320,
           "bundledMods": [
@@ -14133,7 +14133,7 @@
           ],
           "version": "1.2.5+1.21-1.21.1",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/1.21/planifolia-1.2.5+1.21-1.21.1.jar",
-          "modHash": "dafcbcb601b4ce43581105deb3105e729a551c12dee30b5c4ca42897d56152cf60248a13144b46e96e99e443fe58e69ae3f6e8ecc48986d68f042f73354a4209",
+          "modHash": "673aacd3c25a1339532ad65d761816a16851b9050af355c7b26dfe0c04b8227a3cea7ef02b0a5743819f49f124603cc929a9c412ce94c294eb9e7bf8450ec0ef",
           "fileHash": "1b2a8301f3dd9b78ec6b5eca200f646228174aaadc7412ee5442a4a63371fa2e86bfbf4442f0696a157febbf116dee8ab6421f797906993d966776a79105a85a",
           "legalTimestamp": 1791411320,
           "bundledMods": [
@@ -14150,7 +14150,7 @@
           "target_version": [],
           "version": "1.2.5+26.1-26.1.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/26.1-26.1.2/planifolia-1.2.5+26.1-26.1.2.jar",
-          "modHash": "49d3405f773295f09c86b6f77690c360558f09393e863848691a444c358e9425a90feed865a6ec16a6e9ee25cc16022c9d030412ee3972e4c54459a8f70b7097",
+          "modHash": "a81d9be80b4453f3b7cea740d9528342c15c34ce46fcb032df7f1bdaec756231aa1f1d44e7b4a611685c2bad1c362ba7b598f1499aebe3e3648523bb021433e4",
           "fileHash": "f27f2e6ea9a1a0ec9d11fe44037151e118bc97cf6c857fa01fa2a986478c7eda706868b5f4d5a2c53b9e9d4af95339fc0e0c055ee259f02a50e4400378cba51b",
           "legalTimestamp": 1791411320,
           "bundledMods": [
@@ -14169,7 +14169,7 @@
           ],
           "version": "1.2.5+26.2",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/26.2/planifolia-1.2.5+26.2.jar",
-          "modHash": "ab14a5f251375288dbb82cfdfc748cfc3b3041e6fa2ef5d2a68ffb2c59a744db90098882b82159aed6ac76e8889ad976e326fc359dafe1f23e4cd20eadbd9589",
+          "modHash": "5c7d8f7e15f35f4bcc52ec15c9e3be3b712ec35ea7076617d528a996eed6ec1ace6512dcf2cadcbf851411a6dd49c5f0b1c1da306d926cf32bcb4a01a1d5c97d",
           "fileHash": "8074214dfcd90ca613526eebe8fe2ae5d9602e0b918e17fa91229660a569471391ecc3381c235d06a352872fe37d74e4f350c62118eb163be835dc55dd4f6d45",
           "legalTimestamp": 1791411320,
           "bundledMods": [
@@ -14188,7 +14188,7 @@
           ],
           "version": "1.2.5+26.3",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/9059231bd1ed9409b98942a7c0f841a3e9c65ea4/legal-mods/planifolia/26.3/planifolia-1.2.5+26.3.jar",
-          "modHash": "2ec47a9ed73066352f000023ce2e6ad851ed66c353534c4a98a05339517c873b73e56172f3d7c476d1142fd73dbb95ca7881925196fbaf2f7e40467b20e46bbc",
+          "modHash": "8218266e772cafe934061b858d6968db5014f94a88b79126f21e7973bd24c0447ce16d5aad0f5e2726de9df11d30c6121af8fe5717770f641333fc75e1e9979a",
           "fileHash": "d5d8aefbdddb171d6c2424d440fd9d563490d4c205acd1ab04d7a07072c1f32ffc976b5bd1527035ff54b39fb36111ee5755cd6cd753a7369f744ce81f408e86",
           "legalTimestamp": 1791411320,
           "bundledMods": [
@@ -14237,7 +14237,7 @@
           ],
           "version": "1.2.4+1.21.1+sodium-0.8",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/fd619d7c4084fe4bd5030dd24564dbc013c5dfc2/legal-mods/planifolia/1.21.1/planifolia-1.2.4+1.21.1+sodium-0.8.jar",
-          "modHash": "31d53eb12125166fe381b7d9dbe8cb375acef6b0538929413a6ebc65602b135ac65d934d102e3c096313f68c23a13dff953aa3054dae500e6004374b5af4e099",
+          "modHash": "dc8df21e7849274efc6eb6f1ae3bbed8e7efebaa5891f8b8cd828eb06d6357f9bf60b32a4c8156ab09c486ac57ce632b1f33d74e6ed590a23efce93cc67d3a0f",
           "fileHash": "3625cee986f613577988796fb7e9c24a27bf277a46b1e3d4a5e02b47720dc0b352d0e31ab8ff1fd01df45ffbb2885a76159b3b3a97e869fb63e32531f55de3eb",
           "legalTimestamp": 1783995601,
           "bundledMods": [
@@ -17030,7 +17030,7 @@
           ],
           "version": "0.9.3-alpha.1+mc26.3",
           "url": "https://cdn.modrinth.com/data/AANobbMI/versions/v4PSXean/sodium-fabric-0.9.3-alpha.1%2Bmc26.3.jar",
-          "modHash": "2608839703b5b45ede393e13017c1c5b19bd59ce7b6e9d3e2f9d2e0ee6932a923179f188e5f3ccb8b5fa1d365d4236bfd7030da18d37b75ed549ab13940bfbe5",
+          "modHash": "a0a6247d3f71e78e6fb3d4b33d982fe61c56217718514cbb978170d9c18244345f376538df1f62dad85c4b3bc4374935ce948652003ca2ac14f32bdf222575d0",
           "fileHash": "8aa044fea0185855e2ca0971b4e3b3bc1ee4c616e3a7d6ca4d4b979fbb99340678c0bf6acd16be04095bc885b75b4caf95401486e91b65239385e98fab6d3542",
           "legalTimestamp": 1791411340,
           "bundledMods": [
@@ -18530,7 +18530,7 @@
           ],
           "version": "0.3.4+build.13",
           "url": "https://cdn.modrinth.com/data/AANobbMI/versions/mc1.17.1-0.3.4/sodium-fabric-mc1.17.1-0.3.4%2Bbuild.13.jar",
-          "modHash": "615f5b0b5bfdb4d8dd6cc25fcf64424406f8bfe2532e3e82b431709f7f3244fe9c669d9a157c334cfe2024860f783277887b2fb346a2b07293c3e947080aa108",
+          "modHash": "5d0de490aaa3dc34e8d6d1a48a5754d7c782ea6907175eae605bb0fbc2a6ac49579d7af011798784509c3e6bd60fb63206988896b48d70a0d628550d6740ca19",
           "fileHash": "febd84274e8e55222c45e73685d5bc93a08ac7194a61f9065fc626420acd1c5279d51f98c1af1888b6718cbce098ce1d67c778739f3ebe1597d2ee99e6bd8382",
           "legalTimestamp": 1715109303,
           "bundledMods": [
@@ -20111,7 +20111,7 @@
           ],
           "version": "v1",
           "url": "https://github.com/Minecraft-Java-Edition-Speedrunning/legal-mods/raw/b97d22bc7fc60d58a74246c81abf3a030ae79911/legal-mods/sodium/1.17.1/sodium-1.17.1-v1.jar",
-          "modHash": "6cd6cefbf2df005c9aa32b5f67f96b4f0f868a692742c5b84d9da201520b9eaaf4c7378469c51dec783f34ccb8f8a12aa3e4380cf850205c288a5bcef60d919b",
+          "modHash": "b2d0d7dffdb71da77139bb053ba9102e57cfb7518080983cb720c2f5ad9d4dc3cbddf514bca939b8e17038fc535b527ec6eaa30cca6397bebf85312caa2a6676",
           "fileHash": "548715ea21336fc73a9a3941d4528e2106e2bd2e5ca3be0a7b0761404d88f0920cb74352ec705d624c6b4c87862ebbe88e0ec2754b113447b017029a599a4b25",
           "legalTimestamp": 1700874351,
           "bundledMods": [
